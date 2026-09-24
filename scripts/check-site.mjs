@@ -2,6 +2,8 @@ import { readFile, access } from 'node:fs/promises';
 import path from 'node:path';
 import { checkReferences, checkPrivacy, forbiddenClientAPI } from './validation.mjs';
 import './validation.test.mjs';
+import { checkCanonical, checkSitemap } from './canonical-validation.mjs';
+import './canonical-validation.test.mjs';
 import { execFileSync } from 'node:child_process';
 
 export const pages = ['index.html','how-it-works/index.html','gcse/index.html','11-plus/index.html','primary/index.html','about/index.html','resources/index.html','faq/index.html','contact/index.html','work-with-us/index.html','404.html'];
@@ -18,7 +20,6 @@ for (const page of pages) {
   if ((html.match(/<h1\b/g) || []).length !== 1) fail('expected exactly one h1');
   if ((html.match(/<title>/g) || []).length !== 1) fail('expected exactly one title');
   if (!/<meta name="description" content="[^"]{40,}"/.test(html)) fail('meaningful meta description missing');
-  if (!/<link rel="canonical" href="https:\/\/www\.ukonlinetuition\.co\.uk\//.test(html)) fail('canonical URL missing or unexpected');
   if (!html.includes('name="viewport"')) fail('viewport missing');
   if (!html.includes('noindex,nofollow')) fail('draft indexing protection missing');
   if (!html.includes('class="draft-skip"')) fail('skip link missing');
@@ -26,9 +27,8 @@ for (const page of pages) {
   if (/motion-(?:showcase|carousel|ribbon)|showcase-primary\.svg/.test(html)) fail('decorative showcase must not return');
   checkReferences(html, fail);
   checkPrivacy(html, [...scripts, ...scripts.map(script => '/WEBSITE/' + script)], fail);
-  const canonical = [...html.matchAll(/<link rel="canonical" href="([^"]+)"/g)];
-  const expectedPath = page === 'index.html' ? '' : page === '404.html' ? '404/' : page.replace('index.html','');
-  if (canonical.length !== 1 || canonical[0][1] !== 'https://www.ukonlinetuition.co.uk/'+expectedPath) fail('canonical must match the production page');
+  checkCanonical(page, html, fail);
+  if (html.includes('href="https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-paper-1"')) fail('withdrawn resource must remain unlinked until its current-format guidance is reviewed');
   if (!/<meta name="robots" content="noindex,nofollow"/.test(html)) fail('robots meta protection missing');
 
   for (const match of html.matchAll(/<img\b[^>]*>/g)) {
@@ -74,6 +74,7 @@ if (!mainJs.includes('encodeURIComponent')) throw new Error('assets/main.js: enq
 
 
 const robots = await readFile('robots.txt','utf8');
+checkSitemap(await readFile('sitemap.xml','utf8'), message => { throw new Error(message); });
 if (!/^User-agent: \*\s*\r?\nDisallow: \/\s*$/m.test(robots)) throw new Error('robots.txt: preview crawl block missing');
 const faq = await readFile('faq/index.html','utf8');
 const schema = JSON.parse(faq.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);

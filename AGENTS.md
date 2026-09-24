@@ -6,7 +6,7 @@ Maintain and improve the GitHub Pages version of UK Online Tuition in this repos
 ## Safeguards
 - Do not change the Wix production site or its domain from GitHub work.
 - Keep canonical URLs pointing at `https://www.ukonlinetuition.co.uk/`.
-- Keep `noindex,nofollow` and `robots.txt` blocking this GitHub Pages duplicate unless Dan explicitly approves an indexing/domain cutover.
+- Keep `noindex,nofollow` on preview pages and retain the existing `robots.txt` unless Dan explicitly approves an indexing/domain cutover. A project-path robots.txt is not a host-root crawl exclusion; do not describe it as one.
 - Do not add tracking, analytics, cookies, form backends, credentials or third-party scripts without explicit approval.
 - Enquiries may use the client-side email handoff only; the site must not store visitor details.
 - Preserve navy `#10213B`, blue `#2556E8`, cream `#F7F3EA`, paper `#FCFBF8`.
@@ -26,3 +26,5 @@ Maintain and improve the GitHub Pages version of UK Online Tuition in this repos
 - SEO/AEO → metadata, structured data, internal linking, duplicate-site controls.
 - Security/privacy → data minimisation, scripts, third-party dependencies.
 - QA/project management → release gates and regression prevention.
+
+

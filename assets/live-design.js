@@ -17,7 +17,7 @@ if (resourceRoot) {
  const filters = [...resourceRoot.querySelectorAll('.filter[data-f]')];
  let category = 'all';
  const update = () => {
-  const normalise = text => text.toLowerCase().replace(/[’‘]/g, "'").replace(/\b11(?:\s*-?\s*plus|\s*\+)/g, '11+');
+  const normalise = text => text.toLowerCase().replace(/[’‘]/g, "'").replace(/&/g, ' and ').replace(/\b11(?:\s*-?\s*plus|\s*\+)/g, '11+');
   const words = normalise(search.value).trim().split(/\s+/).filter(Boolean);
   let count = 0;
   cards.forEach(card => {
@@ -41,4 +41,10 @@ if (resourceRoot) {
   category = 'all'; search.value = ''; update(); search.focus();
  });
  update();
+ // Enable controls only after every handler and the initial results are ready.
+ [search, ...filters, resourceRoot.querySelector('#clear-resources')].forEach(control => { control.disabled = false; });
+ const toolsNote = resourceRoot.querySelector('#resource-tools-note');
+ if (toolsNote) toolsNote.hidden = true;
+ resourceRoot.classList.add('resources-ready');
 }
+

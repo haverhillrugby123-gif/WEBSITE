@@ -21,3 +21,9 @@
   .ukot-mobile-tagline { display:block; margin-top:10px; font:14px/1.4 "Segoe UI",Arial,sans-serif; color:#10213b; }
 }
 @media (max-width:350px) { #ukot-global-nav .ukot-brand-image { width:200px; } }
+
+/* Keep the original logo proportional when zoom or a narrow viewport leaves less room. */
+@media (max-width:900px) {
+  #ukot-global-nav .ukot-canonical-brand { flex:0 1 auto!important; min-width:0; }
+  #ukot-global-nav .ukot-canonical-toggle { flex-shrink:0; }
+}

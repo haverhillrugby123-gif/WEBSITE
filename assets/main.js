@@ -9,6 +9,10 @@ if (form) {
   const copyButton = document.querySelector('#copy-enquiry');
   const get = name => String(form.elements.namedItem(name)?.value || '').trim();
   const say = message => { status.textContent = message; };
+  const serviceLabels = new Map([['gcse', 'GCSE'], ['11-plus', '11+'], ['primary', 'Primary']]);
+  const serviceField = form.elements.namedItem('service');
+  const requestedService = new URLSearchParams(location.search).get('service');
+  if (serviceField && serviceLabels.has(requestedService)) serviceField.value = requestedService;
 
   form.addEventListener('submit', event => {
     event.preventDefault();
@@ -26,6 +30,7 @@ if (form) {
     const body = [
       'Hello UK Online Tuition,', '', 'I would like to enquire about tuition.', '',
       `Parent/contact name: ${get('name')}`, `Email: ${get('email')}`,
+      ...(serviceLabels.has(get('service')) ? [`Service: ${serviceLabels.get(get('service'))}`] : []),
       ...(get('phone') ? [`Phone: ${get('phone')}`] : []),
       `Year group/stage: ${get('yeargroup')}`, `Subject or entrance test: ${get('subject')}`, '',
       'Main difficulty, goal or support needed:', get('support'),
@@ -64,3 +69,4 @@ if (form) {
   emailLink.addEventListener('click', () => say('Your email app may open. Review and send the message there. If nothing opens, use Copy enquiry.'));
   document.querySelector('#enquiry-fields').disabled = false;
 }
+
