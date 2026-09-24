@@ -1,0 +1,8 @@
+/* Shared UK Online Tuition identity. Keep one master artwork across pages. */
+.ukot-brand-image { display:block; width:210px; height:44px; max-width:100%; }
+.ukot-footer-brand { display:inline-flex; vertical-align:middle; padding:6px 12px; margin-bottom:12px; background:#FCFBF8; border-radius:10px; text-decoration:none; }
+.ukot-footer-brand:focus-visible { outline:3px solid #F7F3EA; outline-offset:5px; }
+#ukot-global-nav .ukot-canonical-brand:focus-visible { outline:3px solid #2556E8; outline-offset:5px; border-radius:4px; }
+@media (max-width:560px) {
+  #ukot-global-nav .ukot-brand-image { width:190px; height:auto; }
+}

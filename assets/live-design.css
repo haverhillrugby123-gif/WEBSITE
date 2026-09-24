@@ -60,8 +60,8 @@ html.ukot-blog-post article p,html.ukot-blog-post article li{font-size:18px!impo
  #ukot-global-nav{min-height:66px!important}
  #ukot-global-nav .ukot-canonical-navin{width:calc(100% - 28px)!important;height:66px!important;min-height:66px!important;gap:14px!important}
  #ukot-global-nav .ukot-canonical-brand{font-size:19px!important;line-height:21px!important}
- #ukot-global-nav .ukot-canonical-toggle{display:inline-flex!important}
- #ukot-global-nav .ukot-canonical-links{display:none!important;position:absolute!important;left:14px!important;right:14px!important;top:72px!important;width:auto!important;height:auto!important;min-height:0!important;margin:0!important;padding:10px!important;flex-direction:column!important;align-items:stretch!important;gap:4px!important;border:1px solid rgba(16,33,59,.1)!important;border-radius:16px!important;background:#fcfbf8!important;box-shadow:0 18px 45px rgba(16,33,59,.17)!important}
+ .nav-ready #ukot-global-nav .ukot-canonical-toggle{display:inline-flex!important}
+ .nav-ready #ukot-global-nav .ukot-canonical-links{display:none!important;position:absolute!important;left:14px!important;right:14px!important;top:72px!important;width:auto!important;height:auto!important;min-height:0!important;margin:0!important;padding:10px!important;flex-direction:column!important;align-items:stretch!important;gap:4px!important;border:1px solid rgba(16,33,59,.1)!important;border-radius:16px!important;background:#fcfbf8!important;box-shadow:0 18px 45px rgba(16,33,59,.17)!important}
  #ukot-global-nav .ukot-canonical-links.ukot-open{display:flex!important}
  #ukot-global-nav .ukot-canonical-links a{display:flex!important;justify-content:flex-start!important;width:100%!important;min-height:44px!important;padding:11px 12px!important;font-size:15px!important;line-height:20px!important}
  #ukot-global-nav .ukot-canonical-links .ukot-canonical-enquire{justify-content:center!important;height:auto!important;padding:11px 12px!important}
@@ -100,3 +100,92 @@ html.ukot-blog-post article p,html.ukot-blog-post article li{font-size:18px!impo
 @media(min-width:901px){#ukot-home .mini{bottom:10px}}
 
 .form-status.show.error{color:#8a2b2b;font-weight:700}.form-status.show{min-height:24px}
+
+/* Review fixes: readable controls, resilient navigation, and room for text. */
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+#enquiry-fields{border:0;padding:0;margin:0;min-width:0}
+#enquiry-draft{margin-top:28px;border-top:1px solid #b8c2d1;padding-top:24px}
+#enquiry-preview{min-height:280px;resize:vertical}
+.draft-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px}
+#ukot-contact .draft-actions .send{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;width:auto}
+#ukot-contact .direct,#enquiry-draft a{overflow-wrap:anywhere}
+#ukot-lib .smallf{background:linear-gradient(140deg,#10213b,#25438c)}
+#ukot-home .lessonhead b,#ukot-home .feedback b,#ukot-home .step,#ukot-home .live{font-size:14px}
+#ukot-home .lessonhead{gap:14px;flex-wrap:wrap}
+@media(max-width:900px){
+ html:not(.nav-ready) #ukot-global-nav{position:relative!important}
+ html:not(.nav-ready) #ukot-global-nav .ukot-canonical-navin{height:auto!important;flex-wrap:wrap!important;padding:14px 0!important}
+ html:not(.nav-ready) #ukot-global-nav .ukot-canonical-links{height:auto!important;min-height:0!important;max-height:none;flex-wrap:wrap!important;justify-content:flex-start!important;gap:4px!important}
+ html:not(.nav-ready) #ukot-global-nav .ukot-canonical-links a{width:auto!important}
+}
+/* Reserve the enhanced header height before deferred navigation loads.
+   Links stay usable if the script fails; no-script and older browsers retain
+   the expanded, in-flow fallback above. */
+@media(max-width:900px) and (scripting:enabled){
+ html:not(.nav-ready) #ukot-global-nav{position:sticky!important}
+ html:not(.nav-ready) #ukot-global-nav .ukot-canonical-navin{height:66px!important;flex-wrap:nowrap!important;padding:0!important}
+ html:not(.nav-ready) #ukot-global-nav .ukot-canonical-links{position:absolute!important;left:14px!important;right:14px!important;top:72px!important;width:auto!important;height:auto!important;min-height:0!important;max-height:calc(100dvh - 90px);margin:0!important;padding:10px!important;flex-direction:column!important;align-items:stretch!important;flex-wrap:nowrap!important;gap:4px!important;border:1px solid rgba(16,33,59,.1)!important;border-radius:16px!important;background:#fcfbf8!important;box-shadow:0 18px 45px rgba(16,33,59,.17)!important}
+ html:not(.nav-ready) #ukot-global-nav .ukot-canonical-links a{width:100%!important}
+}
+@media(max-width:560px){
+ #ukot-home .visual{min-height:0;display:grid;gap:16px}
+ #ukot-home .lesson,#ukot-home .mini{position:relative;inset:auto;width:auto;margin:0}
+ #ukot-home .lesson{animation:none!important}
+ #ukot-home .mini{z-index:1}
+ #ukot-service .visual{min-height:0}
+ #ukot-service .note{position:relative;inset:auto;width:auto;margin-top:24px}
+}
+.motion-paused #ukot-home *::before,.motion-paused #ukot-home *::after{animation-play-state:paused!important}
+
+#ukot-lib .empty:not([hidden]){display:block}
+
+/* Keep lesson explanations in their own grid area as the copy grows. */
+#ukot-service .method{
+  grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);
+  grid-template-areas:"intro steps" "reason steps";
+  grid-template-rows:auto 1fr;
+  gap:24px 70px;
+}
+#ukot-service .method>.sticky{grid-area:intro;position:static;min-width:0}
+#ukot-service .method>.steps{grid-area:steps;min-width:0}
+#ukot-service .method>.ukot-dyn{grid-area:reason;margin-top:0;min-width:0}
+#ukot-service .step{grid-template-columns:52px minmax(0,1fr)}
+#ukot-service .step>div{min-width:0;overflow-wrap:break-word}
+/* The target note follows the matrix instead of covering its final rows. */
+#ukot-service .note{position:relative;inset:auto;width:min(100%,280px);margin:24px 0 0 auto}
+#ukot-service .visual:after{pointer-events:none}
+#ukot-service .heroGrid>div{min-width:0}
+@media(max-width:860px){
+  #ukot-service .method{
+    grid-template-columns:minmax(0,1fr);
+    grid-template-areas:"intro" "steps" "reason";
+    grid-template-rows:auto;
+    gap:28px;
+  }
+}
+@media(max-width:560px){
+  #ukot-service .step{grid-template-columns:32px minmax(0,1fr);gap:12px}
+  #ukot-service .note{width:100%}
+}
+
+/* Keep keyboard focus visible inside clipped cards and blue CTA sections. */
+#ukot-home .proc:focus-visible {outline-offset:-4px;}
+[id^="ukot-"] .cta a:focus-visible {outline-color:#10213b;}
+
+/* Use the light accent on navy panels; reserve royal blue for light surfaces. */
+#ukot-service .quote .ey,
+#ukot-about .panel .ey,
+#ukot-how .visual .ey{color:#a9c0ff}
+#ukot-how footer a{color:#fff}
+/* An inset navy ring stays visible against every cream footer logo tile. */
+footer .ukot-footer-brand:focus-visible{
+  outline:3px solid #10213b!important;
+  outline-offset:-3px!important;
+}
+
+/* Keep long headings readable when visitors enlarge text. */
+[id^="ukot-"] h1,[id^="ukot-"] h2,[id^="ukot-"] h3{overflow-wrap:anywhere}
+#ukot-service .cards>*,.ukot-deep-grid>*{min-width:0;overflow-wrap:anywhere}
+.ukot-deep-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:760px){.ukot-deep-grid{grid-template-columns:minmax(0,1fr)}}
+
