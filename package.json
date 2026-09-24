@@ -1,0 +1,14 @@
+{
+  "name": "uk-online-tuition-preview",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "check": "node scripts/check-site.mjs",
+    "build": "node scripts/build-site.mjs"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}

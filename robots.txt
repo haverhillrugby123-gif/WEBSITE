@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Staging preview. Remove Disallow and page-level noindex before production launch.

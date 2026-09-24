@@ -1,0 +1,30 @@
+/* Playful visual layer, entirely local to the draft. */
+:root{--motion-blue:#2556e8;--motion-navy:#10213b}
+#ukot-home .hero{background:radial-gradient(ellipse at 88% 22%,#e6ecff 0,transparent 46%),#fcfbf8}
+#ukot-home .hero .ey:before{content:'✳';display:inline-block;font-size:21px;vertical-align:middle;margin-right:12px;color:#2556e8;animation:star-turn 16s linear infinite}
+#ukot-home .orb{animation:orb-drift 12s ease-in-out infinite alternate}
+#ukot-home .lesson{animation:card-float 7s ease-in-out infinite!important}
+#ukot-home .mini{animation:card-float 8s ease-in-out -3s infinite!important}
+#ukot-home .btn,#ukot-service .btn,#ukot-about .btn,#ukot-how .btn,#ukot-work .btn{transition:transform .22s ease,box-shadow .22s ease;background-image:linear-gradient(120deg,transparent 35%,#ffffff18 50%,transparent 65%);background-size:240% 100%}
+#ukot-home .btn:hover,#ukot-service .btn:hover{transform:translateY(-3px);background-position:100% 0;box-shadow:0 14px 32px #2556e82b}
+#ukot-home .card,#ukot-home .res,#ukot-service .card,#ukot-lib .card{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+#ukot-home .card:hover,#ukot-home .res:hover,#ukot-service .card:hover,#ukot-lib .card:hover{transform:translateY(-7px) rotate(-.5deg);box-shadow:0 22px 45px #10213b18;border-color:#2556e87a}
+#ukot-home .motion-ribbon{overflow:hidden;background:#2556e8;color:#fff;padding:24px 0;transform:rotate(-1.2deg);margin:12px 0 0}
+#ukot-home .motion-ribbon-track{display:flex;align-items:center;justify-content:space-around;gap:48px;width:max-content;min-width:125%;animation:text-drift 22s ease-in-out infinite alternate;font-size:clamp(18px,2vw,28px);font-weight:700;padding:0 40px;white-space:nowrap}
+#ukot-home .motion-ribbon-track span:nth-child(even){font-size:34px;color:#ffdb83}
+#ukot-home .motion-showcase{padding:96px 0;background:#f7f3ea;overflow:hidden}
+#ukot-home .motion-heading{display:flex;justify-content:space-between;gap:32px;align-items:end;margin-bottom:36px}
+#ukot-home .motion-heading h2{max-width:630px}#ukot-home .motion-heading p{color:#536176;margin:0}
+#ukot-home .motion-track{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:#2556e8 #e4e1db;padding:8px 0 22px;overscroll-behavior-x:contain}
+#ukot-home .motion-slide{flex:0 0 calc(68% - 12px);min-width:0;scroll-snap-align:start;background:#fcfbf8;border:1px solid #10213b1a;border-radius:28px;overflow:hidden;box-shadow:0 12px 34px #10213b0a;transition:transform .25s}
+#ukot-home .motion-slide img{display:block;width:100%;height:auto;aspect-ratio:1.8;object-fit:cover}
+#ukot-home .motion-caption{padding:28px 32px 32px}#ukot-home .motion-caption>span{font-size:12px;letter-spacing:.12em;font-weight:800;color:#2556e8}
+#ukot-home .motion-caption h3{font-size:clamp(25px,3vw,38px);margin-top:12px}#ukot-home .motion-caption p{color:#536176;max-width:580px}#ukot-home .motion-caption a{display:inline-flex;gap:22px;font-weight:750;color:#10213b;border-bottom:2px solid #2556e8;padding:4px 0}
+#ukot-home .motion-controls{display:flex;justify-content:space-between;align-items:center;gap:18px;margin-top:22px}#ukot-home .motion-arrows{display:flex;gap:18px;align-items:center}#ukot-home .motion-controls button{border:1px solid #10213b33;background:#fcfbf8;color:#10213b;font:700 15px 'Segoe UI',sans-serif;padding:12px 18px;border-radius:999px;min-height:46px;cursor:pointer}#ukot-home .motion-arrows button{font-size:23px;width:50px;padding:8px}#slide-position{font-size:13px;font-weight:800;letter-spacing:.08em}
+#ukot-home .motion-controls button:hover{background:#10213b;color:white}.motion-paused #ukot-home *{animation-play-state:paused!important}
+@keyframes card-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}@keyframes orb-drift{from{transform:translate(0,0) scale(.97)}to{transform:translate(14px,10px) scale(1.04)}}@keyframes star-turn{to{transform:rotate(360deg)}}@keyframes text-drift{from{transform:translateX(0)}to{transform:translateX(-25%)}}
+@media(max-width:700px){#ukot-home .motion-showcase{padding:60px 0}#ukot-home .motion-heading{display:block}#ukot-home .motion-heading p{margin-top:20px}#ukot-home .motion-slide{flex-basis:88%}#ukot-home .motion-caption{padding:24px}#ukot-home .motion-controls{flex-wrap:wrap}#ukot-home .motion-ribbon{padding:18px 0}#ukot-home .motion-ribbon-track{font-size:20px;gap:28px;animation-duration:28s}#ukot-home .lesson{animation:none!important}}
+@media(prefers-reduced-motion:reduce){#ukot-home *{animation:none!important;scroll-behavior:auto!important}#ukot-home .motion-ribbon{transform:none}#ukot-home .motion-ribbon-track{width:auto;min-width:0;white-space:normal;flex-wrap:wrap;gap:20px;justify-content:center}#ukot-home .card:hover,#ukot-home .res:hover,#ukot-service .card:hover,#ukot-lib .card:hover{transform:none}}
+
+#ukot-home{overflow-x:clip}
+@media(prefers-reduced-motion:reduce){#ukot-home .lesson,#ukot-home .mini,#ukot-home .orb,#ukot-home .hero .ey:before,#ukot-home .motion-ribbon-track{animation:none!important}}
