@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import { checkReferences, checkPrivacy, forbiddenClientAPI } from './validation.mjs';
+const fail = message => { throw Error(message); };
+checkReferences('<h2 id="heading"></h2><p id="help"></p><input id="name" aria-labelledby="heading help"><label for="name">Name</label>', fail);
+assert.throws(()=>checkReferences('<input aria-labelledby="heading missing"><h2 id="heading"></h2>',fail), /missing/);
+assert.throws(()=>checkReferences('<label for="missing">Name</label>',fail), /missing control/);
+assert.throws(()=>checkReferences('<div id="name"></div><label for="name">Name</label>',fail), /missing control/);
+for (const api of ['fetch(url)','new XMLHttpRequest()','navigator.sendBeacon(url)','localStorage.setItem(key,value)','sessionStorage.clear()','new WebSocket(url)','indexedDB.open(name)','document.cookie']) assert.equal(forbiddenClientAPI.test(api),true,api);
+assert.equal(forbiddenClientAPI.test('const fetchLabel = "Copy enquiry";'),false);
+checkPrivacy('<script src="assets/main.js" defer></script><script type="application/ld+json">{"@type":"Organization"}</script>', ['assets/main.js'], fail);
+assert.throws(()=>checkPrivacy('<script src="https://example.org/track.js"></script>', ['assets/main.js'],fail), /unapproved/);
+assert.throws(()=>checkPrivacy('<script>alert(1)</script>', ['assets/main.js'],fail), /unapproved/);
+console.log('PASS: validation regression fixtures');

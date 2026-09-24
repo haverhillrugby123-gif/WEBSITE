@@ -1,3 +1,3 @@
 User-agent: *
 Disallow: /
-# Staging preview. Remove Disallow and page-level noindex before production launch.
+# Preview: retain this block and page-level noindex until Dan explicitly approves an indexing/domain cutover.

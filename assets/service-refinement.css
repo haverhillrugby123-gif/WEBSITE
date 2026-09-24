@@ -1,0 +1,79 @@
+/* Service pages: practical guidance, readable steps and no decorative motion. */
+#ukot-service .service-page { --m:#4f5d70; }
+#ukot-service .hero { padding:56px 0; overflow:visible; }
+#ukot-service .heroGrid { grid-template-columns:minmax(0,1.35fr) minmax(0,1fr); gap:48px; align-items:center; }
+#ukot-service h1 { font-size:clamp(36px,4.3vw,58px); line-height:1.08; letter-spacing:-.035em; text-wrap:balance; }
+#ukot-service h2 { font-size:clamp(28px,3vw,39px); line-height:1.16; letter-spacing:-.025em; text-wrap:balance; }
+#ukot-service h3 { font-size:23px; line-height:1.25; }
+#ukot-service .ey { margin:0 0 12px; font-size:12px!important; line-height:1.4!important; letter-spacing:.12em; }
+#ukot-service .lede { margin:20px 0; max-width:620px; }
+#ukot-service .service-subjects { display:flex; flex-wrap:wrap; gap:8px 18px; list-style:none; padding:0; margin:0 0 26px; color:var(--n); font-size:14px; font-weight:650; }
+#ukot-service .service-subjects li { border-bottom:2px solid #c8d3f9; padding-bottom:4px; }
+#ukot-service .service-actions { display:flex; gap:16px 22px; flex-wrap:wrap; align-items:center; }
+#ukot-service .btn { min-height:48px; align-items:center; gap:10px; padding:14px 20px; box-shadow:none; transition:background .15s; }
+#ukot-service .btn:hover { transform:none; background:#193765; }
+#ukot-service .service-text-link { color:#173fbe; text-decoration:underline; text-underline-offset:4px; font-weight:650; line-height:1.5; }
+#ukot-service .service-checklist { padding:28px; border:1px solid #d8dddF; border-top:4px solid #2556e8; border-radius:6px 6px 18px 18px; background:#fff; }
+#ukot-service .service-checklist h2 { font-size:27px; }
+#ukot-service .service-checklist ul { list-style:none; margin:18px 0 0; padding:0; }
+#ukot-service .service-checklist li { padding:13px 0; border-top:1px solid #e2e5ea; }
+#ukot-service .service-checklist li:last-child { padding-bottom:0; }
+#ukot-service .service-checklist strong { display:block; font-size:16px; }
+#ukot-service .service-checklist p:not(.ey) { margin:4px 0 0; color:var(--m); font-size:15px!important; line-height:1.55!important; }
+#ukot-service .section { padding:48px 0; }
+#ukot-service .service-section-heading { max-width:800px; margin-bottom:26px; }
+#ukot-service .cards { gap:18px; grid-template-columns:repeat(3,minmax(0,1fr)); }
+#ukot-service .card { padding:24px; min-height:0; border-radius:14px; transition:none; }
+#ukot-service .card:hover { transform:none; box-shadow:none; }
+#ukot-service .card p:last-child { margin:12px 0 0; }
+#ukot-service .service-steps { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:24px; list-style:none; margin:0; padding:0; }
+#ukot-service .service-steps li { border-top:1px solid #bdc8d9; padding-top:16px; min-width:0; }
+#ukot-service .service-number { display:block; color:#2556e8; font-size:13px; font-weight:750; margin-bottom:12px; }
+#ukot-service .service-steps h3 { font-size:22px; }
+#ukot-service .service-steps p { color:var(--m); margin:10px 0 0; font-size:16px!important; line-height:1.6!important; }
+#ukot-service .service-note { margin:28px 0 0; padding:16px 20px; border-left:3px solid #2556e8; background:#edf1fb; color:#263d60; font-size:16px!important; line-height:1.6!important; }
+#ukot-service .service-questions { display:grid; grid-template-columns:minmax(0,1.65fr) minmax(0,1fr); gap:64px; }
+#ukot-service .service-faq { margin-top:24px; }
+#ukot-service .service-faq details { border-top:1px solid #cdd0d5; }
+#ukot-service .service-faq details:last-child { border-bottom:1px solid #cdd0d5; }
+#ukot-service .service-faq summary { padding:17px 4px; font-size:17px; font-weight:650; cursor:pointer; }
+#ukot-service .service-faq p { margin:0 4px 20px; color:var(--m); }
+#ukot-service .service-reading { border-left:1px solid #d3d6dc; padding-left:32px; align-self:start; }
+#ukot-service .service-reading ul { list-style:none; margin:16px 0 22px; padding:0; }
+#ukot-service .service-reading li { border-bottom:1px solid #d3d6dc; }
+#ukot-service .service-reading li a { display:flex; justify-content:space-between; gap:16px; color:var(--n); padding:15px 0; font-weight:650; line-height:1.55; }
+#ukot-service .service-reading li a:hover { color:#173fbe; text-decoration:underline; text-underline-offset:3px; }
+#ukot-service .service-reading li span { flex-shrink:0; }
+#ukot-service .cta { padding:38px 0; background:var(--n); text-align:left; }
+#ukot-service .cta .wrap { display:flex; align-items:center; justify-content:space-between; gap:32px; }
+#ukot-service .cta h2 { font-size:clamp(28px,3vw,36px); margin:0; max-width:740px; }
+#ukot-service .cta p { margin:12px 0 0; max-width:670px; }
+#ukot-service .cta .btn { flex-shrink:0; }
+#ukot-service .cta .btn:hover { background:#e2e9ff; }
+#ukot-service .service-page a:focus-visible,#ukot-service .service-page summary:focus-visible { outline:3px solid #2556e8; outline-offset:4px; }
+#ukot-service .cta a:focus-visible { outline-color:#fff; }
+@media(max-width:900px) {
+  #ukot-service .heroGrid { gap:30px; grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); }
+  #ukot-service .service-checklist { padding:22px; }
+  #ukot-service .service-checklist h2 { font-size:25px; }
+  #ukot-service .service-steps { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  #ukot-service .service-questions { gap:32px; }
+  #ukot-service .cta .wrap { display:block; }
+  #ukot-service .cta .btn { margin-top:22px; }
+}
+@media(max-width:680px) {
+  #ukot-service .hero { padding:34px 0; }
+  #ukot-service .heroGrid,#ukot-service .cards,#ukot-service .service-questions { grid-template-columns:minmax(0,1fr); }
+  #ukot-service .section { padding:34px 0; }
+  #ukot-service .heroGrid { gap:28px; }
+  #ukot-service .service-checklist { padding:22px; }
+  #ukot-service .cards { gap:12px; }
+  #ukot-service .service-reading { border-left:0; border-top:1px solid #d3d6dc; padding:24px 0 0; }
+  #ukot-service .service-steps { gap:24px 18px; }
+}
+@media(max-width:420px) {
+  #ukot-service .service-steps { grid-template-columns:minmax(0,1fr); gap:18px; }
+  #ukot-service .service-number { margin-bottom:7px; }
+  #ukot-service .service-actions { align-items:flex-start; flex-direction:column; }
+}
+@media(prefers-reduced-motion:reduce) { #ukot-service .btn { transition:none; } }
