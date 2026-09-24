@@ -1,8 +1,23 @@
-/* Shared UK Online Tuition identity. Keep one master artwork across pages. */
-.ukot-brand-image { display:block; width:210px; height:44px; max-width:100%; }
-.ukot-footer-brand { display:inline-flex; vertical-align:middle; padding:6px 12px; margin-bottom:12px; background:#FCFBF8; border-radius:10px; text-decoration:none; }
+/* Original book and insight-spark identity, Brand Guide v1.0, 14/09/2026.
+   Outlined vectors retain the original geometry, lettering and colours. */
+.ukot-brand-image { display:block; width:260px; height:auto; max-width:100%; }
+#ukot-global-nav .ukot-canonical-brand { min-height:44px; }
+.ukot-footer-brand { display:inline-flex; flex-direction:column; align-items:flex-start; vertical-align:middle; box-sizing:border-box; max-width:100%; padding:16px; margin-bottom:12px; background:#FCFBF8; border-radius:10px; text-decoration:none; }
+.ukot-footer-picture { display:block; width:420px; max-width:100%; }
+.ukot-footer-picture .ukot-brand-image { width:100%; height:auto; }
+.ukot-mobile-tagline { display:none; }
 .ukot-footer-brand:focus-visible { outline:3px solid #F7F3EA; outline-offset:5px; }
 #ukot-global-nav .ukot-canonical-brand:focus-visible { outline:3px solid #2556E8; outline-offset:5px; border-radius:4px; }
+/* Small static original emblem beside existing reading/process headings. */
+#ukot-home .u-start> .u-kicker::before,
+#ukot-how .u-hero .u-kicker::before,
+#ukot-lib .hero .ey::before { content:""; display:inline-block; width:28px; height:24px; margin-right:10px; vertical-align:middle; background:url("ukot-emblem.svg") center/contain no-repeat; }
+@media (min-width:1150px) { #ukot-global-nav .ukot-brand-image { width:280px; } }
+@media (max-width:1050px) { #ukot-global-nav .ukot-brand-image { width:220px; } }
 @media (max-width:560px) {
-  #ukot-global-nav .ukot-brand-image { width:190px; height:auto; }
+  #ukot-global-nav .ukot-brand-image { width:220px; height:auto; }
+  .ukot-footer-brand { padding:14px; }
+  .ukot-footer-picture { width:280px; }
+  .ukot-mobile-tagline { display:block; margin-top:10px; font:14px/1.4 "Segoe UI",Arial,sans-serif; color:#10213b; }
 }
+@media (max-width:350px) { #ukot-global-nav .ukot-brand-image { width:200px; } }

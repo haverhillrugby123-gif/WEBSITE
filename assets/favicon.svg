@@ -1,5 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-  <rect width="40" height="40" rx="10" fill="#2556E8"/>
-  <path d="M9 10c4-1 8 0 11 3 3-3 7-4 11-3v19c-4-1-8 0-11 3-3-3-7-4-11-3Z" fill="#F7F3EA"/>
-  <path d="M20 14v17" stroke="#2556E8" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75.0 75.0">
+<!-- Existing outlined paths recovered from UK Online Tuition Brand Guide v1.0, 14/09/2026, page 1. -->
+<path fill="#10213b" fill-rule="nonzero" d="M0 0 h75 v75 h-75 Z"/>
+<path fill="#ffffff" fill-rule="nonzero" d="M 11.672 33.809 C 22.125 31.352 31.352 35.656 37.5 43.648 C 45.496 33.809 54.105 30.734 63.328 30.121 L 62.715 34.426 C 52.875 35.039 44.879 39.961 37.5 48.57 C 29.504 39.961 22.125 35.656 11.055 38.113 Z M 11.672 33.809"/>
+<path fill="#ffffff" fill-rule="nonzero" d="M 7.98 41.805 C 19.664 38.73 30.734 43.648 37.5 51.645 C 46.109 41.805 56.566 38.113 67.02 37.5 L 68.25 42.422 C 56.566 42.422 47.34 46.109 37.5 57.18 C 28.273 47.34 19.051 43.648 6.75 46.727 Z M 7.98 41.805"/>
+<path fill="#ffffff" fill-rule="nonzero" d="M 47.34 18.434 C 47.953 22.125 49.184 23.355 52.262 23.969 C 49.184 24.586 47.953 26.43 47.34 30.121 C 46.727 26.43 44.879 24.586 42.422 23.969 C 44.879 23.355 46.727 22.125 47.34 18.434 Z M 47.34 18.434"/>
 </svg>
