@@ -22,6 +22,15 @@ for (const page of pages) {
 
   const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(m => m[1]);
   if (new Set(ids).size !== ids.length) fail('duplicate element IDs');
+  const idSet = new Set(ids);
+  for (const attr of ['aria-labelledby','aria-controls']) {
+    for (const match of html.matchAll(new RegExp('\\b' + attr + '="([^"]+)"','g'))) {
+      for (const ref of match[1].split(/\\s+/)) if (ref && !idSet.has(ref)) fail(`${attr} references missing id ${ref}`);
+    }
+  }
+  for (const label of html.matchAll(/<label\\b[^>]*\\bfor="([^"]+)"/g)) {
+    if (!idSet.has(label[1])) fail(`label references missing control ${label[1]}`);
+  }
 
   for (const match of html.matchAll(/<img\b[^>]*>/g)) {
     images++;
@@ -50,14 +59,19 @@ for (const page of pages) {
   }
 
   if (page === 'contact/index.html') {
-    if (!html.includes('class="formcard preview-form"')) fail('preview-only enquiry form marker missing');
-    if (/\saction=/.test(html)) fail('preview form must not submit to a network endpoint');
-    if (!html.includes('id="check-enquiry"')) fail('preview validation control missing');
+    if (!html.includes('class="formcard email-form"')) fail('email enquiry form marker missing');
+    if (/\saction=/.test(html)) fail('enquiry form must not submit directly to a network endpoint');
+    if (!html.includes('id="prepare-enquiry"')) fail('email preparation control missing');
   }
 }
+
+const mainJs = await readFile('assets/main.js','utf8');
+if (!mainJs.includes('mailto:ukonlinetuition1@gmail.com')) throw new Error('assets/main.js: enquiry email handoff missing');
+if (!mainJs.includes('encodeURIComponent')) throw new Error('assets/main.js: enquiry values must be encoded');
+if (/\\b(fetch|XMLHttpRequest|sendBeacon|localStorage|sessionStorage)\\b/.test(mainJs)) throw new Error('assets/main.js: unexpected network or storage primitive in enquiry flow');
 
 for (const script of ['assets/main.js','assets/live-design.js','assets/motion.js']) {
   execFileSync(process.execPath, ['--check', script]);
 }
 
-console.log(`PASS: ${pages.length} HTML pages, ${refs} local references, ${images} images, UK language metadata, single H1/title, canonical/meta/noindex, unique IDs, image dimensions/alts, explicit button types, preview-form safety and JavaScript syntax.`);
+console.log(`PASS: ${pages.length} HTML pages, ${refs} local references, ${images} images, UK language metadata, single H1/title, canonical/meta/noindex, unique IDs, image dimensions/alts, explicit button types, email-handoff safety and JavaScript syntax.`);

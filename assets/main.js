@@ -19,20 +19,48 @@ if (toggle && nav) {
   });
   window.matchMedia('(min-width: 1181px)').addEventListener('change', () => setOpen(false));
 }
+
 document.querySelectorAll('[data-year]').forEach(el => { el.textContent = new Date().getFullYear(); });
-// Local-only preview. No network request, storage or submission service.
+
 const form = document.querySelector('#enquiry-form');
 if (form) {
   const status = document.querySelector('#form-status');
+  const button = document.querySelector('#prepare-enquiry');
+  const get = name => String(form.elements.namedItem(name)?.value || '').trim();
+
   form.addEventListener('submit', event => event.preventDefault());
-  document.querySelector('#check-enquiry').addEventListener('click', () => {
+
+  button?.addEventListener('click', () => {
     if (!form.checkValidity()) {
       form.reportValidity();
       status.textContent = 'Please complete the required fields and enter a valid email address.';
       status.className = 'form-status show error';
       return;
     }
-    status.textContent = 'These details pass the preview checks. Nothing has been sent or saved.';
+
+    const subjectLine = `Tuition enquiry — ${get('yeargroup')} — ${get('subject')}`;
+    const lines = [
+      'Hello UK Online Tuition,',
+      '',
+      'I would like to enquire about tuition.',
+      '',
+      `Parent/contact name: ${get('name')}`,
+      `Email: ${get('email')}`,
+      get('phone') ? `Phone: ${get('phone')}` : '',
+      `Year group/stage: ${get('yeargroup')}`,
+      `Subject or entrance test: ${get('subject')}`,
+      '',
+      'Main difficulty, goal or support needed:',
+      get('support'),
+      '',
+      get('availability') ? `Availability:\n${get('availability')}` : '',
+      '',
+      'Thank you.'
+    ].filter(Boolean);
+
+    status.textContent = 'Opening your email app. Review the message there, then send it when you are ready.';
     status.className = 'form-status show';
+
+    window.location.href = `mailto:ukonlinetuition1@gmail.com?subject=${encodeURIComponent(subjectLine)}&body=${encodeURIComponent(lines.join('\n'))}`;
   });
 }
