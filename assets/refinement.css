@@ -1,0 +1,139 @@
+/* Parent-focused reading and enquiry layouts. No decorative animation. */
+body{color:#10213b;font-family:"Segoe UI",Arial,sans-serif}
+:is(#ukot-home,#ukot-about,#ukot-how).site-renew{font-family:"Segoe UI",Arial,sans-serif;background:#fcfbf8;color:#10213b}
+.site-renew *{box-sizing:border-box}
+.site-renew .u-wrap{width:min(1120px,calc(100% - 64px));margin-inline:auto}
+:is(#ukot-home,#ukot-about,#ukot-how).site-renew h1{font:700 clamp(40px,4.4vw,62px)/1.08 Georgia,serif;letter-spacing:-.045em;max-width:780px;margin:0;text-wrap:balance}
+:is(#ukot-home,#ukot-about,#ukot-how).site-renew h2{font:700 clamp(28px,2.8vw,38px)/1.16 Georgia,serif;letter-spacing:-.035em;margin:0;text-wrap:balance}
+:is(#ukot-home,#ukot-about,#ukot-how).site-renew h3{font:700 24px/1.25 Georgia,serif;letter-spacing:-.02em;margin:0}
+.site-renew p{color:#4b5c70;line-height:1.65;margin:16px 0}
+:is(#ukot-home,#ukot-about,#ukot-how).site-renew .u-kicker{font:750 12px/1.5 "Segoe UI",sans-serif!important;letter-spacing:.11em;text-transform:uppercase;color:#2556e8;margin:0 0 16px}
+:is(#ukot-home,#ukot-about,#ukot-how).site-renew .u-lead{font-size:19px!important;line-height:1.6!important;max-width:630px;margin:24px 0}
+:is(#ukot-home,#ukot-about,#ukot-how).site-renew .u-caption{font-size:13px!important;line-height:1.6!important;color:#56667a;margin:18px 0 0;max-width:540px}
+.u-hero{padding:62px 0 54px;border-bottom:1px solid #dfe3e8}
+.u-hero-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:64px;align-items:center}
+.u-hero-grid>*{min-width:0}
+.u-actions{display:flex;gap:24px;align-items:center;flex-wrap:wrap;margin-top:28px}
+.u-button{display:inline-flex;align-items:center;justify-content:center;gap:24px;padding:15px 22px;border:1px solid #10213b;border-radius:8px;background:#10213b;color:white!important;font:700 15px/1.4 "Segoe UI",sans-serif;text-decoration:none;min-height:48px}
+.u-button:hover{background:#2556e8;border-color:#2556e8}
+.u-text-link{display:inline-flex;align-items:center;gap:12px;min-height:44px;color:#10213b;font-weight:700;font-size:15px;text-decoration:underline!important;text-underline-offset:5px;text-decoration-color:#b7c5db!important}
+.u-text-link:hover{color:#2556e8;text-decoration-color:currentColor!important}
+.u-start{padding:28px 30px;border:1px solid #dfe3e8;border-radius:16px;background:#f7f3ea}
+:is(#ukot-home,#ukot-about,#ukot-how).site-renew .u-start h2{font-size:28px}
+.u-simple-list{list-style:none;padding:0;margin:24px 0 14px}
+.u-simple-list li{display:grid;grid-template-columns:28px 1fr;gap:14px;padding:14px 0;border-top:1px solid #d6d7d4}
+.u-simple-list li>span{font-size:12px;color:#2556e8;padding-top:3px;font-weight:750}
+.u-simple-list p{margin:5px 0 0;font-size:14px!important;line-height:1.5!important}
+.u-section{padding:58px 0;border-bottom:1px solid #e3e5e9}
+.u-tint{background:#f7f3ea}
+.u-section-head{display:flex;align-items:end;justify-content:space-between;gap:40px;margin-bottom:28px}
+.u-section-head>p{max-width:380px;margin:0}
+.u-service-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.u-service{display:flex;flex-direction:column;background:white;color:#10213b;border:1px solid #dce1e8;border-top:3px solid #2556e8;border-radius:4px 4px 12px 12px;padding:24px;text-decoration:none}
+.u-service:hover{border-color:#2556e8;background:#f7f9ff}
+.u-service h3{display:flex;justify-content:space-between;gap:12px}
+.u-service h3>span{font:20px "Segoe UI",sans-serif;color:#2556e8}
+.u-tag{display:block;font-size:11px;letter-spacing:.065em;text-transform:uppercase;color:#536176;font-weight:700;margin-bottom:18px}
+.u-service p{font-size:15px!important;line-height:1.65!important;margin:15px 0 24px}
+.u-service-link{font-weight:750;font-size:14px;margin-top:auto}
+.u-founder{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start}
+.u-founder p:first-child{margin-top:0}
+.u-founder h3+p{margin-top:18px}
+.u-three-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px;list-style:none;margin:0;padding:0}
+.u-three-steps>li,.u-three-steps>article{min-width:0;border-top:1px solid #bac3d0;padding-top:22px}
+.u-three-steps :is(li,article)>span{font:700 12px "Segoe UI",sans-serif;letter-spacing:.08em;color:#2556e8;display:block;margin-bottom:18px}
+:is(#ukot-home,#ukot-about,#ukot-how).site-renew .u-three-steps h2{font-size:28px}
+.u-question-grid{display:grid;grid-template-columns:1fr 1.25fr;gap:70px;align-items:start}
+.u-question-grid>.u-start{background:#fff}
+.u-question-grid>div>.u-text-link{margin-top:20px}
+.u-faq details{padding:19px 0;border-bottom:1px solid #d4dce7}
+.u-faq details:first-child{border-top:1px solid #d4dce7}
+.u-faq summary{font-weight:700;cursor:pointer;line-height:1.5;padding-right:12px}
+.u-faq details p{font-size:15px!important;margin-bottom:0}
+.u-checklist{list-style:none;padding:0;margin:20px 0 0}
+.u-checklist li{position:relative;padding:12px 0 12px 24px;border-top:1px solid #d9dfe8;line-height:1.6;color:#3c4d63}
+.u-checklist li:before{content:'✓';position:absolute;left:0;color:#2556e8}
+.u-reading a{display:grid;grid-template-columns:120px 1fr 24px;gap:24px;padding:22px 0;border-top:1px solid #dce1e8;align-items:center;color:#10213b;text-decoration:none}
+.u-reading a:last-child{border-bottom:1px solid #dce1e8}
+.u-reading a:hover b{text-decoration:underline;text-underline-offset:4px}
+.u-reading a>span{font-size:13px;color:#536176}
+.u-reading b{font-size:16px}
+.u-cta{padding:42px 0;background:#e8edf8}
+.u-cta>.u-wrap{display:flex;justify-content:space-between;align-items:center;gap:34px}
+.u-cta p{margin-bottom:0}
+.u-cta .u-button{flex-shrink:0}
+.site-renew footer{margin:0}
+/* Contact starts with the form rather than two successive introductions. */
+#ukot-contact .contact-intro{padding:38px 0 18px}
+#ukot-contact .contact-intro h1{font-size:clamp(32px,3.4vw,46px);max-width:800px;line-height:1.12;letter-spacing:-.03em;margin:0}
+#ukot-contact .contact-intro p{margin:14px 0 0;max-width:680px}
+#ukot-contact .formsec{padding:24px 0 60px}
+#ukot-contact .formgrid{grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:48px;align-items:start}
+#ukot-contact .formcard{grid-column:1;grid-row:1;padding:28px;border-radius:14px}
+#ukot-contact .contact-direct{grid-column:2;grid-row:1;position:static;padding:20px 0}
+#ukot-contact .contact-direct h2{font-size:26px!important;line-height:1.2}
+#ukot-contact .contact-direct h3{font-size:19px;margin-top:24px}
+#ukot-contact .contact-direct .direct{font-size:16px!important;overflow-wrap:anywhere}
+#ukot-contact .contact-direct hr{border:0;border-top:1px solid #dbe2ed;margin:30px 0}
+/* A resource library is a set of readable results, not forty oversized tiles. */
+#ukot-lib .hero{padding:40px 0 28px}
+#ukot-lib h1{font-size:clamp(36px,4vw,54px)}
+#ukot-lib .grid{grid-template-columns:1fr!important;gap:0;margin-top:24px}
+#ukot-lib .grid .card{display:grid;grid-template-columns:110px minmax(0,1fr) 80px;gap:20px;align-items:center;padding:20px 4px;min-height:0;border:0;border-bottom:1px solid #d4dce7;border-radius:0;box-shadow:none;background:transparent;transform:none}
+#ukot-lib .grid .card:hover{background:#f3f5f9;transform:none;box-shadow:none}
+#ukot-lib .grid .card .cat{margin:0;font-size:11px!important;line-height:1.5!important}
+#ukot-lib .grid .card h3{font:600 18px/1.4 "Segoe UI",sans-serif;letter-spacing:0;margin:0}
+#ukot-lib .grid .card .go{margin:0;font-size:13px!important;text-align:right}
+#ukot-lib .grid .card p{display:none}
+#ukot-lib .grid .card:before,#ukot-lib .grid .card:after{display:none}
+#ukot-faq .hero{padding:42px 0 28px}
+#ukot-faq h1{font-size:clamp(36px,4vw,54px)}
+#ukot-faq .layout{gap:40px}
+@media(max-width:900px){
+ .u-hero-grid{gap:32px;grid-template-columns:1.2fr 1fr}
+ .u-founder,.u-question-grid{gap:32px}
+ .u-section-head{align-items:start;gap:24px}
+ .u-section-head>p{max-width:300px}
+ .u-service{padding:20px}
+ .u-cta>.u-wrap{align-items:start;flex-direction:column;gap:20px}
+}
+@media(max-width:700px){
+ .site-renew .u-wrap{width:calc(100% - 36px)}
+ .u-hero{padding:36px 0}
+ .u-hero-grid,.u-founder,.u-question-grid{grid-template-columns:1fr;gap:28px}
+ :is(#ukot-home,#ukot-about,#ukot-how).site-renew h1{font-size:39px;line-height:1.08}
+ :is(#ukot-home,#ukot-about,#ukot-how).site-renew h2{font-size:29px}
+ :is(#ukot-home,#ukot-about,#ukot-how).site-renew .u-lead{font-size:17px!important;margin:20px 0}
+ .u-start{padding:22px}
+ .u-section{padding:38px 0}
+ .u-section-head{display:block;margin-bottom:22px}
+ .u-section-head>p{max-width:none;margin-top:14px}
+ .u-section-head>a{margin-top:12px}
+ .u-service-grid,.u-three-steps{grid-template-columns:1fr;gap:16px}
+ .u-service p{margin-bottom:18px}
+ .u-three-steps>li,.u-three-steps>article{padding-top:18px}
+ .u-three-steps :is(li,article)>span{margin-bottom:12px}
+ .u-reading a{grid-template-columns:minmax(0,1fr) 20px;gap:8px 16px;padding:18px 0}
+ .u-reading a>span:first-child{grid-column:1/-1}
+ .u-reading b{font-size:15px}
+ .u-actions{gap:14px;margin-top:22px}
+ .u-cta{padding:32px 0}
+ #ukot-contact .formgrid{display:flex;flex-direction:column;gap:24px}
+ #ukot-contact .formcard{width:100%;order:0;padding:22px 18px}
+ #ukot-contact .contact-direct{order:1;padding:0}
+ #ukot-contact .contact-intro{padding:30px 0 6px}
+ #ukot-contact .contact-intro h1{font-size:34px}
+ #ukot-contact .contact-intro .ey{margin-bottom:12px}
+ #ukot-contact .formsec{padding:20px 0 38px}
+ #ukot-contact .formcard h2{font-size:25px!important}
+ #ukot-lib .grid .card{grid-template-columns:minmax(0,1fr) 64px;gap:8px 12px;padding:18px 0}
+ #ukot-lib .grid .card .cat{grid-column:1/-1}
+ #ukot-lib .grid .card h3{font-size:17px}
+}
+#ukot-faq .layout{display:block;max-width:820px}
+#ukot-faq .section{padding:18px 0 44px}
+#ukot-lib .library{padding:10px 0 48px}
+#ukot-work .hero{padding:40px 0}
+#ukot-work .section{padding:44px 0}
+#ukot-work .card{min-height:0}
+#ukot-global-nav .ukot-canonical-links .ukot-canonical-enquire[aria-current="page"]{color:#fff!important;background:#2556e8!important}

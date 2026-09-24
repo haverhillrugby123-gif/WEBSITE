@@ -4,6 +4,8 @@ Updated on 24/09/2026.
 
 This repository contains the GitHub Pages preview of the UK Online Tuition website. The separate Wix production site remains unchanged.
 
+The current design puts tuition stages, practical information and enquiries first. Decorative carousels, oversized illustrations, simulated progress graphics and duplicate teaching controls have been removed. The current review is in `agency/REDESIGN_REVIEW_2026-09-24.md`; the earlier publication review is retained as historical evidence only.
+
 ## Local checks
 
 ```sh

@@ -2,12 +2,11 @@ import { readFile, access } from 'node:fs/promises';
 import path from 'node:path';
 import { checkReferences, checkPrivacy, forbiddenClientAPI } from './validation.mjs';
 import './validation.test.mjs';
-import './interaction.test.mjs';
 import { execFileSync } from 'node:child_process';
 
 export const pages = ['index.html','how-it-works/index.html','gcse/index.html','11-plus/index.html','primary/index.html','about/index.html','resources/index.html','faq/index.html','contact/index.html','work-with-us/index.html','404.html'];
 
-const scripts = ['assets/main.js','assets/live-design.js','assets/motion.js'];
+const scripts = ['assets/main.js','assets/live-design.js'];
 let refs = 0;
 let images = 0;
 
@@ -24,6 +23,7 @@ for (const page of pages) {
   if (!html.includes('noindex,nofollow')) fail('draft indexing protection missing');
   if (!html.includes('class="draft-skip"')) fail('skip link missing');
 
+  if (/motion-(?:showcase|carousel|ribbon)|showcase-primary\.svg/.test(html)) fail('decorative showcase must not return');
   checkReferences(html, fail);
   checkPrivacy(html, [...scripts, ...scripts.map(script => '/WEBSITE/' + script)], fail);
   const canonical = [...html.matchAll(/<link rel="canonical" href="([^"]+)"/g)];

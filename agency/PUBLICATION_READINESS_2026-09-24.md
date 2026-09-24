@@ -1,5 +1,7 @@
 # UK Online Tuition publication readiness review
 
+Historical review, superseded by `REDESIGN_REVIEW_2026-09-24.md`. Its carousel and teaching-control results describe the earlier implementation, which has since been replaced. Earlier Lighthouse scores do not describe the current design.
+
 Date: 24/09/2026. Scope: the existing GitHub Pages preview in `haverhillrugby123-gif/WEBSITE`. Base commit: `32951b7ddc0ec9bcbf73e040c22358ffa561f3c1`.
 
 ## Changes
