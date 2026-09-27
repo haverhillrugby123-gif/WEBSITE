@@ -111,13 +111,15 @@ test('every page reflows across phone, tablet and desktop widths', async ({ page
     for (const route of routes) {
       await page.goto(route);
       await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
-      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${route} at ${width}px`).toBe(true);
+      // Compare layout widths on the same rounding basis. WebKit at Windows
+      // display scaling can round innerWidth down and clientWidth up by 1px.
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth), `${route} at ${width}px`).toBe(true);
       expect(await page.locator('nav img').evaluate(img => img.complete && img.naturalWidth > 0), `${route} logo`).toBe(true);
       const menu = page.getByRole('button', { name: 'Menu', exact: true });
       if (await menu.isVisible()) {
         await menu.click();
         await expect(page.getByRole('navigation').getByRole('link', { name: 'Enquire', exact: true })).toBeVisible();
-        expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${route} open menu at ${width}px`).toBe(true);
+        expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth), `${route} open menu at ${width}px`).toBe(true);
       }
     }
   }

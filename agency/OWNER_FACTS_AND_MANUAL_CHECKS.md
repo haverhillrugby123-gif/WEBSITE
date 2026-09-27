@@ -1,15 +1,21 @@
 # Facts and external checks still needed
 
-Updated 24/09/2026. These are completion dependencies, not approved customer-facing claims.
+Updated 27/09/2026. Confirmed facts are recorded separately from outstanding completion dependencies.
 
 ## R05: service facts
 
-Confirm once for GCSE, 11+ and Primary, noting any differences:
+Owner confirmed on 27/09/2026 and reflected in the website copy:
+
+- Fees vary depending on the tutor’s experience.
+- Payment is due after each lesson.
+- Cancellations require at least 24 hours’ notice; with less notice, the lesson is chargeable.
+
+Still confirm for GCSE, 11+ and Primary, noting any differences:
 
 - Who delivers lessons: founder only or other tutors, and how the assigned tutor is introduced.
 - Supported ages/year groups, subjects, exam boards and tiers.
 - Typical lesson duration and one-to-one/group options.
-- Fees or the exact quotation process; payment timing and cancellation/rescheduling terms.
+- The exact quotation process and any separate rescheduling arrangements. No fixed price has been supplied.
 - Parent involvement and feedback arrangements.
 
 Publish confirmed facts consistently in the relevant service pages, How It Works, FAQ and contact guidance. Update FAQ structured data when visible FAQ answers change. Do not reuse founder qualifications as a claim about all tutors.
