@@ -4,9 +4,9 @@
 .ep-founder-visual{position:relative;padding:18px 10px 10px}
 .ep-founder-image{display:block;width:100%;height:220px;object-fit:cover;object-position:center 56%;border-radius:100px 100px 12px 12px;border:6px solid #fff;box-shadow:0 20px 45px #10213b21;transform:rotate(2deg)}
 .ep-founder-visual .u-start{position:relative;margin:18px 0 0;background:#fff;border-top:3px solid #2556e8}
-.ep-founder-visual:before{content:"";position:absolute;inset:0 0 40%;border:1px solid #a7bada;border-radius:50%;transform:rotate(-12deg);pointer-events:none}
+.ep-founder-visual:before{content:"";position:absolute;inset:0 0 40%;border:1px solid #a7bada;border-radius:50%;transform:none;pointer-events:none}
 .ep-board{position:relative;padding:28px;border:1px solid #c6d2e7;border-radius:24px;background:#fff;box-shadow:0 24px 50px #10213b18;transform:rotate(1deg)}
-.ep-board:before{content:"";position:absolute;inset:12px -7px -10px 8px;border:1px solid #b7c6e2;border-radius:24px;background:#e1e9f8;z-index:-1;transform:rotate(-3deg)}
+.ep-board:before{content:"";position:absolute;inset:12px -7px -10px 8px;border:1px solid #b7c6e2;border-radius:24px;background:#e1e9f8;z-index:-1;transform:none}
 .ep-board>img{display:block;width:100%;height:145px;object-fit:contain;background:#edf2fc;border-radius:16px;margin-bottom:22px}
 .ep-board-label{display:block;font:750 12px/1.5 "Segoe UI",sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#1743bc;margin-bottom:16px}
 .ep-board h2{font:700 28px/1.2 Georgia,serif!important;margin:0 0 18px!important;color:#10213b}
@@ -35,3 +35,4 @@
 @media(max-width:700px){.ep-hero-grid,.ep-example-grid{grid-template-columns:1fr}.ep-board{transform:none;margin:12px 7px}.ep-founder-visual{width:min(100%,440px);margin:auto}.ep-example-band{padding:38px 0}.ep-paper{padding:22px}.ep-board:before{inset:8px -5px -7px 5px;transform:none}.ep-founder-image{height:210px;transform:none}.ep-board-stamp{transform:none}}
 /* Keep decorative backing sheets within tablet and phone layout bounds. */
 @media(max-width:950px){.ep-founder-visual:before,.ep-board:before{transform:none}}
+
