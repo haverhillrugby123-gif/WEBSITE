@@ -79,6 +79,49 @@ test('clipboard denial exposes selected manual-copy fallback', async ({ page }) 
   await expect(page.getByLabel('Prepared message')).toBeFocused();
   expect(await page.getByLabel('Prepared message').evaluate(el => el.selectionEnd - el.selectionStart)).toBeGreaterThan(0);
 });
+
+test('enquiry reading order matches layout and editing returns to retained details', async ({ page }) => {
+  for (const width of [390, 1348]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto('contact/index.html?service=gcse');
+    const form = page.locator('#enquiry-form');
+    const aside = page.locator('.contact-direct');
+    expect(await form.evaluate(el => Boolean(el.compareDocumentPosition(document.querySelector('.contact-direct')) & Node.DOCUMENT_POSITION_FOLLOWING))).toBe(true);
+    const formBox = await form.boundingBox(), asideBox = await aside.boundingBox();
+    if (width < 901) expect(asideBox.y).toBeGreaterThanOrEqual(formBox.y + formBox.height);
+    else expect(asideBox.x).toBeGreaterThan(formBox.x);
+    await expect(page.locator('#enquiry-script-note')).toBeHidden();
+    await prepare(page);
+    await page.getByRole('button', { name: 'Edit enquiry', exact: true }).click();
+    await expect(page.getByLabel('Tuition route')).toBeFocused();
+    await expect(page.getByLabel('Parent/contact name')).toHaveValue('Browser Test');
+    await expect(page.getByLabel('Prepared message')).toHaveValue('');
+    await expect(page.locator('#open-enquiry-email')).not.toHaveAttribute('href');
+    await expect(page.locator('#enquiry-draft')).toBeHidden();
+    await page.getByLabel('Subject or entrance test').fill('English');
+    await page.getByRole('button', { name: 'Prepare enquiry email' }).click();
+    await expect(page.getByLabel('Prepared message')).toHaveValue(/Subject or entrance test: English/);
+  }
+});
+
+test('every page reflows across phone, tablet and desktop widths', async ({ page }) => {
+  const routes = ['./', 'how-it-works/', 'gcse/', '11-plus/', 'primary/', 'about/', 'resources/', 'faq/', 'contact/', 'work-with-us/', '404.html'];
+  for (const width of [320, 390, 768, 1348]) {
+    await page.setViewportSize({ width, height: 900 });
+    for (const route of routes) {
+      await page.goto(route);
+      await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${route} at ${width}px`).toBe(true);
+      expect(await page.locator('nav img').evaluate(img => img.complete && img.naturalWidth > 0), `${route} logo`).toBe(true);
+      const menu = page.getByRole('button', { name: 'Menu', exact: true });
+      if (await menu.isVisible()) {
+        await menu.click();
+        await expect(page.getByRole('navigation').getByRole('link', { name: 'Enquire', exact: true })).toBeVisible();
+        expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${route} open menu at ${width}px`).toBe(true);
+      }
+    }
+  }
+});
 test('resource ampersand and word searches agree; reset restores all', async ({ page }) => {
   await page.goto('resources/index.html');
   const search = page.getByRole('searchbox', { name: 'Search resources' });
@@ -102,6 +145,8 @@ for (const width of [390, 900]) for (const mode of ['no JavaScript', 'blocked sc
       const nav = page.getByRole('navigation');
       await expect(nav.getByRole('link', { name: 'Enquire', exact: true })).toBeVisible();
       await expect(page.getByRole('button', { name: 'Prepare enquiry email' })).toBeDisabled();
+      await expect(page.locator('#enquiry-script-note')).toBeVisible();
+      await expect(page.locator('#enquiry-script-note').getByRole('link')).toHaveAttribute('href', 'mailto:ukonlinetuition1@gmail.com');
       const navBox = await nav.boundingBox(), headingBox = await page.getByRole('heading', { level: 1 }).boundingBox();
       expect(headingBox.y).toBeGreaterThanOrEqual(navBox.y + navBox.height);
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

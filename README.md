@@ -1,6 +1,8 @@
 # UK Online Tuition website
 
-Updated on 24/09/2026.
+Updated on 27/09/2026.
+
+The latest bounded enquiry and accessibility fixes are described in `agency/READINESS_2026-09-27.md`. Outstanding business facts and real-device checks remain explicit; preparation does not authorise publication.
 
 This repository contains the GitHub Pages preview of the UK Online Tuition website. The separate Wix production site remains unchanged.
 
