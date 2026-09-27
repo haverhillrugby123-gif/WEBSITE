@@ -104,9 +104,8 @@ test('enquiry reading order matches layout and editing returns to retained detai
   }
 });
 
-test('every page reflows across phone, tablet and desktop widths', async ({ page }) => {
+for (const width of [320, 390, 768, 1348]) test(`every page reflows at ${width}px`, async ({ page }) => {
   const routes = ['./', 'how-it-works/', 'gcse/', '11-plus/', 'primary/', 'about/', 'resources/', 'faq/', 'contact/', 'work-with-us/', '404.html'];
-  for (const width of [320, 390, 768, 1348]) {
     await page.setViewportSize({ width, height: 900 });
     for (const route of routes) {
       await page.goto(route);
@@ -122,7 +121,6 @@ test('every page reflows across phone, tablet and desktop widths', async ({ page
         expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth), `${route} open menu at ${width}px`).toBe(true);
       }
     }
-  }
 });
 test('resource ampersand and word searches agree; reset restores all', async ({ page }) => {
   await page.goto('resources/index.html');
