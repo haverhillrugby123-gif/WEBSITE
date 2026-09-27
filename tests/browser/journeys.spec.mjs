@@ -136,6 +136,23 @@ test('resource ampersand and word searches agree; reset restores all', async ({ 
   await expect(page.getByRole('button', { name: 'All', exact: true })).toHaveAttribute('aria-pressed', 'true');
   await expect(page.locator('#ukot-resource-status')).toHaveText(`${await page.locator('.grid .card').count()} resources shown`);
 });
+
+test('illustrative learning examples reveal explanations from the keyboard', async ({ page }) => {
+  await page.goto('./');
+  const section = page.locator('.vf-examples');
+  await expect(section).toContainText('not actual pupil work or results');
+  for (const [label, answer] of [
+    ['Explore an interpretation', 'Maya may feel nervous.'],
+    ['See the explanation', '6 ÷ 2 = 3 and 8 ÷ 2 = 4'],
+    ['Reveal the next step', '12 × 2 = 24'],
+  ]) {
+    const summary = section.locator('summary').filter({ hasText: label });
+    await summary.focus();
+    await page.keyboard.press('Enter');
+    await expect(summary.locator('..').locator('p')).toBeVisible();
+    await expect(summary.locator('..')).toContainText(answer);
+  }
+});
 for (const width of [390, 900]) for (const mode of ['no JavaScript', 'blocked scripts']) {
   test.describe(`${mode}, ${width}px`, () => {
     test.use({ javaScriptEnabled: mode !== 'no JavaScript', viewport: { width, height: 900 } });

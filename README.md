@@ -6,7 +6,7 @@ The latest bounded enquiry and accessibility fixes are described in `agency/READ
 
 This repository contains the GitHub Pages preview of the UK Online Tuition website. The separate Wix production site remains unchanged.
 
-The current design puts tuition stages, practical information and enquiries first. Decorative carousels, oversized illustrations, simulated progress graphics and duplicate teaching controls have been removed. The full review is in `agency/WEBSITE_REVIEW_32_AGENTS_2026-09-24.md`, with progress in `agency/IMPLEMENTATION_STATUS_2026-09-24.md`. Earlier redesign/publication reviews are retained as historical evidence.
+The current design combines practical tuition information with layered backgrounds, floating notebook artwork, subject illustrations and interactive illustrative lesson examples. See `agency/VISUAL_FINISH_2026-09-27.md` for the visual update and artwork provenance. Earlier design reviews are retained as historical evidence.
 
 The original book and gold-spark identity is applied throughout. Its vector provenance and responsive placement are documented in `agency/ORIGINAL_BRAND_2026-09-24.md`.
 
