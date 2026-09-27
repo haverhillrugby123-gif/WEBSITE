@@ -6,15 +6,17 @@ Updated 27/09/2026. Confirmed facts are recorded separately from outstanding com
 
 Owner confirmed on 27/09/2026 and reflected in the website copy:
 
+- Lessons last between 30 minutes and two hours.
+- Founder Daniel Harris teaches lessons. This does not establish exclusive staffing or enquiry-email access.
 - Fees vary depending on the tutor’s experience.
 - Payment is due after each lesson.
 - Cancellations require at least 24 hours’ notice; with less notice, the lesson is chargeable.
 
 Still confirm for GCSE, 11+ and Primary, noting any differences:
 
-- Who delivers lessons: founder only or other tutors, and how the assigned tutor is introduced.
+- Whether any other tutors deliver lessons, and how they are introduced if applicable.
 - Supported ages/year groups, subjects, exam boards and tiers.
-- Typical lesson duration and one-to-one/group options.
+- One-to-one/group options.
 - The exact quotation process and any separate rescheduling arrangements. No fixed price has been supplied.
 - Parent involvement and feedback arrangements.
 
