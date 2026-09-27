@@ -6,8 +6,10 @@ Updated 27/09/2026. Confirmed facts are recorded separately from outstanding com
 
 Owner confirmed on 27/09/2026 and reflected in the website copy:
 
+- A free initial consultation helps understand parent priorities and identify suitable support for the child.
+- Individual tuition and bespoke packages are welcome.
 - Lessons last between 30 minutes and two hours.
-- Founder Daniel Harris teaches lessons. This does not establish exclusive staffing or enquiry-email access.
+- Founder Daniel Harris teaches lessons. This does not establish exclusive staffing.
 - Fees vary depending on the tutor’s experience.
 - Payment is due after each lesson.
 - Cancellations require at least 24 hours’ notice; with less notice, the lesson is chargeable.
@@ -24,7 +26,7 @@ Publish confirmed facts consistently in the relevant service pages, How It Works
 
 ## R07: email and recruitment handling
 
-Confirm who can access enquiries, how long enquiries and tutor applications are retained, what determines deletion, and the actual process/contact for access or deletion requests. Confirm recruitment next steps and when documents are requested through an appropriate channel. Existing email handoff and minimisation wording must remain accurate; do not imply website storage or invent a retention period.
+Owner confirmed that Daniel Harris handles enquiry emails. This does not establish exclusive mailbox access. Confirm any other authorised access, how long enquiries and tutor applications are retained, what determines deletion, and the actual process/contact for access or deletion requests. Confirm recruitment next steps and when documents are requested through an appropriate channel. Existing email handoff and minimisation wording must remain accurate; do not imply website storage or invent a retention period.
 
 ## R08: real assistive technology and email applications
 

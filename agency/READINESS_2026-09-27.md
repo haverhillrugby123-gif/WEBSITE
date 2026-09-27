@@ -4,6 +4,8 @@ Scope: the GitHub Pages preview in `haverhillrugby123-gif/WEBSITE`. The live Wix
 
 ## Changes
 
+- Free initial consultation, individual tuition and bespoke packages added from owner confirmation. Contact guidance identifies Daniel Harris as handling enquiry emails; no retention period or exclusive access is claimed.
+
 - The owner subsequently confirmed lessons last between 30 minutes and two hours and that founder Daniel Harris teaches them; FAQ, How It Works and contact guidance reflect this.
 
 - Owner-confirmed terms now appear consistently across the service journey: fees vary with tutor experience, payment follows each lesson, and cancellation with less than 24 hours' notice is chargeable. FAQ structured data matches the visible answers.
@@ -22,6 +24,6 @@ Validation results for the exact proposed revision belong in the pull request an
 
 ## Remaining owner and device evidence
 
-`OWNER_FACTS_AND_MANUAL_CHECKS.md` remains the source of outstanding details: any additional tutors and separate rescheduling arrangements; enquiry/recruitment access and retention; actual assistive-technology, Safari/iOS and configured email-client checks; repository protection settings. These are not resolved by automated browser results. Unconfirmed claims remain unpublished.
+`OWNER_FACTS_AND_MANUAL_CHECKS.md` remains the source of outstanding details: any additional tutors and separate rescheduling arrangements; any additional enquiry/recruitment access and retention; actual assistive-technology, Safari/iOS and configured email-client checks; repository protection settings. These are not resolved by automated browser results. Unconfirmed claims remain unpublished.
 
 The website can be reviewed as an enquiry-led preview without inventing fees or promises. Full business launch readiness and any replacement of the Wix site require the outstanding evidence and a separate publication decision.
