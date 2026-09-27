@@ -1,0 +1,37 @@
+/* Local editorial compositions for founder, lesson journey and tutor pages. */
+.ep-hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:52px;align-items:center}
+.ep-hero-grid>*{min-width:0}
+.ep-founder-visual{position:relative;padding:18px 10px 10px}
+.ep-founder-image{display:block;width:100%;height:220px;object-fit:cover;object-position:center 56%;border-radius:100px 100px 12px 12px;border:6px solid #fff;box-shadow:0 20px 45px #10213b21;transform:rotate(2deg)}
+.ep-founder-visual .u-start{position:relative;margin:18px 0 0;background:#fff;border-top:3px solid #2556e8}
+.ep-founder-visual:before{content:"";position:absolute;inset:0 0 40%;border:1px solid #a7bada;border-radius:50%;transform:rotate(-12deg);pointer-events:none}
+.ep-board{position:relative;padding:28px;border:1px solid #c6d2e7;border-radius:24px;background:#fff;box-shadow:0 24px 50px #10213b18;transform:rotate(1deg)}
+.ep-board:before{content:"";position:absolute;inset:12px -7px -10px 8px;border:1px solid #b7c6e2;border-radius:24px;background:#e1e9f8;z-index:-1;transform:rotate(-3deg)}
+.ep-board>img{display:block;width:100%;height:145px;object-fit:contain;background:#edf2fc;border-radius:16px;margin-bottom:22px}
+.ep-board-label{display:block;font:750 12px/1.5 "Segoe UI",sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#1743bc;margin-bottom:16px}
+.ep-board h2{font:700 28px/1.2 Georgia,serif!important;margin:0 0 18px!important;color:#10213b}
+.ep-board ol{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.ep-board li{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid #dce4f0;border-radius:10px;color:#10213b;background:#fcfbf8;line-height:1.5}
+.ep-board li>span{display:grid;place-items:center;flex:0 0 30px;height:30px;background:#2556e8;color:#fff;border-radius:50%;font:700 12px "Segoe UI",sans-serif}
+.ep-board-stamp{display:block;margin:22px 0 0;padding:14px 16px;border-radius:8px;background:#10213b;color:#fff;font:650 14px/1.5 "Segoe UI",sans-serif;transform:rotate(-2deg)}
+.ep-example-band{padding:58px 0;background:radial-gradient(ellipse at 95% 0,#284976,transparent 60%),#10213b}
+.ep-example-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:54px;align-items:center}
+:is(#ukot-about,#ukot-how,#ukot-work) .ep-example-band h2,:is(#ukot-about,#ukot-how,#ukot-work) .ep-example-band .ep-intro p{color:#fff}
+:is(#ukot-about,#ukot-how) .ep-example-band .u-kicker,#ukot-work .ep-example-band .ey{color:#b8caff}
+.ep-paper{padding:28px;background:#fcfbf8;border:1px solid #d7dfeb;border-radius:14px;box-shadow:8px 8px 0 #ffffff1c;color:#10213b}
+.ep-paper h3{margin:0 0 16px!important;font:700 25px/1.25 Georgia,serif!important;color:#10213b}
+.ep-paper blockquote{margin:18px 0;padding:18px;border-left:3px solid #2556e8;background:repeating-linear-gradient(#f0f4fb 0 28px,#dfe6f3 29px,#f0f4fb 30px);font:20px/1.6 Georgia,serif}
+.ep-paper mark{background:#d5e1ff;color:#10213b}
+.ep-paper p{color:#43556e!important}.ep-paper ul{padding-left:20px;color:#43556e;line-height:1.7}
+.ep-paper details{margin-top:18px;border-top:1px solid #c8d3e3}.ep-paper summary{cursor:pointer;padding:15px 0;min-height:44px;color:#1743bc;font-weight:700;line-height:1.5}
+.ep-paper details p{margin-bottom:0!important}
+.ep-teaching-loop{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding:0;list-style:none;margin:0}
+.ep-teaching-loop li{padding:20px;border:1px solid #d6dfed;background:#fff;border-radius:14px;line-height:1.6;color:#43556e}
+.ep-teaching-loop b{display:block;font:700 23px/1.3 Georgia,serif;color:#10213b;margin:12px 0}.ep-teaching-loop span{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:#edf2fc;color:#2556e8;font-weight:700}
+#ukot-work .ep-hero-grid .lede{font-size:18px!important}#ukot-work .ep-hero-grid a{overflow-wrap:anywhere}
+/* Long process labels need room; unlike numbers, they are not round badges. */
+#ukot-how .u-three-steps>li>span{display:block;width:auto;height:auto;padding:10px 12px;border-radius:8px;line-height:1.5}
+@media(max-width:950px){.ep-hero-grid,.ep-example-grid{gap:28px}.ep-board{padding:22px}.ep-teaching-loop{grid-template-columns:1fr}}
+@media(max-width:700px){.ep-hero-grid,.ep-example-grid{grid-template-columns:1fr}.ep-board{transform:none;margin:12px 7px}.ep-founder-visual{width:min(100%,440px);margin:auto}.ep-example-band{padding:38px 0}.ep-paper{padding:22px}.ep-board:before{inset:8px -5px -7px 5px;transform:none}.ep-founder-image{height:210px;transform:none}.ep-board-stamp{transform:none}}
+/* Keep decorative backing sheets within tablet and phone layout bounds. */
+@media(max-width:950px){.ep-founder-visual:before,.ep-board:before{transform:none}}

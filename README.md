@@ -10,6 +10,8 @@ The current design combines practical tuition information with layered backgroun
 
 The original book and gold-spark identity is applied throughout. Its vector provenance and responsive placement are documented in `agency/ORIGINAL_BRAND_2026-09-24.md`.
 
+Every page now has a tailored visual treatment, including subject examples, process boards, local illustrations and layered backgrounds. The page-by-page record is in `agency/ALL_PAGES_VISUAL_2026-09-27.md`.
+
 ## Local checks
 
 ```sh

@@ -30,6 +30,19 @@ async function prepare(page) {
   await expect(page.getByRole('heading', { name: 'Review your enquiry' })).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Review your enquiry' })).toBeFocused();
 }
+test('inner-page teaching examples reveal and close from the keyboard', async ({ page }) => {
+  for (const route of ['about/', 'how-it-works/', 'work-with-us/']) {
+    await page.goto(route);
+    const summary = page.locator('.ep-paper summary');
+    await summary.focus();
+    await page.keyboard.press('Enter');
+    await expect(page.locator('.ep-paper details')).toHaveAttribute('open', '');
+    await expect(page.locator('.ep-paper details p')).toBeVisible();
+    await page.keyboard.press('Space');
+    await expect(page.locator('.ep-paper details')).not.toHaveAttribute('open', '');
+  }
+});
+
 test('mobile menu opens and Escape closes with focus returned', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('./');
