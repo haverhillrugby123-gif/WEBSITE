@@ -104,6 +104,7 @@ test('delayed clipboard results cannot replace the status or focus of an edited 
   for (const outcome of ['resolve', 'reject']) {
     for (const nextStep of ['edit', 'regenerate']) {
       await page.goto('contact/index.html');
+      expect(await page.evaluate(() => getComputedStyle(document.documentElement).scrollBehavior)).toBe('auto');
       await prepare(page);
       const copiedMessage = await page.getByLabel('Prepared message').inputValue();
       await page.getByRole('button', { name: 'Copy enquiry', exact: true }).click();

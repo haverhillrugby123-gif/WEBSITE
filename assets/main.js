@@ -2,6 +2,8 @@ document.querySelectorAll('[data-year]').forEach(el => { el.textContent = new Da
 
 const form = document.querySelector('#enquiry-form');
 if (form) {
+  // Keep focus-driven scrolling from moving enquiry controls during a click.
+  document.documentElement.style.scrollBehavior = 'auto';
   const status = document.querySelector('#form-status');
   const draft = document.querySelector('#enquiry-draft');
   const preview = document.querySelector('#enquiry-preview');
