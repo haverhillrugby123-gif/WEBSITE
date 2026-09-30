@@ -1,0 +1,2118 @@
+{
+  "slug": "aqa-power-conflict-poetry-comparison-guide",
+  "title": "AQA Power and Conflict Poetry: Comparison Guide, Theme Map & Exam Strategy",
+  "categories": [
+    "fe5f98cd-ba5e-40ec-8748-ee3ee02f526b"
+  ],
+  "firstPublishedDate": "2026-09-10T06:40:42.878Z",
+  "lastPublishedDate": "2026-09-10T07:13:10.201Z",
+  "description": "AQA Power and Conflict GCSE guide covering the 15-poem anthology, theme mapping, comparison choices, integrated essay structure and a practical revision strategy.",
+  "body": [
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "moHCnT"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "moHCnT"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "fTEXDR",
+                "data-rce-version": "11.15.0"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "NF5Ub",
+                    "dir": "ltr",
+                    "style": "--ricos-text-color:rgb(var(--textParagraphColor-rgb));--ricos-text-color-tuple:var(--textParagraphColor-rgb);--ricos-action-color:rgb(var(--postButtonBackgroundColor-rgb));--ricos-action-color-tuple:var(--postButtonBackgroundColor-rgb);--ricos-background-color:rgb(var(--postBackgroundColor-rgb));--ricos-background-color-tuple:var(--postBackgroundColor-rgb);--ricos-fallback-color:rgb(var(--ricosShade3));--ricos-fallback-color-tuple:var(--ricosShade3);--ricos-disabled-color:rgb(var(--ricosShade2));--ricos-disabled-color-tuple:var(--ricosShade2);--ricos-text-color-low:rgb(var(--ricosShade1));--ricos-text-color-low-tuple:var(--ricosShade1);--ricos-settings-action-color:rgb(17, 109, 255);--ricos-settings-action-color-tuple:17, 109, 255;--ricos-focus-action-color:rgb(var(--postButtonBackgroundColor-rgb));--ricos-focus-action-color-tuple:var(--postButtonBackgroundColor-rgb);--ricos-action-color-fallback:rgb(var(--ricosShade3));--ricos-action-color-fallback-tuple:var(--ricosShade3);--ricos-theme-color-1:rgb(var(--postBackgroundColor-rgb));--ricos-theme-color-1-tuple:var(--postBackgroundColor-rgb);--ricos-theme-color-2:rgb(var(--textParagraphColor-rgb));--ricos-theme-color-2-tuple:var(--textParagraphColor-rgb);--ricos-theme-color-3:rgb(var(--postButtonBackgroundColor-rgb));--ricos-theme-color-3-tuple:var(--postButtonBackgroundColor-rgb);--ricos-theme-color-7:rgb(var(--ricosShade1));--ricos-theme-color-7-tuple:var(--ricosShade1);--ricos-theme-color-8:rgb(var(--ricosShade2));--ricos-theme-color-8-tuple:var(--ricosShade2);--ricos-theme-color-9:rgb(var(--ricosShade3));--ricos-theme-color-9-tuple:var(--ricosShade3);--ricos-custom-button-background-color:rgb(var(--postButtonBackgroundColor));--ricos-custom-button-color:rgb(var(--postButtonTextColor));--ricos-custom-button-background-color-hover:rgb(var(--postButtonBackgroundColor));--ricos-custom-button-color-hover:rgb(var(--postButtonTextColor));--ricos-custom-button-border-color:rgb(var(--postButtonTextColor));--ricos-custom-secondary-button-background-color:rgb(var(--postBackgroundColor));--ricos-custom-secondary-button-color:rgb(var(--postButtonBackgroundColor));--ricos-custom-secondary-button-border-color:rgb(var(--postButtonBackgroundColor));--ricos-custom-link-color:rgb(var(--textLinksAndHashtagsColor));--ricos-custom-link-font-style:inherit;--ricos-custom-link-font-weight:inherit;--ricos-custom-link-text-decoration:inherit;--ricos-custom-audio-background-color:rgb(var(--postBackgroundColor));--ricos-custom-audio-title-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-audio-subtitle-color:rgb(var(--ricosShade3));--ricos-custom-audio-border-color:rgb(var(--ricosShade2));--ricos-custom-audio-component-border-color:rgb(var(--ricosShade2));--ricos-custom-audio-action-color:rgb(var(--postButtonBackgroundColor));--ricos-custom-audio-action-text-color:rgb(var(--postBackgroundColor));--ricos-custom-audio-slider-color:rgb(var(--ricosShade1));--ricos-custom-file-background-color:rgb(var(--postBackgroundColor));--ricos-custom-file-color:var(--textParagraphColor-rgb);--ricos-custom-file-secondary-color:rgb(var(--ricosShade3));--ricos-custom-file-secondary-color-opacity:1;--ricos-custom-file-border-color:var(--textParagraphColor-rgb);--ricos-custom-file-border-opacity:1;--ricos-custom-file-border-color-hover:rgb(var(--ricosShade3));--ricos-custom-file-icon-color:rgb(var(--postButtonBackgroundColor));--ricos-custom-file-icon-stroke-color:rgb(var(--postButtonTextColor));--ricos-custom-table-border-color:rgb(var(--ricosShade2));--ricos-custom-table-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-vertical-embed-background-color:rgb(var(--postBackgroundColor));--ricos-custom-vertical-embed-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-vertical-embed-text-color:rgb(var(--ricosShade3));--ricos-custom-vertical-embed-icon-color:rgb(var(--ricosShade3));--ricos-custom-vertical-embed-border-color:rgb(var(--ricosShade2));--ricos-custom-vertical-embed-ribbon-text-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-link-preview-background-color:rgb(var(--postBackgroundColor));--ricos-custom-link-preview-border-color:rgb(var(--ricosShade2));--ricos-custom-link-preview-hover-border-color:rgb(var(--ricosShade3));--ricos-custom-link-preview-title-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-link-preview-subtitle-color:rgb(var(--ricosShade3));--ricos-custom-code-block-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-code-block-line-height:1.5;--ricos-custom-toc-color:rgb(var(--postButtonBackgroundColor));--ricos-custom-toc-title-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-toc-border-color:rgb(var(--ricosShade2));--ricos-custom-divider-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-quote-color:rgb(var(--textQuoteColor));--ricos-custom-quote-border-color:rgb(var(--textLinksAndHashtagsColor));--ricos-custom-quote-line-height:var(--textQuoteFont-line-height);--ricos-custom-quote-font-size:var(--textQuoteFont-size);--ricos-custom-quote-font-style:var(--textQuoteFont-style);--ricos-custom-quote-font-family:var(--textQuoteFont-family);--ricos-custom-quote-font-weight:var(--textQuoteFont-weight);--ricos-custom-quote-text-decoration:var(--textQuoteFont-text-decoration);--ricos-custom-quote-margin-inline-start:var(--ricosQuoteMarginInlineStart);--ricos-custom-smart-block-label-color:rgb(var(--postButtonBackgroundColor));--ricos-custom-smart-block-track-color:rgb(var(--ricosShade2));--ricos-custom-p-font-weight:var(--textParagraphFont-weight);--ricos-custom-p-font-style:var(--textParagraphFont-style);--ricos-custom-p-line-height:max(calc(var(--textParagraphFont-size) * 1.5), var(--textParagraphFont-line-height));--ricos-custom-p-font-size:var(--textParagraphFont-size);--ricos-custom-p-font-family:var(--textParagraphFont-family);--ricos-custom-p-text-decoration:var(--textParagraphFont-text-decoration);--ricos-custom-p-color:rgb(var(--textParagraphColor));--ricos-custom-h1-font-weight:var(--textH1Font-weight);--ricos-custom-h1-font-style:var(--textH1Font-style);--ricos-custom-h1-line-height:var(--textH1Font-line-height);--ricos-custom-h1-font-size:var(--textH1Font-size);--ricos-custom-h1-font-family:var(--textH1Font-family);--ricos-custom-h1-text-decoration:var(--textH1Font-text-decoration);--ricos-custom-h1-color:rgb(var(--textH1Color));--ricos-custom-h2-font-weight:var(--textH2Font-weight);--ricos-custom-h2-font-style:var(--textH2Font-style);--ricos-custom-h2-line-height:var(--textH2Font-line-height);--ricos-custom-h2-font-size:var(--textH2Font-size);--ricos-custom-h2-font-family:var(--textH2Font-family);--ricos-custom-h2-text-decoration:var(--textH2Font-text-decoration);--ricos-custom-h2-color:rgb(var(--textH2Color));--ricos-custom-h3-font-weight:var(--textH3Font-weight);--ricos-custom-h3-font-style:var(--textH3Font-style);--ricos-custom-h3-line-height:var(--textH3Font-line-height);--ricos-custom-h3-font-size:var(--textH3Font-size);--ricos-custom-h3-font-family:var(--textH3Font-family);--ricos-custom-h3-text-decoration:var(--textH3Font-text-decoration);--ricos-custom-h3-color:rgb(var(--textH3Color));--ricos-custom-h4-font-weight:var(--textH4Font-weight);--ricos-custom-h4-font-style:var(--textH4Font-style);--ricos-custom-h4-line-height:var(--textH4Font-line-height);--ricos-custom-h4-font-size:var(--textH4Font-size);--ricos-custom-h4-font-family:var(--textH4Font-family);--ricos-custom-h4-text-decoration:var(--textH4Font-text-decoration);--ricos-custom-h4-color:rgb(var(--textH4Color));--ricos-custom-h5-font-weight:var(--textH5Font-weight);--ricos-custom-h5-font-style:var(--textH5Font-style);--ricos-custom-h5-line-height:var(--textH5Font-line-height);--ricos-custom-h5-font-size:var(--textH5Font-size);--ricos-custom-h5-font-family:var(--textH5Font-family);--ricos-custom-h5-text-decoration:var(--textH5Font-text-decoration);--ricos-custom-h5-color:rgb(var(--textH5Color));--ricos-custom-h6-font-weight:var(--textH6Font-weight);--ricos-custom-h6-font-style:var(--textH6Font-style);--ricos-custom-h6-line-height:var(--textH6Font-line-height);--ricos-custom-h6-font-size:var(--textH6Font-size);--ricos-custom-h6-font-family:var(--textH6Font-family);--ricos-custom-h6-text-decoration:var(--textH6Font-text-decoration);--ricos-custom-h6-color:rgb(var(--textH6Color));--ricos-custom-hashtag-font-style:inherit;--ricos-custom-hashtag-font-weight:inherit;--ricos-custom-hashtag-text-decoration:inherit;--ricos-custom-hashtag-color:rgb(var(--textLinksAndHashtagsColor));--ricos-custom-footer-toolbar-padding-inline-start:var(--ricosFooterPadding);--ricos-custom-footer-toolbar-padding-inline-end:var(--ricosFooterPadding);--ricos-custom-editor-add-plugin-button-position-inline-start:var(--ricosAddPluginButtonStart);--ricos-breakout-normal-padding-start:var(--ricosNormalPadding);--ricos-breakout-normal-padding-end:var(--ricosNormalPadding);--ricos-breakout-full-width-padding-start:var(--ricosFullWidthPadding);--ricos-breakout-full-width-padding-end:var(--ricosFullWidthPadding)",
+                    "data-id": "content-viewer"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "unp46"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attrs": {
+                            "type": "first",
+                            "data-hook": "rcv-block-first"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "div",
+                          "attrs": {
+                            "class": "tzeth"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "The Power and Conflict anthology is easier to revise when the 15 poems are treated as a comparison network rather than 15 separate essays. In AQA English Literature Paper 2, students are given one named anthology poem and compare it with another poem from the same cluster."
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "paragraph",
+                                "data-hook": "rcv-block1"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "br",
+                                          "attrs": {
+                                            "role": "presentation"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "empty-line",
+                                "data-hook": "rcv-block2"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h2",
+                                  "attrs": {
+                                    "class": "c-9Q0 oIwRx fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-heading": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "aria-hidden": "true",
+                                        "id": "what-the-comparison-is-testing-section"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "A7PBN"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "What the comparison is testing"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "heading",
+                                "data-hook": "rcv-block3"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "Knowledge matters because the second poem is not printed, but marks come from using that knowledge to compare ideas, methods and perspectives. A strong response keeps both poems in the same argument rather than writing two separate mini-essays."
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "paragraph",
+                                "data-hook": "rcv-block4"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "br",
+                                          "attrs": {
+                                            "role": "presentation"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "empty-line",
+                                "data-hook": "rcv-block5"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h2",
+                                  "attrs": {
+                                    "class": "c-9Q0 oIwRx fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-heading": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "aria-hidden": "true",
+                                        "id": "build-a-theme-map-section"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "A7PBN"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "Build a theme map"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "heading",
+                                "data-hook": "rcv-block6"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "ul",
+                                  "attrs": {
+                                    "class": "y8M-d fUDW-"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Human and political power: Ozymandias, London, My Last Duchess and Checking Out Me History can create useful links."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Power of nature: The Prelude, Storm on the Island, Exposure and Ozymandias can be useful."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "War and immediate conflict: The Charge of the Light Brigade, Bayonet Charge and Exposure offer contrasting perspectives."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Memory, trauma and aftermath: Remains, War Photographer, Poppies, Kamikaze and The Emigrée provide useful connections."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Identity, belonging and control: Checking Out Me History, The Emigrée, Kamikaze and Tissue can be compared through different forms of power."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "bulleted_list",
+                                "data-hook": "rcv-block7"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "br",
+                                          "attrs": {
+                                            "role": "presentation"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "empty-line",
+                                "data-hook": "rcv-block8"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h2",
+                                  "attrs": {
+                                    "class": "c-9Q0 oIwRx fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-heading": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "aria-hidden": "true",
+                                        "id": "do-not-memorise-one-fixed-pairing-section"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "A7PBN"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "Do not memorise one fixed pairing"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "heading",
+                                "data-hook": "rcv-block9"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "A pairing is useful only if it answers the question actually set. Revise two or three possible connections for the poems you know best and practise deciding which pairing creates the clearest argument for a particular theme."
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "paragraph",
+                                "data-hook": "rcv-block10"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "br",
+                                          "attrs": {
+                                            "role": "presentation"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "empty-line",
+                                "data-hook": "rcv-block11"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h2",
+                                  "attrs": {
+                                    "class": "c-9Q0 oIwRx fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-heading": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "aria-hidden": "true",
+                                        "id": "integrated-comparison-paragraph-section"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "A7PBN"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "Integrated comparison paragraph"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "heading",
+                                "data-hook": "rcv-block12"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "ul",
+                                  "attrs": {
+                                    "class": "y8M-d fUDW-"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Open with an idea about both poems, not the name of poem one."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Use evidence from the printed poem and analyse a method."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Bring in the second poem to extend, challenge or complicate the same idea."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Compare choices such as voice, imagery, form, structure, rhythm, perspective or tone."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Explain what the similarity or difference reveals about the theme."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "bulleted_list",
+                                "data-hook": "rcv-block13"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "br",
+                                          "attrs": {
+                                            "role": "presentation"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "empty-line",
+                                "data-hook": "rcv-block14"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h2",
+                                  "attrs": {
+                                    "class": "c-9Q0 oIwRx fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-heading": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "aria-hidden": "true",
+                                        "id": "form-and-structure-are-often-underused-section"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "A7PBN"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "Form and structure are often underused"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "heading",
+                                "data-hook": "rcv-block15"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "Poetry gives students methods beyond individual words: stanza pattern, rhyme, rhythm, enjambment, caesura, shifts in speaker, cyclical structures, narrative perspective and changes in tone. Terminology is useful only when it helps explain meaning."
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "paragraph",
+                                "data-hook": "rcv-block16"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "br",
+                                          "attrs": {
+                                            "role": "presentation"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "empty-line",
+                                "data-hook": "rcv-block17"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h2",
+                                  "attrs": {
+                                    "class": "c-9Q0 oIwRx fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-heading": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "aria-hidden": "true",
+                                        "id": "context-should-stay-attached-to-interpretation-section"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "A7PBN"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "Context should stay attached to interpretation"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "heading",
+                                "data-hook": "rcv-block18"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "Biographical or historical context can be useful, but it should not become a detached paragraph. Ask whether it helps explain the poet's viewpoint, form, image or relationship between individual experience and wider conflict."
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "paragraph",
+                                "data-hook": "rcv-block19"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "br",
+                                          "attrs": {
+                                            "role": "presentation"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "empty-line",
+                                "data-hook": "rcv-block20"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h2",
+                                  "attrs": {
+                                    "class": "c-9Q0 oIwRx fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-heading": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "aria-hidden": "true",
+                                        "id": "practical-revision-system-section"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "A7PBN"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "Practical revision system"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "heading",
+                                "data-hook": "rcv-block21"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "ul",
+                                  "attrs": {
+                                    "class": "y8M-d fUDW-"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Maintain basic knowledge of all 15 poems while developing deeper control of a smaller flexible set."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Create a theme grid with at least two possible comparison choices for each major idea."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Learn short, flexible evidence from your strongest poems."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Practise two-minute pairing decisions from random question themes."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Write integrated comparison paragraphs before full timed essays."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "bulleted_list",
+                                "data-hook": "rcv-block22"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "br",
+                                          "attrs": {
+                                            "role": "presentation"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "empty-line",
+                                "data-hook": "rcv-block23"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h2",
+                                  "attrs": {
+                                    "class": "c-9Q0 oIwRx fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-heading": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "aria-hidden": "true",
+                                        "id": "common-comparison-mistakes-section"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "A7PBN"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "Common comparison mistakes"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "heading",
+                                "data-hook": "rcv-block24"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "ul",
+                                  "attrs": {
+                                    "class": "y8M-d fUDW-"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Writing all of poem A and then all of poem B."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Choosing a familiar second poem when the thematic connection is weak."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Comparing only subject matter and not methods."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Forcing context into every paragraph."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Memorising a model essay so rigidly that it does not answer the actual question."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "bulleted_list",
+                                "data-hook": "rcv-block25"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "br",
+                                          "attrs": {
+                                            "role": "presentation"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "empty-line",
+                                "data-hook": "rcv-block26"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_0vncC",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attrs": {
+                                        "class": "pjpBg qnYa-"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "a",
+                                          "attrs": {
+                                            "class": "rXCWs",
+                                            "style": "--ricos-internal-button-color:#FFFFFF;--ricos-internal-button-background:#10213b;--ricos-internal-button-border-radius:999px;print-color-adjust:exact",
+                                            "data-hook": "button-viewer button-viewer-",
+                                            "tabindex": "0",
+                                            "href": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-literature-revision-guide",
+                                            "target": "_self"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "attrs": {
+                                                "class": "ZnHgc"
+                                              },
+                                              "children": [
+                                                "Return to the AQA Literature hub"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "button",
+                                "data-hook": "rcv-block27"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "br",
+                                          "attrs": {
+                                            "role": "presentation"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "empty-line",
+                                "data-hook": "rcv-block28"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_0vncC",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attrs": {
+                                        "class": "pjpBg qnYa-"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "a",
+                                          "attrs": {
+                                            "class": "rXCWs",
+                                            "style": "--ricos-internal-button-color:#FFFFFF;--ricos-internal-button-background:#10213b;--ricos-internal-button-border-radius:999px;print-color-adjust:exact",
+                                            "data-hook": "button-viewer button-viewer-",
+                                            "tabindex": "0",
+                                            "href": "https://www.ukonlinetuition.co.uk/blank-2",
+                                            "target": "_self"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "attrs": {
+                                                "class": "ZnHgc"
+                                              },
+                                              "children": [
+                                                "Enquire about GCSE English tuition"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "button",
+                                "data-hook": "rcv-block29"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-hook": "gap-spacer",
+                                "class": "rLyD2 _4kQy0"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attrs": {
+                            "type": "last",
+                            "data-hook": "rcv-block-last"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "url": "https://www.ukonlinetuition.co.uk/post/aqa-power-conflict-poetry-comparison-guide",
+    "snapshotSha256": "522562ee24e9ca6fba52c08595e0512cdef17c91b4c16757433a5616b9acde03",
+    "snapshotCapturedAt": "2026-09-30T15:13:02.911Z",
+    "nativePostId": "9621d67d-9fcd-4ef1-8e64-8a0a072da934",
+    "metadataRetrievedAt": "2026-09-30T15:32:23.680Z",
+    "source": "Public rendered article body + read-only published Wix post/category metadata",
+    "editorialChanges": []
+  }
+}

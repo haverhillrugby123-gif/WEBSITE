@@ -1,0 +1,394 @@
+{
+  "checkedAt": "2026-09-30T17:13:55.863Z",
+  "readOnly": true,
+  "limitation": "Current public HTTP observations do not establish all historically indexed URLs or publication authority.",
+  "results": [
+    {
+      "from": "/about-4",
+      "expected": "/faq",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/about-4",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/about-5",
+      "expected": "/about-founder",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/about-5",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/blank-1",
+      "expected": "/about-founder",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/blank-1",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/blank-2",
+      "expected": "/contact",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/blank-2",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/copy-of-11-entrance-exams",
+      "expected": "/primary",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/copy-of-11-entrance-exams",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/copy-of-public-exams",
+      "expected": "/11",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/copy-of-public-exams",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/general-8",
+      "expected": "/work-with-us",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/general-8",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/general-9",
+      "expected": "/how-it-works",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/general-9",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/comprehensive-guide-to-aqa-gcse-english-language-paper-1-question-breakdown-and-mark-scheme-insights",
+      "expected": "/post/aqa-gcse-english-language-paper-1",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/comprehensive-guide-to-aqa-gcse-english-language-paper-1-question-breakdown-and-mark-scheme-insights",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-paper-1"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-paper-1",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/discover-the-advantages-of-online-tutoring-services",
+      "expected": "/post/online-tutoring-benefits-limitations",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/discover-the-advantages-of-online-tutoring-services",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/online-tutoring-benefits-limitations"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/online-tutoring-benefits-limitations",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/embrace-effective-summer-revision-how-to-keep-your-child-s-studies-on-track-during-the-holidays",
+      "expected": "/post/summer-revision-study-plan",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/embrace-effective-summer-revision-how-to-keep-your-child-s-studies-on-track-during-the-holidays",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/summer-revision-study-plan"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/summer-revision-study-plan",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/essential-grade-9-gcse-math-topics-and-top-revision-resources-to-excel",
+      "expected": "/post/higher-tier-gcse-maths-revision",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/essential-grade-9-gcse-math-topics-and-top-revision-resources-to-excel",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/higher-tier-gcse-maths-revision"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/higher-tier-gcse-maths-revision",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/essential-strategies-for-year-5-students-preparing-for-11-revision",
+      "expected": "/post/11-plus-english-comprehension-inference-vocabulary",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/essential-strategies-for-year-5-students-preparing-for-11-revision",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/11-plus-english-comprehension-inference-vocabulary"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/11-plus-english-comprehension-inference-vocabulary",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/find-the-perfect-gcse-maths-tutor-benefits-unlocking-success-with-expert-guidance",
+      "expected": "/post/how-to-choose-gcse-maths-tutor",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/find-the-perfect-gcse-maths-tutor-benefits-unlocking-success-with-expert-guidance",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/how-to-choose-gcse-maths-tutor"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/how-to-choose-gcse-maths-tutor",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/gcse-english-language-aqa-revision-tips",
+      "expected": "/post/aqa-gcse-english-language-revision-drills",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/gcse-english-language-aqa-revision-tips",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-revision-drills"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-revision-drills",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/how-to-prepare-for-11-school-entrance-exams-during-the-summer-holidays",
+      "expected": "/post/11-plus-summer-preparation-year-5",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/how-to-prepare-for-11-school-entrance-exams-during-the-summer-holidays",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/11-plus-summer-preparation-year-5"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/11-plus-summer-preparation-year-5",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/mastering-gcse-english-aqa-tips-for-success",
+      "expected": "/post/aqa-gcse-english-language-common-mistakes",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/mastering-gcse-english-aqa-tips-for-success",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-common-mistakes"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-common-mistakes",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/mastering-gcse-exam-revision-effective-strategies-for-success",
+      "expected": "/post/gcse-revision-strategy",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/mastering-gcse-exam-revision-effective-strategies-for-success",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/gcse-revision-strategy"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/gcse-revision-strategy",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/mastering-gcse-math-exams-a-comprehensive-guide-to-excellence",
+      "expected": "/post/gcse-maths-revision-guide",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/mastering-gcse-math-exams-a-comprehensive-guide-to-excellence",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/gcse-maths-revision-guide"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/gcse-maths-revision-guide",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/mastering-the-art-of-memorizing-quotes-for-your-gcse-english-exams",
+      "expected": "/post/how-to-memorise-gcse-english-quotes",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/mastering-the-art-of-memorizing-quotes-for-your-gcse-english-exams",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/how-to-memorise-gcse-english-quotes"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/how-to-memorise-gcse-english-quotes",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/navigating-the-yuletide-wave-gcse-success-with-uk-online-tuition-during-christmas-holidays",
+      "expected": "/post/gcse-revision-christmas-study-plan",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/navigating-the-yuletide-wave-gcse-success-with-uk-online-tuition-during-christmas-holidays",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/gcse-revision-christmas-study-plan"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/gcse-revision-christmas-study-plan",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/prepare-for-success-with-online-11-plus-tuition-benefits",
+      "expected": "/post/11-plus-online-tuition-parent-guide",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/prepare-for-success-with-online-11-plus-tuition-benefits",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/11-plus-online-tuition-parent-guide"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/11-plus-online-tuition-parent-guide",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/the-benefits-of-online-gcse-tuition-why-it-s-the-right-choice",
+      "expected": "/post/online-gcse-tuition-benefits-limitations",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/the-benefits-of-online-gcse-tuition-why-it-s-the-right-choice",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/online-gcse-tuition-benefits-limitations"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/online-gcse-tuition-benefits-limitations",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/the-benefits-of-online-gcse-tuition-why-it-s-the-right-choice-1",
+      "expected": "/post/what-good-online-gcse-tuition-includes",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/the-benefits-of-online-gcse-tuition-why-it-s-the-right-choice-1",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/what-good-online-gcse-tuition-includes"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/what-good-online-gcse-tuition-includes",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/top-strategies-for-aqa-english-revision-tips-and-gcse-english-language-success",
+      "expected": "/post/aqa-gcse-english-language-study-plan",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/top-strategies-for-aqa-english-revision-tips-and-gcse-english-language-success",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-study-plan"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-study-plan",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/post/transforming-education-with-engaging-teaching-techniques",
+      "expected": "/post/active-effective-online-tuition",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/transforming-education-with-engaging-teaching-techniques",
+          "status": 301,
+          "location": "https://www.ukonlinetuition.co.uk/post/active-effective-online-tuition"
+        },
+        {
+          "url": "https://www.ukonlinetuition.co.uk/post/active-effective-online-tuition",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "from": "/services-4",
+      "expected": "/gcse",
+      "hops": [
+        {
+          "url": "https://www.ukonlinetuition.co.uk/services-4",
+          "status": 200,
+          "location": null
+        }
+      ]
+    }
+  ]
+}

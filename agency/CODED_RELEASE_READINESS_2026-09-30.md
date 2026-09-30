@@ -1,35 +1,38 @@
 # Coded website release readiness
 
-Current objective: coded website source and review readiness. PR3 remains draft/unmerged; publication, domain changes, external services and exact email tests need separate approval. No further parallel Harmony development is part of this release.
+Current target: finish the existing coded replacement for review. Production is the ASTRA runtime overlay over native Wix; Harmony is a reference build. Netlify Free is approved as the intended host/forms option only. No publication, domain/indexing change, account/OAuth setup, actual form submission or live Wix mutation was performed by this replacement work.
 
-## Changes and review evidence
+## Completed source and review
 
-Four independent reviewers applied actual original Agency profiles: Frontend Developer (also UX Architect), Brand Guardian, SEO Specialist and Accessibility Auditor. The user-uploaded archive was materialised from Library `libfile_b000282f7e6c81918e88c93ce482a211`, locally verified1663887bytes, SHA256 `0FC73DEA6F472607F084BE5845D2FD0ADD46E82D5D15515F0C1A60D8AF553952`. Only selected original Markdown profiles were read; archive scripts were not installed/executed. Persona credentials/targets are not evidence of results.
+The 46 production articles and six published Harmony originals are present at distinct /post paths, with full text/provenance, historical dates, five categories, ten source-linked tag archives, local search and 25 optimised article images. There are 93 HTML pages and 97 reconciled historical paths. Original logo, useful existing work, clipboard race protection and immediate enquiry scrolling remain. English, Maths and 11+ lead; Primary remains secondary and Science is not advertised as an available service.
 
-- Clear English/Maths/11+ lead; Science removed following latest owner instruction. Useful Primary page retained.
-- Contact shortcut and compact mobile hero; first text field about396px earlier at390px. Original outlined logo and proportional header/footer variants preserved.
-- Long Unicode mailto drafts use copy-first guidance and preserve complete content. Stale clipboard protection and immediate enquiry scrolling retained.
-- Unconfirmed small-group claim removed from both FAQ and identical JSON-LD. Search hint reflects title/subject matching.
-- Gated Netlify Forms candidate separate from ordinary preview; matching explicitly approved HTTPS hostname required for Send control. No credentials, analytics, external setup or live-delivery claim.
--51entry migration inventory covers known ten canonical routes,39resources, topPaper1 and one explicitly unverified historical path. Preserve actual /post content before domain change.
+Original Agency profile reviews covered frontend/UX, visual brand, SEO/content and accessibility/QA with four independent reviewers. The user archive identity/hash and bounded review methodology remain recorded in ARTICLE_EDITORIAL_REVIEW.md and DIAGNOSTIC_REVIEW.md. Source preservation is not certification of every educational statement or every historical indexed URL.
 
-## One readiness checklist
+Seventeen inspected public ASTRA embeds inform ASTRA_PARITY_AND_HISTORY_REVIEW_2026-09-30.md. Actual /general-9 How It Works and /blank-1 company meanings are preserved; native underlying reviews/company text are separate protected pages. The five-question support finder, AQA guide navigation, profile/specification context and local navigation are restored. The finder sends/stores nothing and produces no score or prediction. No community, account or chat backend is fabricated.
 
-| Status | Check / evidence |
-|---|---|
-| PASSED | Static metadata/reference/privacy/syntax/FAQ/canonical regression checks:11pages,326internalrefs,36images; build creates protected preview |
-| PASSED |63local browser cases across Chromium/Firefox/WebKit, retries0; mobile320/390/768/1348, keyboard/focus/menu, noJS/blockedJS, enquiry validation/draft/edit/clipboard, nested404 and reducedmotion/forcedcolours |
-| PASSED |5synthetic intercepted candidate tests: default no-submit, host guards, review-first encoding, doubleclick lock, HTTPerror/input retention, timeout/stale state. No real provider submission |
-| PASSED |49public HTTPS links all successful during current read-only audit; report qa/external-links.json. HTTP200 does not prove educational accuracy |
-| PASSED |Current npm advisory audit0vulnerabilities. This is a point-in-time dependency check, not a security guarantee |
-| PASSED WITH LIMITS |22axe4.13 scans reported0violations. Incomplete layered contrast/selectedARIA/link cases require human assessment; selected screenshots and keyboard interactions reviewed. No WCAG conformance claim |
-| PASSED |Original logo/aspect/palette and desktop/mobile screenshots independently reviewed; no replacement artwork required |
-| REQUIRED FINAL REMOTE GATE |Exact final draft head/tree and hosted CI must agree; repeated630browsercases plus adapter/security/build checks. Final response records run/SHA/result; baseline600pass run is historical |
-| BLOCKED ON SETUP APPROVAL |Productionhost/formaccount/terms/access, actual plan/quota settings, form detection and Gmailonly notification setup. Recommendation and bounded request in HOSTING_AND_ENQUIRY_REVIEW_2026-09-30.md |
-| BLOCKED ON EXACT TEST APPROVAL |Real provider storage/Gmail receipt verification; local mocks do not prove delivery. Recipient/body/subject/attachments/sender approval required |
-| OWNER FACT PARTLY RESOLVED |Only Daniel accesses Gmail; no auto-delete. Future provider-record access and truthful retention/deletion handling unresolved. No invented sixmonth policy or existing-data deletion |
-| BLOCKED ON MIGRATION |Completefresh Wix/SC URLinventory, article export/currentformatreview, equivalent /post content or proven routing, oldservice redirects, finalroot404/HTTPS/canonical/sitemap/robots checks |
-| UNTESTED |Actual NVDA/VoiceOver, physicaliOSSafari, real200/400percent browserzoom and configured emailclient; PlaywrightWebKit/reflow is not equivalent evidence |
-| APPROVAL REQUIRED |Publication/merge/deployment, domain/indexing cutover, analytics activation or paidservice changes |
+## Single readiness checklist
 
-No known failing authorised static/browser check is being waived. External and physical-device gates are explicit. Site source completion does not make an unconfigured backend live-working. Review the current local site at http://127.0.0.1:5173/ on Dan's computer; it serves the working checkout and refreshes when source changes. PR is https://github.com/haverhillrugby123-gif/WEBSITE/pull/3 .
+| Status | Evidence or remaining gate |
+| --- | --- |
+| PASSED | Final protected build/static regressions: 93 HTML pages, 3842 local references, 236 image references; metadata, single H1, canonical/sitemap, privacy, references and JavaScript syntax checks. |
+| PASSED | Full local browser suite: 63/63 Chromium/Firefox/WebKit cases, retries 0, 2.3 minutes; Windows local execution uses one worker. CI remains three workers. |
+| PASSED | Final migration suite: 5/5 tests including all 82 generated routes at 320/1348px in three engines (492 combinations), search/reset/no-results, support finder/reset/invalidation/focus, keyboard disclosures, real legacy route meanings, article-to-enquiry context, AQA guide links, exact six-body preservation and 27 historical redirect targets. |
+| PASSED WITH LIMITS | Final 50 axe-core 4.13 scans: zero reported violations; incomplete cases still require human judgement. Representative mobile/desktop screenshots reviewed. No WCAG conformance claim. |
+| PASSED — SIMULATED | Five intercepted candidate tests cover no-send defaults, host guards, review-before-POST, duplicate lock, error/input retention and timeout/stale state. No real provider request or email. |
+| PASSED | Inert root-host Netlify candidate builds; default preview remains unsent-email/copy. No provider is configured or claimed live-working. |
+| PASSED | Seven genuine external navigation anchors passed read-only HTTP checks. Metadata canonicals are checked separately; proposed unpublished pages are not mistaken for external broken links. |
+| PASSED | Current dependency advisory audit: zero vulnerabilities; point-in-time evidence, not a security guarantee. |
+| PASSED | Historical production checks: 18 existing blog redirects return one 301 then 200 at expected targets; nine historical static sources return 200. Replacement redirects remain inactive. |
+| PASSED | All 52 slugs/titles/full bodies distinct; six originals' native text/section/date/category provenance preserved, with no omitted source image/link nodes. |
+| RESOLVED LOCAL TEST HARNESS FAILURE | Earlier parallel Windows Firefox run failed in page setup/context teardown with _maybeDontRestoreTabs protocol errors. Failure evidence retained. Sequential full rerun passed with unchanged assertions and zero retries; no application assertion was waived. |
+| REQUIRED REMOTE GATE | Commit/tree and existing draft PR head must agree, followed by final repeated CI. The earlier 1725942 / tree2931 baseline and 630-case CI do not certify the migration tree. Exact outcome belongs in final evidence. |
+| OWNER / IMPLEMENTATION DECISION | /members and /group/uk-online-tuition-group/discussion: historical intent was deprecated/no target; confirm launch retirement versus separately supported retention. No private data export, replacement community or Home redirect. Wix Chat likewise has no verified replacement backend. |
+| OWNER PROVENANCE QUESTION | Existing native reviews/tutor identities remain protected source content; current publication provenance/approval must be confirmed without expanding qualifications or availability claims. |
+| EXTERNAL ACCESS GATE | Search Console historical indexed/landing URL export is unavailable here; accessible 97-path evidence cannot establish all historical URLs. |
+| EXTERNAL SETUP GATE | Dan must sign into an owner-controlled Netlify account at https://app.netlify.com/. Actual Free-plan/terms/minimum WEBSITE-only permissions, provider-record access, form detection and Gmail-only notification configuration remain unverified. No new setup/access grant authorised. |
+| EXACT TEST APPROVAL REQUIRED | Confirm recipient ukonlinetuition1@gmail.com, sender, subject/body/provider template and attachments-none before a controlled synthetic real delivery test. Actual storage and Gmail receipt must be verified separately. |
+| POLICY DECISION | Only Dan accesses Gmail; no automatic deletion or fixed retention period is invented. Future provider access/manual handling/privacy-request process remains to be described honestly before activation. |
+| UNTESTED | Physical NVDA/VoiceOver/iOS Safari, actual browser zoom and final hosted HTTPS/404/canonical responses. Engine/reflow automation is not equivalent evidence. |
+| APPROVAL REQUIRED | Merge, deployment/publication, domain/indexing cutover, analytics, account/OAuth grants or paid changes. |
+
+Local preview: http://127.0.0.1:5173/ on Dan's computer. The exact removed-copy request sentence is absent from replacement UI/templates; other handling/minimisation wording remains and no sensitive fields were added. No Wix site, important data, permissions or production settings were changed by this replacement work.

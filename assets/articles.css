@@ -1,0 +1,71 @@
+/* Migrated reading routes retain the existing UK Online Tuition identity. */
+.article-page{background:#fcfbf8;color:#10213b;font:17px/1.75 "Segoe UI",Arial,sans-serif;overflow-wrap:anywhere}
+.article-page *{box-sizing:border-box}
+.article-page main{min-width:0}
+.article-header,.article-layout,.article-nav,.article-tools,.article-list,.migration-notice,.route-review{width:min(1120px,calc(100% - 48px));margin-inline:auto}
+.article-header{padding:54px 0 32px;border-bottom:1px solid #dce2ed}
+.article-header h1{max-width:24ch;margin:12px 0 20px;font:700 clamp(32px,4.5vw,54px)/1.14 Georgia,serif;letter-spacing:-.035em;text-wrap:balance}
+.article-header p{max-width:72ch;margin:12px 0;color:#4b5c70}
+.article-header>p:first-child{color:#1743bc;font-size:13px;font-weight:750;letter-spacing:.08em;text-transform:uppercase}
+.article-header time{font-size:14px;color:#536176}
+.article-layout{padding:32px 0 54px;min-width:0}
+.article-body{max-width:72ch;margin-inline:auto;min-width:0}
+.article-body :is(h2,h3,h4){color:#10213b;font-family:Georgia,serif;line-height:1.25;letter-spacing:-.02em;scroll-margin-top:100px}
+.article-body h2{font-size:clamp(25px,3vw,34px);margin:42px 0 18px}
+.article-body h3{font-size:24px;margin:30px 0 14px}
+.article-body h4{font-size:21px;margin:26px 0 12px}
+.article-body p{margin:18px 0}
+.article-body>br,.article-body li>br{display:none}
+.article-body :is(ul,ol){padding-left:1.5em;margin:20px 0}
+.article-body li{margin:8px 0}
+.article-body blockquote{margin:28px 0;padding:18px 22px;border-left:3px solid #2556e8;background:#eef2fa;color:#10213b}
+.article-body blockquote p:first-child{margin-top:0}.article-body blockquote p:last-child{margin-bottom:0}
+.article-body figure{margin:28px 0;max-width:100%}
+.article-body img,.article-card img{display:block;max-width:100%;height:auto;margin-inline:auto;border-radius:10px}
+.article-body figcaption{margin-top:10px;color:#536176;font-size:14px;line-height:1.6}
+.article-body :is(pre,table){display:block;max-width:100%;overflow-x:auto}
+.article-body pre{padding:18px;background:#eef2fa;border:1px solid #d3deed;border-radius:8px;white-space:pre}
+.article-body code{font-family:Consolas,monospace;font-size:.9em;background:#eef2fa;padding:2px 4px;border-radius:3px}
+.article-body pre code{padding:0;background:transparent}
+.article-body table{border-collapse:collapse;margin:24px 0;font-size:16px}
+.article-body :is(th,td){padding:12px 14px;border:1px solid #d3deed;text-align:left;vertical-align:top}
+.article-body th{background:#eef2fa;color:#10213b}
+.diagnostic-answers{margin:24px 0;padding:0 18px;border:1px solid #94a6c2;border-radius:10px;background:#eef2fa}
+.diagnostic-answers summary{min-height:48px;padding:12px 0;color:#10213b;font-weight:700;cursor:pointer}
+.diagnostic-answers[open]{border-left:4px solid #2556e8;background:#fff}
+.diagnostic-answers[open] summary{border-bottom:1px solid #d3deed}
+.article-page :is(.article-header,.article-body,.article-enquiry,.article-nav,.article-card,.migration-notice,.route-review) a{color:#1743bc;text-decoration:underline;text-underline-offset:4px}
+.article-page :is(.article-header,.article-body,.article-enquiry,.article-nav,.article-card,.migration-notice,.route-review) a:hover{color:#10213b;text-decoration-thickness:2px}
+.article-page :is(a,button,input,select,textarea,summary):focus-visible{outline:3px solid #2556e8;outline-offset:4px}
+.article-enquiry{max-width:72ch;margin:28px auto;padding:24px;background:#f7f3ea;border:1px solid #dce2ed;border-left:4px solid #2556e8;border-radius:10px}
+.article-enquiry :is(h2,h3){margin:0 0 12px;font:700 25px/1.25 Georgia,serif;color:#10213b}
+.article-enquiry p{margin:12px 0}
+.article-enquiry a{display:inline-flex;align-items:center;min-height:44px;font-weight:700}
+.article-nav{display:flex;flex-wrap:wrap;gap:8px 24px;padding:20px 0;border-bottom:1px solid #dce2ed}
+.article-nav a{display:inline-flex;align-items:center;min-height:44px}
+.article-nav details{min-width:0;max-width:100%}.article-nav summary{min-height:44px;padding:8px 0;cursor:pointer;color:#1743bc;text-decoration:underline;text-underline-offset:4px}.article-nav details>div{display:flex;flex-wrap:wrap;gap:8px 20px;padding:8px 0}
+.article-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;padding:32px 0 54px}
+.article-card{min-width:0;padding:26px;background:#fff;border:1px solid #d3deed;border-top:3px solid #2556e8;border-radius:12px}
+.article-card :is(h2,h3){margin:0 0 16px;font:700 25px/1.25 Georgia,serif;letter-spacing:-.02em}
+.article-card p{margin:12px 0;color:#4b5c70}
+.article-card time{color:#536176;font-size:14px}
+.article-card a{display:inline-flex;align-items:center;min-height:44px;max-width:100%}
+.article-tools{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding:24px 0 0}
+.article-tools label{font-weight:700}
+.article-tools :is(input,select){min-height:48px;min-width:0;max-width:100%;padding:10px 14px;border:1px solid #94a6c2;border-radius:8px;background:#fff;color:#10213b;font:inherit}
+.article-tools input{flex:1 1 260px}
+.article-tools button{min-height:48px;max-width:100%;padding:10px 20px;border:1px solid #10213b;border-radius:8px;background:#10213b;color:#fff;font:700 16px/1.5 "Segoe UI",Arial,sans-serif;cursor:pointer}
+.article-tools button:hover{background:#2556e8;border-color:#2556e8}
+.migration-notice,.route-review{padding:18px 22px;margin-block:24px;border:1px solid #d3deed;border-left:4px solid #2556e8;border-radius:8px;background:#eef2fa;font-size:15px;line-height:1.7}
+.migration-notice :first-child,.route-review :first-child{margin-top:0}.migration-notice :last-child,.route-review :last-child{margin-bottom:0}
+@media(max-width:700px){.article-header,.article-layout,.article-nav,.article-tools,.article-list,.migration-notice,.route-review{width:calc(100% - 28px)}.article-header{padding:32px 0 24px}.article-layout{padding:24px 0 36px}.article-list{grid-template-columns:1fr;gap:18px;padding:24px 0 36px}.article-card{padding:20px}.article-enquiry{padding:20px 18px}.article-body blockquote{padding:16px}.article-header h1{font-size:clamp(30px,7vw,42px)}.article-tools input{flex-basis:100%}}
+@media(prefers-reduced-motion:reduce){.article-page{scroll-behavior:auto}.article-page *{transition:none!important;animation:none!important}}
+.support-finder,.exam-cluster,.article-source-note{max-width:72ch;margin:28px auto;padding:24px;background:#f7f3ea;border-radius:18px}
+.support-finder fieldset{border:0;padding:0;min-width:0;display:grid;gap:12px}
+.support-finder legend{font-weight:700;margin-bottom:16px}
+.support-finder label{font-weight:600;margin-top:8px}
+.support-finder select,.support-finder button{font:inherit;min-height:48px;border:1px solid #5b6678;border-radius:6px;background:#fff;color:#10213b;padding:10px;max-width:100%;width:100%}
+.support-result{padding:20px;margin-top:20px;background:#fff;border:2px solid #2556e8;border-radius:12px}
+.support-result a,.exam-cluster a{display:inline-flex;align-items:center;min-height:44px;margin:4px;padding:8px 12px;border:1px solid #2556e8;border-radius:6px;font-weight:600}
+.exam-cluster a[aria-current=page]{background:#10213b;color:#fff}
+@media(max-width:560px){.support-finder,.exam-cluster,.article-source-note{padding:16px;margin:18px 0}.support-finder select{font-size:15px}}

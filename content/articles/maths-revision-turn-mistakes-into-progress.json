@@ -1,0 +1,84 @@
+{
+  "slug": "maths-revision-turn-mistakes-into-progress",
+  "title": "Maths Revision: Turn Mistakes into Progress",
+  "categories": [
+    "3f840397-1fc6-473d-aa05-7389e770c925",
+    "032e7d84-db15-46ee-929d-e5e41e599678"
+  ],
+  "firstPublishedDate": "2026-09-13T07:22:31.125Z",
+  "lastPublishedDate": "2026-09-14T20:22:53.754Z",
+  "description": "In Maths, the most useful revision often begins with a mistake. A wrong answer gives precise information about what needs attention, provided the student works out why it went wrong.",
+  "body": [
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "In Maths, the most useful revision often begins with a mistake. A wrong answer gives precise information about what needs attention, provided the student works out why it went wrong."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Classify the mistake"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Was it a knowledge gap, a calculation error, a misread question, a weak method or a timing problem? Different causes need different solutions. Simply doing another random question may not address the real issue."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Correct it from the beginning"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "After checking the solution, close it and redo the question independently. If the student can only follow a worked answer while looking at it, the method is not secure yet."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Practise a small set of related questions"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Choose several questions that use the same underlying skill but vary the wording or numbers. This helps the student recognise when and how to apply the method rather than memorising one example."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "A useful revision notebook records the original mistake, the correct method and one similar example. Over time, this becomes a personalised map of what has improved and what still needs work."
+      ]
+    }
+  ],
+  "provenance": {
+    "url": "https://danielpharris4.wixsite.com/uk-online-tuition-1/post/maths-revision-turn-mistakes-into-progress",
+    "nativePostId": "ac469c1d-8ef9-4393-8fc7-2220d8ac8ad6",
+    "sourceSiteId": "9acfbd18-b294-48b8-add2-4e0c912bead9",
+    "source": "Read-only native published Harmony reference RichContent; additional original, not production migration",
+    "metadataRetrievedAt": "2026-09-30",
+    "nativeSourceFile": "content/sources/harmony-six-published-posts.json",
+    "nativeSourceSha256": "4aba8f92458f64abc611e2b5aa12c05050440c8bc420f997078e1a8b20ec0fa5",
+    "sourceCategoryIds": [
+      "48de2b3e-462e-4f63-b7b9-a5e9d202333d",
+      "59060dae-36ab-4609-9465-696f0d1191eb"
+    ],
+    "categoryMapping": "Matched by exact category slug to production category identity",
+    "editorialChanges": []
+  }
+}

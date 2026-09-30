@@ -1,0 +1,82 @@
+{
+  "slug": "11-vocabulary-how-to-build-words-that-stick",
+  "title": "11+ Vocabulary: How to Build Words That Stick",
+  "categories": [
+    "15474127-178a-42f3-a343-23f10ec5b72b"
+  ],
+  "firstPublishedDate": "2026-09-13T07:22:31.153Z",
+  "lastPublishedDate": "2026-09-14T20:22:53.863Z",
+  "description": "Vocabulary improves most when children meet, use and revisit words repeatedly. Long word lists can create the appearance of learning without building reliable recall.",
+  "body": [
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Vocabulary improves most when children meet, use and revisit words repeatedly. Long word lists can create the appearance of learning without building reliable recall."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Learn words in groups"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Group words by meaning, topic, prefix, suffix or contrast. For example, learning reluctant alongside hesitant, unwilling and eager creates useful connections and makes distinctions clearer."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Use the word in context"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Ask the child to say and write an original sentence using the new word. Then change the context and use it again. If a word only exists on a flashcard, it is less likely to transfer into comprehension or writing."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Return to it later"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Review after a day, a few days and then a week. Quick retrieval is more useful than rereading. Ask for the meaning, a synonym, an antonym and a sentence."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "For 11+ preparation, vocabulary should support comprehension and reasoning rather than become an isolated memory exercise. Ten well-learned words are more valuable than fifty half-remembered ones."
+      ]
+    }
+  ],
+  "provenance": {
+    "url": "https://danielpharris4.wixsite.com/uk-online-tuition-1/post/11-vocabulary-how-to-build-words-that-stick",
+    "nativePostId": "4143ef2f-1804-4bb5-8cda-4b97f81d39ec",
+    "sourceSiteId": "9acfbd18-b294-48b8-add2-4e0c912bead9",
+    "source": "Read-only native published Harmony reference RichContent; additional original, not production migration",
+    "metadataRetrievedAt": "2026-09-30",
+    "nativeSourceFile": "content/sources/harmony-six-published-posts.json",
+    "nativeSourceSha256": "4aba8f92458f64abc611e2b5aa12c05050440c8bc420f997078e1a8b20ec0fa5",
+    "sourceCategoryIds": [
+      "3826e554-009a-4ec6-8e8f-ad82bed6a2ee"
+    ],
+    "categoryMapping": "Matched by exact category slug to production category identity",
+    "editorialChanges": []
+  }
+}

@@ -1,4 +1,8 @@
-# SEO and migration readiness
+# Historical SEO review and current migration addendum
+
+## Current migration addendum
+
+The original inventory and unimported-article statements below describe the earlier review. Current local implementation preserves 46 production articles at their original paths plus six published Harmony originals, five categories, ten source-linked tag archives and 25 local article images, across 93 HTML pages. See ARTICLE_MIGRATION_COMPLETION_2026-09-30.md and content/migration-route-status.json for current implementation/provenance. Paper 1 is restored after bounded official-AQA corrections. Legacy service/index aliases serve equivalent local content; no permanent redirect is activated. Documented redirect proposals remain review-only. The 97-path accessible history review accounts for 77 equivalent local pages, 18 existing production blog redirects and two unresolved community paths. /general-9 and /blank-1 reflect actual ASTRA route meanings; native underlying reviews/company text are separate protected review pages. Member and group/discussion functionality is unresolved. Search Console historical inventory and real host responses remain unverified. Production ASTRA overlay, native Wix and Harmony reference build are distinct sources; native extraction alone does not reproduce all overlay functionality.
 
 Reviewed 30 September 2026. No publication, domain change, article rewrite or external configuration was performed.
 

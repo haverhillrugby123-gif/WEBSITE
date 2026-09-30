@@ -1,0 +1,84 @@
+{
+  "slug": "gcse-english-revision-a-practical-weekly-plan",
+  "title": "GCSE English Revision: A Practical Weekly Plan",
+  "categories": [
+    "fe5f98cd-ba5e-40ec-8748-ee3ee02f526b",
+    "032e7d84-db15-46ee-929d-e5e41e599678"
+  ],
+  "firstPublishedDate": "2026-09-13T07:22:31.065Z",
+  "lastPublishedDate": "2026-09-14T20:22:53.898Z",
+  "description": "Effective GCSE English revision is less about doing everything and more about choosing the right task for the right purpose. A simple weekly structure can make revision more focused and easier to sustain.",
+  "body": [
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Effective GCSE English revision is less about doing everything and more about choosing the right task for the right purpose. A simple weekly structure can make revision more focused and easier to sustain."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "1. Separate knowledge from exam technique"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "For Literature, knowledge might mean quotations, themes, characters and context. For Language, it might mean knowing what each question is asking and which methods you can analyse. Keep these different from timed exam practice so you can see whether the problem is knowledge, technique or speed."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "2. Use short, deliberate sessions"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "A useful session might be 20 minutes revising key knowledge, 20 minutes applying it to one question and 10 minutes checking the answer against a mark scheme or model. Shorter focused sessions are usually more productive than rereading notes for an hour."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "3. Revisit mistakes"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Keep a simple error log. Write down what went wrong, what the better approach is, and one thing to practise next time. Improvement comes from returning to weaknesses rather than only repeating comfortable tasks."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "A strong weekly plan includes retrieval, analysis, writing and review. The aim is not to complete the most revision; it is to make each piece of revision change what you can do independently."
+      ]
+    }
+  ],
+  "provenance": {
+    "url": "https://danielpharris4.wixsite.com/uk-online-tuition-1/post/gcse-english-revision-a-practical-weekly-plan",
+    "nativePostId": "2765e5e6-7257-4531-a066-a33e839e2033",
+    "sourceSiteId": "9acfbd18-b294-48b8-add2-4e0c912bead9",
+    "source": "Read-only native published Harmony reference RichContent; additional original, not production migration",
+    "metadataRetrievedAt": "2026-09-30",
+    "nativeSourceFile": "content/sources/harmony-six-published-posts.json",
+    "nativeSourceSha256": "4aba8f92458f64abc611e2b5aa12c05050440c8bc420f997078e1a8b20ec0fa5",
+    "sourceCategoryIds": [
+      "0c793d21-4034-437b-8906-990a176295b6",
+      "59060dae-36ab-4609-9465-696f0d1191eb"
+    ],
+    "categoryMapping": "Matched by exact category slug to production category identity",
+    "editorialChanges": []
+  }
+}

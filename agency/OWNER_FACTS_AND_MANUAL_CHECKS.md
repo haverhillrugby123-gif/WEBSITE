@@ -30,7 +30,11 @@ Publish confirmed facts consistently in the relevant service pages, How It Works
 
 Owner confirmed on 30 September 2026: only Daniel accesses the enquiry Gmail inbox. Do not extend this to exclusive access to any future hosting/form records. Owner explicitly said not to add automatic deletion; no fixed retention period was chosen and no records were deleted. Retention/deletion handling remains to be described truthfully before activating a stored-form backend.
 
-Owner confirmed that Daniel Harris handles enquiry emails. This does not establish exclusive mailbox access. Confirm any other authorised access, how long enquiries and tutor applications are retained, what determines deletion, and the actual process/contact for access or deletion requests. Confirm recruitment next steps and when documents are requested through an appropriate channel. Existing email handoff and minimisation wording must remain accurate; do not imply website storage or invent a retention period.
+Daniel Harris alone accesses the enquiry Gmail inbox, confirmed on 30 September. Confirm manual retention/deletion handling, the actual process/contact for access or deletion requests, and recruitment next steps. This confirmation does not establish access to future provider-stored records. No automatic deletion is authorised and no fixed retention period has been invented.
+
+## Public migration and hosting confirmations, 30 September
+
+Existing public tutor identities and testimonials are preserved in the protected draft at /our-story and /testimonials. Following the history-review instruction, publication provenance/current approval remains an owner question; do not expand authenticity, qualifications or availability claims. Netlify Free hosting/forms was approved. The supported browser currently shows the Netlify login screen at https://app.netlify.com/; the owner must sign in before account, Free-plan and permission inspection. No terms, repository authorisation, publication or delivery test has been accepted or performed.
 
 ## R08: real assistive technology and email applications
 
@@ -45,3 +49,9 @@ Playwright WebKit is engine evidence, not a claim that Safari or VoiceOver has b
 ## R12: hosted settings
 
 The connector returned no repository rulesets but could not read branch protection (403); secret protection settings are unavailable through this connector. An authorised maintainer should inspect these settings and record their actual state. Do not disable protections or widen app permissions simply to complete an audit.
+
+## Runtime history and copy preference
+
+Actual ASTRA overlay route meanings are preserved at /general-9 (How It Works) and /blank-1 (company/teaching approach). Native underlying copy does not establish visible runtime content. The historical Harmony handoff records Members, Groups and Notifications as deprecated/no target; do not automatically redirect them. Confirm whether that retirement intent still applies at replacement launch and approve deliberate responses before cutover; no private data is exported. Existing Wix Chat has no verified replacement backend.
+
+Owner asked to remove exactly “Please avoid including unnecessary sensitive personal information.” This sentence is absent from the replacement UI/templates. Other handling/minimisation copy and fields remain intact; no sensitive fields were added.

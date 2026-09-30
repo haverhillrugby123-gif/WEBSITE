@@ -1,0 +1,1988 @@
+{
+  "slug": "aqa-english-language-paper-1-question-2-language-analysis",
+  "title": "AQA English Language Paper 1 Question 2: How to Analyse Language",
+  "categories": [
+    "fe5f98cd-ba5e-40ec-8748-ee3ee02f526b"
+  ],
+  "firstPublishedDate": "2026-09-10T05:42:49.021Z",
+  "lastPublishedDate": "2026-09-10T07:13:10.197Z",
+  "description": "How to answer AQA GCSE English Language Paper 1 Question 2: an 8-mark language analysis method, mini-example, common mistakes and practice checklist.",
+  "body": [
+    {
+      "tag": "div",
+      "attrs": {
+        "class": "moHCnT"
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "moHCnT"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "fTEXDR",
+                "data-rce-version": "11.15.0"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "NF5Ub",
+                    "dir": "ltr",
+                    "style": "--ricos-text-color:rgb(var(--textParagraphColor-rgb));--ricos-text-color-tuple:var(--textParagraphColor-rgb);--ricos-action-color:rgb(var(--postButtonBackgroundColor-rgb));--ricos-action-color-tuple:var(--postButtonBackgroundColor-rgb);--ricos-background-color:rgb(var(--postBackgroundColor-rgb));--ricos-background-color-tuple:var(--postBackgroundColor-rgb);--ricos-fallback-color:rgb(var(--ricosShade3));--ricos-fallback-color-tuple:var(--ricosShade3);--ricos-disabled-color:rgb(var(--ricosShade2));--ricos-disabled-color-tuple:var(--ricosShade2);--ricos-text-color-low:rgb(var(--ricosShade1));--ricos-text-color-low-tuple:var(--ricosShade1);--ricos-settings-action-color:rgb(17, 109, 255);--ricos-settings-action-color-tuple:17, 109, 255;--ricos-focus-action-color:rgb(var(--postButtonBackgroundColor-rgb));--ricos-focus-action-color-tuple:var(--postButtonBackgroundColor-rgb);--ricos-action-color-fallback:rgb(var(--ricosShade3));--ricos-action-color-fallback-tuple:var(--ricosShade3);--ricos-theme-color-1:rgb(var(--postBackgroundColor-rgb));--ricos-theme-color-1-tuple:var(--postBackgroundColor-rgb);--ricos-theme-color-2:rgb(var(--textParagraphColor-rgb));--ricos-theme-color-2-tuple:var(--textParagraphColor-rgb);--ricos-theme-color-3:rgb(var(--postButtonBackgroundColor-rgb));--ricos-theme-color-3-tuple:var(--postButtonBackgroundColor-rgb);--ricos-theme-color-7:rgb(var(--ricosShade1));--ricos-theme-color-7-tuple:var(--ricosShade1);--ricos-theme-color-8:rgb(var(--ricosShade2));--ricos-theme-color-8-tuple:var(--ricosShade2);--ricos-theme-color-9:rgb(var(--ricosShade3));--ricos-theme-color-9-tuple:var(--ricosShade3);--ricos-custom-button-background-color:rgb(var(--postButtonBackgroundColor));--ricos-custom-button-color:rgb(var(--postButtonTextColor));--ricos-custom-button-background-color-hover:rgb(var(--postButtonBackgroundColor));--ricos-custom-button-color-hover:rgb(var(--postButtonTextColor));--ricos-custom-button-border-color:rgb(var(--postButtonTextColor));--ricos-custom-secondary-button-background-color:rgb(var(--postBackgroundColor));--ricos-custom-secondary-button-color:rgb(var(--postButtonBackgroundColor));--ricos-custom-secondary-button-border-color:rgb(var(--postButtonBackgroundColor));--ricos-custom-link-color:rgb(var(--textLinksAndHashtagsColor));--ricos-custom-link-font-style:inherit;--ricos-custom-link-font-weight:inherit;--ricos-custom-link-text-decoration:inherit;--ricos-custom-audio-background-color:rgb(var(--postBackgroundColor));--ricos-custom-audio-title-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-audio-subtitle-color:rgb(var(--ricosShade3));--ricos-custom-audio-border-color:rgb(var(--ricosShade2));--ricos-custom-audio-component-border-color:rgb(var(--ricosShade2));--ricos-custom-audio-action-color:rgb(var(--postButtonBackgroundColor));--ricos-custom-audio-action-text-color:rgb(var(--postBackgroundColor));--ricos-custom-audio-slider-color:rgb(var(--ricosShade1));--ricos-custom-file-background-color:rgb(var(--postBackgroundColor));--ricos-custom-file-color:var(--textParagraphColor-rgb);--ricos-custom-file-secondary-color:rgb(var(--ricosShade3));--ricos-custom-file-secondary-color-opacity:1;--ricos-custom-file-border-color:var(--textParagraphColor-rgb);--ricos-custom-file-border-opacity:1;--ricos-custom-file-border-color-hover:rgb(var(--ricosShade3));--ricos-custom-file-icon-color:rgb(var(--postButtonBackgroundColor));--ricos-custom-file-icon-stroke-color:rgb(var(--postButtonTextColor));--ricos-custom-table-border-color:rgb(var(--ricosShade2));--ricos-custom-table-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-vertical-embed-background-color:rgb(var(--postBackgroundColor));--ricos-custom-vertical-embed-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-vertical-embed-text-color:rgb(var(--ricosShade3));--ricos-custom-vertical-embed-icon-color:rgb(var(--ricosShade3));--ricos-custom-vertical-embed-border-color:rgb(var(--ricosShade2));--ricos-custom-vertical-embed-ribbon-text-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-link-preview-background-color:rgb(var(--postBackgroundColor));--ricos-custom-link-preview-border-color:rgb(var(--ricosShade2));--ricos-custom-link-preview-hover-border-color:rgb(var(--ricosShade3));--ricos-custom-link-preview-title-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-link-preview-subtitle-color:rgb(var(--ricosShade3));--ricos-custom-code-block-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-code-block-line-height:1.5;--ricos-custom-toc-color:rgb(var(--postButtonBackgroundColor));--ricos-custom-toc-title-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-toc-border-color:rgb(var(--ricosShade2));--ricos-custom-divider-color:rgb(var(--textParagraphColor-rgb));--ricos-custom-quote-color:rgb(var(--textQuoteColor));--ricos-custom-quote-border-color:rgb(var(--textLinksAndHashtagsColor));--ricos-custom-quote-line-height:var(--textQuoteFont-line-height);--ricos-custom-quote-font-size:var(--textQuoteFont-size);--ricos-custom-quote-font-style:var(--textQuoteFont-style);--ricos-custom-quote-font-family:var(--textQuoteFont-family);--ricos-custom-quote-font-weight:var(--textQuoteFont-weight);--ricos-custom-quote-text-decoration:var(--textQuoteFont-text-decoration);--ricos-custom-quote-margin-inline-start:var(--ricosQuoteMarginInlineStart);--ricos-custom-smart-block-label-color:rgb(var(--postButtonBackgroundColor));--ricos-custom-smart-block-track-color:rgb(var(--ricosShade2));--ricos-custom-p-font-weight:var(--textParagraphFont-weight);--ricos-custom-p-font-style:var(--textParagraphFont-style);--ricos-custom-p-line-height:max(calc(var(--textParagraphFont-size) * 1.5), var(--textParagraphFont-line-height));--ricos-custom-p-font-size:var(--textParagraphFont-size);--ricos-custom-p-font-family:var(--textParagraphFont-family);--ricos-custom-p-text-decoration:var(--textParagraphFont-text-decoration);--ricos-custom-p-color:rgb(var(--textParagraphColor));--ricos-custom-h1-font-weight:var(--textH1Font-weight);--ricos-custom-h1-font-style:var(--textH1Font-style);--ricos-custom-h1-line-height:var(--textH1Font-line-height);--ricos-custom-h1-font-size:var(--textH1Font-size);--ricos-custom-h1-font-family:var(--textH1Font-family);--ricos-custom-h1-text-decoration:var(--textH1Font-text-decoration);--ricos-custom-h1-color:rgb(var(--textH1Color));--ricos-custom-h2-font-weight:var(--textH2Font-weight);--ricos-custom-h2-font-style:var(--textH2Font-style);--ricos-custom-h2-line-height:var(--textH2Font-line-height);--ricos-custom-h2-font-size:var(--textH2Font-size);--ricos-custom-h2-font-family:var(--textH2Font-family);--ricos-custom-h2-text-decoration:var(--textH2Font-text-decoration);--ricos-custom-h2-color:rgb(var(--textH2Color));--ricos-custom-h3-font-weight:var(--textH3Font-weight);--ricos-custom-h3-font-style:var(--textH3Font-style);--ricos-custom-h3-line-height:var(--textH3Font-line-height);--ricos-custom-h3-font-size:var(--textH3Font-size);--ricos-custom-h3-font-family:var(--textH3Font-family);--ricos-custom-h3-text-decoration:var(--textH3Font-text-decoration);--ricos-custom-h3-color:rgb(var(--textH3Color));--ricos-custom-h4-font-weight:var(--textH4Font-weight);--ricos-custom-h4-font-style:var(--textH4Font-style);--ricos-custom-h4-line-height:var(--textH4Font-line-height);--ricos-custom-h4-font-size:var(--textH4Font-size);--ricos-custom-h4-font-family:var(--textH4Font-family);--ricos-custom-h4-text-decoration:var(--textH4Font-text-decoration);--ricos-custom-h4-color:rgb(var(--textH4Color));--ricos-custom-h5-font-weight:var(--textH5Font-weight);--ricos-custom-h5-font-style:var(--textH5Font-style);--ricos-custom-h5-line-height:var(--textH5Font-line-height);--ricos-custom-h5-font-size:var(--textH5Font-size);--ricos-custom-h5-font-family:var(--textH5Font-family);--ricos-custom-h5-text-decoration:var(--textH5Font-text-decoration);--ricos-custom-h5-color:rgb(var(--textH5Color));--ricos-custom-h6-font-weight:var(--textH6Font-weight);--ricos-custom-h6-font-style:var(--textH6Font-style);--ricos-custom-h6-line-height:var(--textH6Font-line-height);--ricos-custom-h6-font-size:var(--textH6Font-size);--ricos-custom-h6-font-family:var(--textH6Font-family);--ricos-custom-h6-text-decoration:var(--textH6Font-text-decoration);--ricos-custom-h6-color:rgb(var(--textH6Color));--ricos-custom-hashtag-font-style:inherit;--ricos-custom-hashtag-font-weight:inherit;--ricos-custom-hashtag-text-decoration:inherit;--ricos-custom-hashtag-color:rgb(var(--textLinksAndHashtagsColor));--ricos-custom-footer-toolbar-padding-inline-start:var(--ricosFooterPadding);--ricos-custom-footer-toolbar-padding-inline-end:var(--ricosFooterPadding);--ricos-custom-editor-add-plugin-button-position-inline-start:var(--ricosAddPluginButtonStart);--ricos-breakout-normal-padding-start:var(--ricosNormalPadding);--ricos-breakout-normal-padding-end:var(--ricosNormalPadding);--ricos-breakout-full-width-padding-start:var(--ricosFullWidthPadding);--ricos-breakout-full-width-padding-end:var(--ricosFullWidthPadding)",
+                    "data-id": "content-viewer"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "unp46"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attrs": {
+                            "type": "first",
+                            "data-hook": "rcv-block-first"
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "div",
+                          "attrs": {
+                            "class": "tzeth"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "Question 2 is the first substantial analysis task on AQA GCSE English Language Paper 1. It is worth 8 marks and assesses AO2: how well you can explain, comment on and analyse the writer’s use of language. The strongest answers do not collect techniques. They make a precise point, choose useful evidence and explain how particular language choices create meaning or an effect."
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "paragraph",
+                                "data-hook": "rcv-block1"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h2",
+                                  "attrs": {
+                                    "class": "c-9Q0 oIwRx fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-heading": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "aria-hidden": "true",
+                                        "id": "what-the-question-is-really-testing-section"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "A7PBN"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "What the question is really testing"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "heading",
+                                "data-hook": "rcv-block2"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "ul",
+                                  "attrs": {
+                                    "class": "y8M-d fUDW-"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Can you select a short, relevant quotation from the specified lines?"
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Can you analyse a word, phrase or language choice rather than simply paraphrasing it?"
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Can you explain how that choice contributes to the impression, mood, character or idea named in the question?"
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Can you use terminology accurately when it genuinely helps the analysis?"
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "bulleted_list",
+                                "data-hook": "rcv-block3"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-hook": "gap-spacer",
+                                "class": "rLyD2"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "WkCxM",
+                                    "dir": "ltr",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "blockquote",
+                                      "attrs": {
+                                        "class": "G16EV ouI-Z"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "attrs": {
+                                                "class": "fUDW- lqKvG",
+                                                "dir": "auto",
+                                                "data-ricos-paragraph": "",
+                                                "id": "viewer-",
+                                                "tabindex": "-1"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {
+                                                    "class": "KmEWy"
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "tag": "span",
+                                                      "attrs": {},
+                                                      "children": [
+                                                        "A useful rule: technique is the label; analysis is the thinking. Naming a metaphor is not valuable unless you explain what the metaphor makes the reader understand."
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "blockquote",
+                                "data-hook": "rcv-block4"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h2",
+                                  "attrs": {
+                                    "class": "c-9Q0 oIwRx fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-heading": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "aria-hidden": "true",
+                                        "id": "a-reliable-five-step-method-section"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "A7PBN"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "A reliable five-step method"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "heading",
+                                "data-hook": "rcv-block5"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "ol",
+                                  "attrs": {
+                                    "class": "_8jHZF fUDW-"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:decimal"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Read the focus of the question first. Decide exactly what impression or effect you are being asked to explore."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:decimal"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Choose a compact quotation that contains a word or phrase you can genuinely unpack. Long quotations usually create more work, not more marks."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:decimal"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Make a clear inference about the writer’s choice. Ask: what does this word suggest here?"
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:decimal"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Develop the analysis. Consider connotations, associations, intensity, contrast, imagery, tone or a second plausible interpretation."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:decimal"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Return to the question. Explain how the language contributes to the named focus rather than ending with a vague statement about the reader."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "ordered_list",
+                                "data-hook": "rcv-block6"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h2",
+                                  "attrs": {
+                                    "class": "c-9Q0 oIwRx fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-heading": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "aria-hidden": "true",
+                                        "id": "mini-example-move-from-spotting-to-analysis-section"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "A7PBN"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "Mini-example: move from spotting to analysis"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "heading",
+                                "data-hook": "rcv-block7"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "Imagine the invented sentence: “The corridor swallowed the last strip of daylight.” A weak comment would say that “swallowed” is personification. A stronger response explains that the verb makes the corridor seem predatory and active, as though darkness is consuming the remaining safety. The image therefore makes the setting feel increasingly threatening rather than merely dark."
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "paragraph",
+                                "data-hook": "rcv-block8"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "The improvement comes from following the implication of the word. The term “personification” is accurate, but the mark-worthy part is the explanation of what the choice suggests."
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "paragraph",
+                                "data-hook": "rcv-block9"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h2",
+                                  "attrs": {
+                                    "class": "c-9Q0 oIwRx fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-heading": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "aria-hidden": "true",
+                                        "id": "common-reasons-answers-stay-in-the-middle-section"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "A7PBN"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "Common reasons answers stay in the middle"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "heading",
+                                "data-hook": "rcv-block10"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "ul",
+                                  "attrs": {
+                                    "class": "y8M-d fUDW-"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Feature spotting: “The writer uses a metaphor.” Nothing is said about the meaning created."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Paraphrase: the quotation is repeated in different words without analysing the writer’s choice."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Generic effects: “This makes the reader want to read on” is attached to almost every quotation."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Over-analysis without relevance: a word is explored at length but the response loses the question’s actual focus."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "One undeveloped paragraph: one good idea is better than several weak ones, but an 8-mark response still needs enough developed evidence to show a range of understanding."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "bulleted_list",
+                                "data-hook": "rcv-block11"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h2",
+                                  "attrs": {
+                                    "class": "c-9Q0 oIwRx fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-heading": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "aria-hidden": "true",
+                                        "id": "a-10-minute-practice-drill-section"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "A7PBN"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "A 10-minute practice drill"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "heading",
+                                "data-hook": "rcv-block12"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "ol",
+                                  "attrs": {
+                                    "class": "_8jHZF fUDW-"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:decimal"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Choose four lines from an unseen fiction extract."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:decimal"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Underline one phrase that creates a clear impression."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:decimal"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Write one sentence stating the impression."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:decimal"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Write two sentences analysing one important word or image."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:decimal"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Add a final sentence linking the choice back to the question focus."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:decimal"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Repeat with a second quotation, then compare which paragraph contains the more precise analysis."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "ordered_list",
+                                "data-hook": "rcv-block13"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "h2",
+                                  "attrs": {
+                                    "class": "c-9Q0 oIwRx fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-heading": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "aria-hidden": "true",
+                                        "id": "final-check-before-moving-on-section"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "A7PBN"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "Final check before moving on"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "heading",
+                                "data-hook": "rcv-block14"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "ul",
+                                  "attrs": {
+                                    "class": "y8M-d fUDW-"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "I answered the exact focus of the question."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "My quotations are short and relevant."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "I analysed choices rather than translating them."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "Any terminology I used is accurate and useful."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "li",
+                                      "attrs": {
+                                        "dir": "auto",
+                                        "aria-level": "1",
+                                        "class": "FaYQD",
+                                        "style": "margin-inline-start:1.5em;list-style-type:disc"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attrs": {
+                                            "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                            "dir": "",
+                                            "data-ricos-paragraph": "",
+                                            "id": "viewer-",
+                                            "tabindex": "-1"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {
+                                                "class": "KmEWy"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "attrs": {},
+                                                  "children": [
+                                                    "My effects are specific to this text, not generic reader-effect phrases."
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "bulleted_list",
+                                "data-hook": "rcv-block15"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "br",
+                                          "attrs": {
+                                            "role": "presentation"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "empty-line",
+                                "data-hook": "rcv-block16"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "For the definitive specification and current assessment information, check "
+                                          ]
+                                        },
+                                        {
+                                          "tag": "a",
+                                          "attrs": {
+                                            "target": "_blank",
+                                            "href": "https://www.aqa.org.uk/subjects/english/gcse/english-8700/specification/specification-at-a-glance",
+                                            "rel": "noopener",
+                                            "class": "XMQQ3 _7h6yd",
+                                            "data-hook": "web-link"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attrs": {},
+                                              "children": [
+                                                "AQA GCSE English Language 8700"
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "span",
+                                          "attrs": {},
+                                          "children": [
+                                            "."
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "paragraph",
+                                "data-hook": "rcv-block17"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "br",
+                                          "attrs": {
+                                            "role": "presentation"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "empty-line",
+                                "data-hook": "rcv-block18"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_0vncC",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attrs": {
+                                        "class": "pjpBg qnYa-"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "a",
+                                          "attrs": {
+                                            "class": "rXCWs",
+                                            "style": "--ricos-internal-button-color:#FFFFFF;--ricos-internal-button-background:#10213B;--ricos-internal-button-border-radius:999px;print-color-adjust:exact",
+                                            "data-hook": "button-viewer button-viewer-",
+                                            "tabindex": "0",
+                                            "href": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-paper-1",
+                                            "target": "_self"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "attrs": {
+                                                "class": "ZnHgc"
+                                              },
+                                              "children": [
+                                                "Read the full Paper 1 guide →"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "button",
+                                "data-hook": "rcv-block19"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_9Nlgm Dd46l fUDW- lqKvG",
+                                    "dir": "auto",
+                                    "data-ricos-paragraph": "",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attrs": {
+                                        "class": "KmEWy"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "br",
+                                          "attrs": {
+                                            "role": "presentation"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "empty-line",
+                                "data-hook": "rcv-block20"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-breakout": "normal"
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attrs": {
+                                    "class": "_0vncC",
+                                    "id": "viewer-",
+                                    "tabindex": "-1"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attrs": {
+                                        "class": "pjpBg qnYa-"
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "a",
+                                          "attrs": {
+                                            "class": "rXCWs",
+                                            "style": "--ricos-internal-button-color:#FFFFFF;--ricos-internal-button-background:#10213B;--ricos-internal-button-border-radius:999px;print-color-adjust:exact",
+                                            "data-hook": "button-viewer button-viewer-",
+                                            "tabindex": "0",
+                                            "href": "https://www.ukonlinetuition.co.uk/services-4",
+                                            "target": "_self"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "attrs": {
+                                                "class": "ZnHgc"
+                                              },
+                                              "children": [
+                                                "Explore GCSE tuition →"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "type": "button",
+                                "data-hook": "rcv-block21"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "data-hook": "gap-spacer",
+                                "class": "rLyD2 _4kQy0"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attrs": {
+                            "type": "last",
+                            "data-hook": "rcv-block-last"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "url": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-1-question-2-language-analysis",
+    "snapshotSha256": "3035d967db6b13c0b9a65c7095ee058b5d02ceb22e8871a8c63808d14357b2d3",
+    "snapshotCapturedAt": "2026-09-30T15:13:02.911Z",
+    "nativePostId": "78e1303a-f0e8-4f89-8984-4cf9533faa07",
+    "metadataRetrievedAt": "2026-09-30T15:32:23.680Z",
+    "source": "Public rendered article body + read-only published Wix post/category metadata",
+    "editorialChanges": []
+  }
+}

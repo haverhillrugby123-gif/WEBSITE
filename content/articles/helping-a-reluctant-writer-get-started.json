@@ -1,0 +1,82 @@
+{
+  "slug": "helping-a-reluctant-writer-get-started",
+  "title": "Helping a Reluctant Writer Get Started",
+  "categories": [
+    "924a9d4a-4f4f-4560-b18f-129290a8a6dd"
+  ],
+  "firstPublishedDate": "2026-09-13T07:22:31.088Z",
+  "lastPublishedDate": "2026-09-14T20:22:53.864Z",
+  "description": "A reluctant writer is not always short of ideas. Sometimes the difficulty is turning ideas into sentences while also thinking about spelling, punctuation, structure and whether the writing is 'good enough'. Reducing that load can make starting much easier.",
+  "body": [
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "A reluctant writer is not always short of ideas. Sometimes the difficulty is turning ideas into sentences while also thinking about spelling, punctuation, structure and whether the writing is 'good enough'. Reducing that load can make starting much easier."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Separate ideas from accuracy"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Begin by collecting ideas verbally or as short notes. Do not correct every spelling or grammar point during this stage. The first goal is to have something worth shaping."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Make the first target small"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Instead of 'write a story', ask for the opening three sentences, one description of a setting, or a paragraph showing a character's mood. A clear, limited target reduces the sense of an endless task."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Improve after writing"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Once a paragraph exists, choose one or two improvements: perhaps sentence openings, precise verbs or punctuation. Editing everything at once can make writing feel like a list of failures; focused editing teaches a skill that can transfer next time."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Confidence grows when pupils experience successful completion. Regular short pieces, clear feedback and visible improvement can be more effective than occasional large writing tasks."
+      ]
+    }
+  ],
+  "provenance": {
+    "url": "https://danielpharris4.wixsite.com/uk-online-tuition-1/post/helping-a-reluctant-writer-get-started",
+    "nativePostId": "b01aa582-029c-4530-9fd7-44270d3958e3",
+    "sourceSiteId": "9acfbd18-b294-48b8-add2-4e0c912bead9",
+    "source": "Read-only native published Harmony reference RichContent; additional original, not production migration",
+    "metadataRetrievedAt": "2026-09-30",
+    "nativeSourceFile": "content/sources/harmony-six-published-posts.json",
+    "nativeSourceSha256": "4aba8f92458f64abc611e2b5aa12c05050440c8bc420f997078e1a8b20ec0fa5",
+    "sourceCategoryIds": [
+      "ba6246fc-b7b0-41d1-9e6c-a69de9815dd4"
+    ],
+    "categoryMapping": "Matched by exact category slug to production category identity",
+    "editorialChanges": []
+  }
+}

@@ -1,6 +1,12 @@
-# Wix publication handover, 30/09/2026
+# Historical Wix handover — superseded platform direction
 
-## Scope and platform
+## Current platform direction after history review
+
+Production Wix is a separately coded ASTRA runtime overlay over native pages. Harmony is a reference build, not the replacement target. The existing coded repository is the replacement under preparation, with Netlify approved as the intended hosting option only. No automatic repository-to-Wix merge, import or deployment relationship is established. Preserve both Wix sites and the overlay while reviewing the replacement. The older native-Harmony handover instructions below are historical, not current implementation instructions.
+
+The 14 September Harmony handoff describes 46 published migrated articles plus six Harmony-only originals. A read-only native published-post query on 30 September independently returned 52 posts and all six named originals. It does not establish that native HTML is the complete production overlay implementation. Account setup, OAuth, publication, domain cutover and real enquiry delivery remain gated.
+
+## Historical scope and platform
 
 This repository is a separate static review/reference frontend. Its existing workflow publishes GitHub Pages only when main changes. Do not merge PR #3 as a way to publish Wix. There is no verified repository-to-Harmony import or deployment binding.
 
