@@ -84,6 +84,36 @@ test('invalid enquiry, unsent draft, route context and edit invalidation', async
   await expect(page.getByLabel('Prepared message')).toHaveValue('');
   await expect(page.locator('#open-enquiry-email')).not.toHaveAttribute('href');
 });
+test('GCSE English enquiry preserves editable subject context without accepting arbitrary query data', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('gcse/index.html');
+  await page.getByRole('link', { name: 'Enquire about GCSE English', exact: true }).click();
+  await expect(page.getByLabel('Tuition route')).toHaveValue('gcse');
+  await expect(page.getByLabel('Subject or entrance test')).toHaveValue('English');
+  await page.getByLabel('Parent/contact name').fill('Browser Test');
+  await page.getByLabel('Email address').fill('browser@example.invalid');
+  await page.getByLabel('Pupil year group/stage').selectOption('Year 10');
+  await page.getByLabel('Main difficulty, goal or support needed').fill('Explain language choices.');
+  await page.getByRole('button', { name: 'Prepare enquiry email' }).click();
+  await expect(page.getByLabel('Prepared message')).toHaveValue(/Subject or entrance test: English/);
+  await expect(page.getByRole('status')).toContainText('has not been sent');
+  const handoff = await page.getByRole('link', { name: 'Open email app' }).getAttribute('href');
+  const params = new URLSearchParams(handoff.split('?')[1]);
+  expect(handoff.split('?')[0]).toBe('mailto:ukonlinetuition1@gmail.com');
+  expect(params.get('subject')).toBe('Tuition enquiry \u2014 Year 10 \u2014 English');
+  expect(params.get('body')).toContain('Subject or entrance test: English');
+  await page.getByLabel('Subject or entrance test').fill('English Literature');
+  await expect(page.locator('#enquiry-draft')).toBeHidden();
+  await page.getByRole('button', { name: 'Prepare enquiry email' }).click();
+  await expect(page.getByLabel('Prepared message')).toHaveValue(/Subject or entrance test: English Literature/);
+  for (const query of ['service=gcse&subject=unknown', 'service=primary&subject=english', 'subject=english']) {
+    await page.goto(`contact/index.html?${query}&name=Injected&email=external@example.invalid`);
+    await expect(page.getByLabel('Subject or entrance test')).toHaveValue('');
+    await expect(page.getByLabel('Parent/contact name')).toHaveValue('');
+    await expect(page.getByLabel('Email address')).toHaveValue('');
+  }
+});
+
 test('clipboard denial exposes selected manual-copy fallback', async ({ page }) => {
   await page.addInitScript(() => Object.defineProperty(navigator, 'clipboard', { value: { writeText: async () => { throw new Error('Test denial'); } } }));
   await page.goto('contact/index.html'); await prepare(page);
@@ -247,7 +277,7 @@ test('nested 404 loads assets and recovers to home without overflow', async ({ p
 test('320px reflow remains usable with reduced motion and forced colours', async ({ page }) => {
   await page.setViewportSize({ width: 320, height: 900 });
   await page.emulateMedia({ reducedMotion: 'reduce', forcedColors: 'active' });
-  for (const route of ['./', 'contact/index.html', 'resources/index.html']) {
+  for (const route of ['./', 'gcse/index.html', 'contact/index.html', 'resources/index.html']) {
     await page.goto(route);
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
     const overflow = await page.evaluate(() => ({ width: innerWidth, scroll: document.documentElement.scrollWidth,

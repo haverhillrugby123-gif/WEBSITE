@@ -22,8 +22,12 @@ if (form) {
   };
   const serviceLabels = new Map([['gcse', 'GCSE'], ['11-plus', '11+'], ['primary', 'Primary']]);
   const serviceField = form.elements.namedItem('service');
-  const requestedService = new URLSearchParams(location.search).get('service');
+  const enquiryParams = new URLSearchParams(location.search);
+  const requestedService = enquiryParams.get('service');
   if (serviceField && serviceLabels.has(requestedService)) serviceField.value = requestedService;
+  // Carry only recognised subject context, never arbitrary visitor details.
+  const subjectField = form.elements.namedItem('subject');
+  if (subjectField && requestedService === 'gcse' && enquiryParams.get('subject') === 'english') subjectField.value = 'English';
 
   form.addEventListener('submit', event => {
     event.preventDefault();

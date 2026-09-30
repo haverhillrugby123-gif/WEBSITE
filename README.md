@@ -4,6 +4,8 @@ Updated on 27/09/2026.
 
 The latest bounded enquiry and accessibility fixes are described in `agency/READINESS_2026-09-27.md`. Outstanding business facts and real-device checks remain explicit; preparation does not authorise publication.
 
+The current Wix handover and publish-readiness checklist are in `agency/WIX_HANDOVER_2026-09-30.md`. The repository is a review/reference frontend with no verified deployment binding to the existing Harmony site. The GCSE page now offers a clear English enquiry route; it still prepares an unsent email.
+
 This repository contains the GitHub Pages preview of the UK Online Tuition website. The separate Wix production site remains unchanged.
 
 The current design combines practical tuition information with layered backgrounds, floating notebook artwork, subject illustrations and interactive illustrative lesson examples. See `agency/VISUAL_FINISH_2026-09-27.md` for the visual update and artwork provenance. Earlier design reviews are retained as historical evidence.
