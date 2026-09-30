@@ -1,6 +1,10 @@
 # UK Online Tuition website
 
-Updated on 27/09/2026.
+Updated on 30/09/2026.
+
+Current objective: finish the coded site for review and approval. GitHub remains the source/CI system; no automatic merge/import to Wix exists. The current release checklist is `agency/CODED_RELEASE_READINESS_2026-09-30.md`; hosting, data handling and delivery-test options are in `agency/HOSTING_AND_ENQUIRY_REVIEW_2026-09-30.md`. Historical Wix handover files remain for provenance, not the active development plan.
+
+The ordinary preview is email-app/copy only. `npm run build:form-review` creates a separate, inert Netlify Forms candidate; a matching explicitly approved HTTPS hostname is required to enable its Send control. `npm run test:adapter` uses synthetic intercepted requests and proves no live receipt. No provider/account has been configured. See the hosting review before activation; GitHub Pages is not recommended for the tuition business production site.
 
 The latest bounded enquiry and accessibility fixes are described in `agency/READINESS_2026-09-27.md`. Outstanding business facts and real-device checks remain explicit; preparation does not authorise publication.
 

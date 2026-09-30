@@ -4,6 +4,8 @@ Updated 27/09/2026. Confirmed facts are recorded separately from outstanding com
 
 ## R05: service facts
 
+Latest owner instruction on 30 September 2026 supersedes earlier Science inclusion: ignore Science for now and lead with English, Maths and 11+. Science has been removed from currently advertised tuition. Preserve the useful Primary page as secondary information. This does not confirm teacher qualifications, exam boards/tiers or guaranteed availability.
+
 Owner confirmed on 27/09/2026 and reflected in the website copy:
 
 - A free initial consultation helps understand parent priorities and identify suitable support for the child.
@@ -25,6 +27,8 @@ Still confirm for GCSE, 11+ and Primary, noting any differences:
 Publish confirmed facts consistently in the relevant service pages, How It Works, FAQ and contact guidance. Update FAQ structured data when visible FAQ answers change. Do not reuse founder qualifications as a claim about all tutors.
 
 ## R07: email and recruitment handling
+
+Owner confirmed on 30 September 2026: only Daniel accesses the enquiry Gmail inbox. Do not extend this to exclusive access to any future hosting/form records. Owner explicitly said not to add automatic deletion; no fixed retention period was chosen and no records were deleted. Retention/deletion handling remains to be described truthfully before activating a stored-form backend.
 
 Owner confirmed that Daniel Harris handles enquiry emails. This does not establish exclusive mailbox access. Confirm any other authorised access, how long enquiries and tutor applications are retained, what determines deletion, and the actual process/contact for access or deletion requests. Confirm recruitment next steps and when documents are requested through an appropriate channel. Existing email handoff and minimisation wording must remain accurate; do not imply website storage or invent a retention period.
 

@@ -1,5 +1,6 @@
 node_modules/
 dist/
+dist-netlify-review/
 playwright-report/
 test-results/
 deployment-performance.json

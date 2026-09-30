@@ -54,9 +54,17 @@ if (form) {
       '', 'Thank you.'
     ].join('\n');
     preview.value = `To: ukonlinetuition1@gmail.com\nSubject: ${subject}\n\n${body}`;
-    emailLink.href = `mailto:ukonlinetuition1@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const handoff = `mailto:ukonlinetuition1@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    // Email clients differ in how much URI text they accept. Keep long drafts
+    // intact for copying instead of offering a potentially truncated handoff.
+    const useCopy = handoff.length > 2000;
+    emailLink.hidden = useCopy;
+    if (useCopy) emailLink.removeAttribute('href');
+    else emailLink.href = handoff;
     draft.hidden = false;
-    say('Your enquiry is ready but has not been sent. Open your email app, or copy the message into your usual email service.');
+    say(useCopy
+      ? 'Your enquiry is ready but has not been sent. This longer message is best copied into your usual email service; review it and send it to ukonlinetuition1@gmail.com.'
+      : 'Your enquiry is ready but has not been sent. Open your email app, or copy the message into your usual email service.');
     document.querySelector('#enquiry-draft-title').focus();
   });
 

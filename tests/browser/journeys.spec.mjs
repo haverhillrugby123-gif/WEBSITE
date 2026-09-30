@@ -123,6 +123,32 @@ test('clipboard denial exposes selected manual-copy fallback', async ({ page }) 
   expect(await page.getByLabel('Prepared message').evaluate(el => el.selectionEnd - el.selectionStart)).toBeGreaterThan(0);
 });
 
+test('long Unicode enquiries retain every detail through copy and restore email handoff after shortening', async ({ page }) => {
+  await page.addInitScript(() => Object.defineProperty(navigator, 'clipboard', {
+    value: { writeText: async message => { window.copiedTestEnquiry = message; } },
+  }));
+  await page.goto('contact/index.html');
+  await prepare(page);
+  const longSupport = '🧑'.repeat(600);
+  await page.getByLabel('Main difficulty, goal or support needed').fill(longSupport);
+  await page.getByRole('button', { name: 'Prepare enquiry email' }).click();
+  await expect(page.getByRole('status')).toContainText('longer message is best copied');
+  await expect(page.locator('#open-enquiry-email')).toBeHidden();
+  await expect(page.locator('#open-enquiry-email')).not.toHaveAttribute('href');
+  await expect(page.getByLabel('Prepared message')).toHaveValue(new RegExp(longSupport));
+  await page.getByRole('button', { name: 'Copy enquiry', exact: true }).click();
+  const copied = await page.evaluate(() => window.copiedTestEnquiry);
+  expect(copied).toContain(longSupport);
+  expect(copied).toMatch(/^To: ukonlinetuition1@gmail.com\n/);
+  await expect(page.getByRole('status')).toContainText('review it and send');
+  await page.getByRole('button', { name: 'Edit enquiry', exact: true }).click();
+  await page.getByLabel('Main difficulty, goal or support needed').fill('Practise algebra.');
+  await page.getByRole('button', { name: 'Prepare enquiry email' }).click();
+  await expect(page.getByRole('link', { name: 'Open email app', exact: true })).toBeVisible();
+  await expect(page.locator('#open-enquiry-email')).toHaveAttribute('href', /^mailto:ukonlinetuition1@gmail.com\?/);
+  await expect(page.getByRole('status')).toContainText('has not been sent');
+});
+
 test('delayed clipboard results cannot replace the status or focus of an edited or newer draft', async ({ page }) => {
   await page.addInitScript(() => Object.defineProperty(navigator, 'clipboard', {
     value: {

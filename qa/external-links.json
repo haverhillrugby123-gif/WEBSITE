@@ -1,0 +1,300 @@
+{
+  "checkedAt": "2026-09-30T14:36:43.132Z",
+  "limitation": "Read-only availability observations; a successful HTTP response does not verify educational content accuracy.",
+  "results": [
+    {
+      "url": "https://www.ukonlinetuition.co.uk/",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/about-4",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/about-4",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/about-5",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/about-5",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/blank-2",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/blank-2",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/blog",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/blog",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/copy-of-11-entrance-exams",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/copy-of-11-entrance-exams",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/copy-of-public-exams",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/copy-of-public-exams",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/general-8",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/general-8",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/general-9",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/general-9",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/11-plus-english-comprehension-inference-vocabulary",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/11-plus-english-comprehension-inference-vocabulary",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/11-plus-exam-formats-target-school",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/11-plus-exam-formats-target-school",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/11-plus-grammar-independent-school-preparation",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/11-plus-grammar-independent-school-preparation",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/11-plus-online-tuition-parent-guide",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/11-plus-online-tuition-parent-guide",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/11-plus-summer-preparation-year-5",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/11-plus-summer-preparation-year-5",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/active-effective-online-tuition",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/active-effective-online-tuition",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/an-inspector-calls-gcse-revision-guide",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/an-inspector-calls-gcse-revision-guide",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-1-question-2-language-analysis",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-1-question-2-language-analysis",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-1-question-3-structure-2026",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-1-question-3-structure-2026",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-1-question-4-evaluation-2026",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-1-question-4-evaluation-2026",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-1-question-5-creative-writing-2026",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-1-question-5-creative-writing-2026",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-2-question-2-summary-inference-2026",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-2-question-2-summary-inference-2026",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-2-question-3-language-analysis",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-2-question-3-language-analysis",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-2-question-4-comparison-2026",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-2-question-4-comparison-2026",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-2-question-5-viewpoint-writing-2026",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/aqa-english-language-paper-2-question-5-viewpoint-writing-2026",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-common-mistakes",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-common-mistakes",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-paper-2",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-paper-2",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-revision-drills",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-revision-drills",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-study-plan",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-study-plan",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-literature-revision-guide",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-literature-revision-guide",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-tuition-online",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-tuition-online",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/aqa-power-conflict-poetry-comparison-guide",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/aqa-power-conflict-poetry-comparison-guide",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/gcse-maths-revision-guide",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/gcse-maths-revision-guide",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/gcse-revision-christmas-study-plan",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/gcse-revision-christmas-study-plan",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/gcse-revision-strategy",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/gcse-revision-strategy",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/higher-tier-gcse-maths-revision",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/higher-tier-gcse-maths-revision",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/higher-tier-gcse-maths-tuition-online",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/higher-tier-gcse-maths-tuition-online",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/how-to-choose-gcse-maths-tutor",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/how-to-choose-gcse-maths-tutor",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/how-to-memorise-gcse-english-quotes",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/how-to-memorise-gcse-english-quotes",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/jekyll-hyde-gcse-revision-themes-quotes-context",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/jekyll-hyde-gcse-revision-themes-quotes-context",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/macbeth-gcse-revision-themes-quotes-context",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/macbeth-gcse-revision-themes-quotes-context",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/online-11-plus-english-tuition",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/online-11-plus-english-tuition",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/online-gcse-english-tuition",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/online-gcse-english-tuition",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/online-gcse-maths-tuition",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/online-gcse-maths-tuition",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/online-gcse-tuition-benefits-limitations",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/online-gcse-tuition-benefits-limitations",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/online-primary-english-maths-tuition",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/online-primary-english-maths-tuition",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/online-tutoring-benefits-limitations",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/online-tutoring-benefits-limitations",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/summer-revision-study-plan",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/summer-revision-study-plan",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/post/what-good-online-gcse-tuition-includes",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/post/what-good-online-gcse-tuition-includes",
+      "ok": true
+    },
+    {
+      "url": "https://www.ukonlinetuition.co.uk/services-4",
+      "status": 200,
+      "finalURL": "https://www.ukonlinetuition.co.uk/services-4",
+      "ok": true
+    }
+  ]
+}
