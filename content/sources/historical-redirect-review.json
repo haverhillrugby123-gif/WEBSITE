@@ -1,0 +1,200 @@
+{
+  "reviewedAt": "2026-09-30",
+  "sourceLibraryId": "libfile_1cbe83c6e72c81919f667a1e8d504f3b",
+  "sourceVersion": "4",
+  "productionApi": "GET https://www.wixapis.com/seo-redirects-service/v1/redirects",
+  "productionRedirectCount": 18,
+  "historicalStaticProposals": 9,
+  "replacementRedirectsActivated": false,
+  "rows": [
+    {
+      "from": "/post/transforming-education-with-engaging-teaching-techniques",
+      "to": "/post/active-effective-online-tuition",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/the-benefits-of-online-gcse-tuition-why-it-s-the-right-choice",
+      "to": "/post/online-gcse-tuition-benefits-limitations",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/mastering-gcse-english-aqa-tips-for-success",
+      "to": "/post/aqa-gcse-english-language-common-mistakes",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/prepare-for-success-with-online-11-plus-tuition-benefits",
+      "to": "/post/11-plus-online-tuition-parent-guide",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/navigating-the-yuletide-wave-gcse-success-with-uk-online-tuition-during-christmas-holidays",
+      "to": "/post/gcse-revision-christmas-study-plan",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/top-strategies-for-aqa-english-revision-tips-and-gcse-english-language-success",
+      "to": "/post/aqa-gcse-english-language-study-plan",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/embrace-effective-summer-revision-how-to-keep-your-child-s-studies-on-track-during-the-holidays",
+      "to": "/post/summer-revision-study-plan",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/gcse-english-language-aqa-revision-tips",
+      "to": "/post/aqa-gcse-english-language-revision-drills",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/essential-strategies-for-year-5-students-preparing-for-11-revision",
+      "to": "/post/11-plus-english-comprehension-inference-vocabulary",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/essential-grade-9-gcse-math-topics-and-top-revision-resources-to-excel",
+      "to": "/post/higher-tier-gcse-maths-revision",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/how-to-prepare-for-11-school-entrance-exams-during-the-summer-holidays",
+      "to": "/post/11-plus-summer-preparation-year-5",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/comprehensive-guide-to-aqa-gcse-english-language-paper-1-question-breakdown-and-mark-scheme-insights",
+      "to": "/post/aqa-gcse-english-language-paper-1",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/find-the-perfect-gcse-maths-tutor-benefits-unlocking-success-with-expert-guidance",
+      "to": "/post/how-to-choose-gcse-maths-tutor",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/the-benefits-of-online-gcse-tuition-why-it-s-the-right-choice-1",
+      "to": "/post/what-good-online-gcse-tuition-includes",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/mastering-gcse-math-exams-a-comprehensive-guide-to-excellence",
+      "to": "/post/gcse-maths-revision-guide",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/mastering-the-art-of-memorizing-quotes-for-your-gcse-english-exams",
+      "to": "/post/how-to-memorise-gcse-english-quotes",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/discover-the-advantages-of-online-tutoring-services",
+      "to": "/post/online-tutoring-benefits-limitations",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/post/mastering-gcse-exam-revision-effective-strategies-for-success",
+      "to": "/post/gcse-revision-strategy",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Already configured in production Wix, read-only API confirmed 30 September 2026; proposed retention on replacement, not activated locally"
+    },
+    {
+      "from": "/blank-1",
+      "to": "/about-founder",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Historical Harmony target proposal; inactive, preserve equivalent old route instead until cutover decision"
+    },
+    {
+      "from": "/about-5",
+      "to": "/about-founder",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Historical Harmony target proposal; inactive, preserve equivalent old route instead until cutover decision"
+    },
+    {
+      "from": "/services-4",
+      "to": "/gcse",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Historical Harmony target proposal; inactive, preserve equivalent old route instead until cutover decision"
+    },
+    {
+      "from": "/copy-of-public-exams",
+      "to": "/11",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Historical Harmony target proposal; inactive, preserve equivalent old route instead until cutover decision"
+    },
+    {
+      "from": "/copy-of-11-entrance-exams",
+      "to": "/primary",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Historical Harmony target proposal; inactive, preserve equivalent old route instead until cutover decision"
+    },
+    {
+      "from": "/general-8",
+      "to": "/work-with-us",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Historical Harmony target proposal; inactive, preserve equivalent old route instead until cutover decision"
+    },
+    {
+      "from": "/general-9",
+      "to": "/how-it-works",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Historical Harmony target proposal; inactive, preserve equivalent old route instead until cutover decision"
+    },
+    {
+      "from": "/about-4",
+      "to": "/faq",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Historical Harmony target proposal; inactive, preserve equivalent old route instead until cutover decision"
+    },
+    {
+      "from": "/blank-2",
+      "to": "/contact",
+      "groupRedirect": false,
+      "source": "Historical Harmony handoff, version 4",
+      "status": "Historical Harmony target proposal; inactive, preserve equivalent old route instead until cutover decision"
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "capturedAt": "2026-09-30T15:48:58.234Z",
+  "entries": [
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_677c871a58a94260aae26a75fe6b792e~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_677c871a58a94260aae26a75fe6b792e~mv2.png",
+      "alt": "Close-up of a tutor explaining a maths problem to a child using a whiteboard",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_677c871a58a94260aae26a75fe6b792e~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_677c871a58a94260aae26a75fe6b792e~mv2.png"
+      ],
+      "sha256": "403296e2576498d385ac993ea96eb3445f0382383473eb2c38adcfb1b84d9879",
+      "originalFile": "403296e2576498d385ac993ea96eb3445f0382383473eb2c38adcfb1b84d9879.bin",
+      "bytes": 1080873,
+      "localFile": "assets/articles/403296e2576498d385ac.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 37116,
+      "localSha256": "da450e2270270e669d5ec27ee8af43b9ac8ed88246c7e4bac0473f0610dce6b2",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_5f2263b48bd84ebaa45e601be6b18c75~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_5f2263b48bd84ebaa45e601be6b18c75~mv2.png",
+      "alt": "High angle view of a child taking a break outside with a ball in a garden",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_5f2263b48bd84ebaa45e601be6b18c75~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_5f2263b48bd84ebaa45e601be6b18c75~mv2.png"
+      ],
+      "sha256": "554116d3ffa5e574d3637a6c37ec4ad82509efef4b74044666dc299d4b2de7cc",
+      "originalFile": "554116d3ffa5e574d3637a6c37ec4ad82509efef4b74044666dc299d4b2de7cc.bin",
+      "bytes": 1275532,
+      "localFile": "assets/articles/554116d3ffa5e574d363.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 40198,
+      "localSha256": "3b626978388392e50117313da33bff9fbb4b283e64ede07af7756f28e0343eb1",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_1f1749368a34439280eb03f177991703~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_1f1749368a34439280eb03f177991703~mv2.png",
+      "alt": "Eye-level view of a student studying with a laptop and books",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_1f1749368a34439280eb03f177991703~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_1f1749368a34439280eb03f177991703~mv2.png"
+      ],
+      "sha256": "264b906992103f5140d03c9071853019e6478ccb3ebabc1abc0dd6ea55f43847",
+      "originalFile": "264b906992103f5140d03c9071853019e6478ccb3ebabc1abc0dd6ea55f43847.bin",
+      "bytes": 1241076,
+      "localFile": "assets/articles/264b906992103f5140d0.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 31184,
+      "localSha256": "fbcb6369fa7a8c9261b0ae082fc81891a13f304070c587a5e1f347b1977cf3d7",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_67f0fca0de9a43c3a6e80b1e6d06d133~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_67f0fca0de9a43c3a6e80b1e6d06d133~mv2.png",
+      "alt": "Close-up view of a computer screen showing an online tuition session",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_67f0fca0de9a43c3a6e80b1e6d06d133~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_67f0fca0de9a43c3a6e80b1e6d06d133~mv2.png"
+      ],
+      "sha256": "12c854d5626d3a28488ebd003e4eee327a1b5c030775b10876b7081c53852da5",
+      "originalFile": "12c854d5626d3a28488ebd003e4eee327a1b5c030775b10876b7081c53852da5.bin",
+      "bytes": 1092962,
+      "localFile": "assets/articles/12c854d5626d3a28488e.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 36174,
+      "localSha256": "374b058f2654ea6c5e3662eceef747424d0c5a49fd7cb1fd9f1f37cd4e0737f8",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_aa1765e207f84335a9bdc1380b19f207~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_aa1765e207f84335a9bdc1380b19f207~mv2.png",
+      "alt": "Eye-level view of classroom with students collaborating on a group project",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_aa1765e207f84335a9bdc1380b19f207~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_aa1765e207f84335a9bdc1380b19f207~mv2.png"
+      ],
+      "sha256": "37b59efe2b739331847e0998a492a21687dc62274f1d457874ed18dd3dfd2556",
+      "originalFile": "37b59efe2b739331847e0998a492a21687dc62274f1d457874ed18dd3dfd2556.bin",
+      "bytes": 1255031,
+      "localFile": "assets/articles/37b59efe2b739331847e.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 43140,
+      "localSha256": "ae4dd61bdf877e99ce3a31420ec4bfff40397d1730d2b46445748f951b035aa0",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_c6b00e7a8bbc401e91534b0027dcad0c~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_c6b00e7a8bbc401e91534b0027dcad0c~mv2.png",
+      "alt": "High angle view of a student using a tablet for interactive learning",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_c6b00e7a8bbc401e91534b0027dcad0c~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_c6b00e7a8bbc401e91534b0027dcad0c~mv2.png"
+      ],
+      "sha256": "51f82232b12ceea9dbf5624e8677c68ac94e204a2b34bc790e240b7454225590",
+      "originalFile": "51f82232b12ceea9dbf5624e8677c68ac94e204a2b34bc790e240b7454225590.bin",
+      "bytes": 1135065,
+      "localFile": "assets/articles/51f82232b12ceea9dbf5.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 27264,
+      "localSha256": "f47cc8942015424aed3050d34039fce6f0a8a9c706414d68b92a6bb5aee1e7aa",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_84b6a92e3663486badf67a4b26c06cc1~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_84b6a92e3663486badf67a4b26c06cc1~mv2.png",
+      "alt": "Eye-level view of a student writing notes on GCSE English revision",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_84b6a92e3663486badf67a4b26c06cc1~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_84b6a92e3663486badf67a4b26c06cc1~mv2.png"
+      ],
+      "sha256": "77617f470d00e46b73ab9e12aa3cf2aecfc906b23b65eb1dad06c111e33f8cb6",
+      "originalFile": "77617f470d00e46b73ab9e12aa3cf2aecfc906b23b65eb1dad06c111e33f8cb6.bin",
+      "bytes": 1243440,
+      "localFile": "assets/articles/77617f470d00e46b73ab.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 28408,
+      "localSha256": "83780d217c6a231245fb12bdffd82cc55dc5def5e2fe17f9a36d884aa57813d1",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_8a9716adab1c48a9b41d7087bb32ed2c~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_8a9716adab1c48a9b41d7087bb32ed2c~mv2.png",
+      "alt": "Close-up of annotated GCSE English Language exam paper with highlighted text",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_8a9716adab1c48a9b41d7087bb32ed2c~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_8a9716adab1c48a9b41d7087bb32ed2c~mv2.png"
+      ],
+      "sha256": "404770fcff486e5e84ccd93a9badfafb06799ce0ae61663cf81b7d6947c7a27b",
+      "originalFile": "404770fcff486e5e84ccd93a9badfafb06799ce0ae61663cf81b7d6947c7a27b.bin",
+      "bytes": 952608,
+      "localFile": "assets/articles/404770fcff486e5e84cc.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 24634,
+      "localSha256": "356dbc017126f2e1ff47e7424967753928e7920d6e49a8d1b344a4a0e393e6e2",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_248a5438e16a4e5ba21795f024ffd3b3~mv2.png/v1/fill/w_888,h_508,al_c,lg_1,q_90/f5cc94_248a5438e16a4e5ba21795f024ffd3b3~mv2.png",
+      "alt": "Eye-level view of an open GCSE English Language exam paper with a pen resting on the side",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_248a5438e16a4e5ba21795f024ffd3b3~mv2.png/v1/fill/w_74,h_42,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_248a5438e16a4e5ba21795f024ffd3b3~mv2.png"
+      ],
+      "sha256": "6402baf9d130d0a3ca15b79fdf52658b710f95df9a4a4dfff2c06bf933ab03b7",
+      "originalFile": "6402baf9d130d0a3ca15b79fdf52658b710f95df9a4a4dfff2c06bf933ab03b7.bin",
+      "bytes": 652243,
+      "localFile": "assets/articles/6402baf9d130d0a3ca15.webp",
+      "width": 888,
+      "height": 508,
+      "localBytes": 19502,
+      "localSha256": "61b5ccd2aec517f8194e722a80df9ff15b970aafa5546ab928665a4299622fe3",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_ef8618b1f3cf4270a54b75b5212c1be6~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_ef8618b1f3cf4270a54b75b5212c1be6~mv2.png",
+      "alt": "Eye-level view of a student’s desk with revision notes and a textbook",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_ef8618b1f3cf4270a54b75b5212c1be6~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_ef8618b1f3cf4270a54b75b5212c1be6~mv2.png"
+      ],
+      "sha256": "3b7d7bb1e8dc07fcc1e5dbd155ca62be94b193c775a11851a4a87bd375d81270",
+      "originalFile": "3b7d7bb1e8dc07fcc1e5dbd155ca62be94b193c775a11851a4a87bd375d81270.bin",
+      "bytes": 956096,
+      "localFile": "assets/articles/3b7d7bb1e8dc07fcc1e5.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 20162,
+      "localSha256": "de501c7d61a3a645e720975af1b36b735c42aa6d3357d781443db4a9a3ab04d6",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_754debc2581b4e52a08c73832ea35d34~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_754debc2581b4e52a08c73832ea35d34~mv2.png",
+      "alt": "Close-up of a marked-up printed text with annotations and highlights",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_754debc2581b4e52a08c73832ea35d34~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_754debc2581b4e52a08c73832ea35d34~mv2.png"
+      ],
+      "sha256": "39abc13e33f7b53ea6b96238b8afafd2a1e7963ff71d524f3c312b399c8683dc",
+      "originalFile": "39abc13e33f7b53ea6b96238b8afafd2a1e7963ff71d524f3c312b399c8683dc.bin",
+      "bytes": 1106776,
+      "localFile": "assets/articles/39abc13e33f7b53ea6b9.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 32094,
+      "localSha256": "9420d58fde872d82545152485e5dd6e12c4f6baa35b2dd5a144e6a1c2a1488c5",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_2ab5f12ff65c46418f93e5403d2c59b3~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_2ab5f12ff65c46418f93e5403d2c59b3~mv2.png",
+      "alt": "Eye-level view of a student’s desk with revision notes and a timetable",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_2ab5f12ff65c46418f93e5403d2c59b3~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_2ab5f12ff65c46418f93e5403d2c59b3~mv2.png"
+      ],
+      "sha256": "54022c8026694e839879e859f5e7fa660424c67c2c9daa1655137a68b44d1307",
+      "originalFile": "54022c8026694e839879e859f5e7fa660424c67c2c9daa1655137a68b44d1307.bin",
+      "bytes": 1128367,
+      "localFile": "assets/articles/54022c8026694e839879.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 27456,
+      "localSha256": "10587520fe4b40a8b442e121a57a74108fa86e94d7068d1a8979adc1e4959992",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_d6e5542f7fe845ce89a3e6be19697377~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_d6e5542f7fe845ce89a3e6be19697377~mv2.png",
+      "alt": "Close-up of an open book with highlighted text and notes",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_d6e5542f7fe845ce89a3e6be19697377~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_d6e5542f7fe845ce89a3e6be19697377~mv2.png"
+      ],
+      "sha256": "60244a865a3edb5fd90654cdeb8c114be7f95d1f40b88134719ef938dc9d22e2",
+      "originalFile": "60244a865a3edb5fd90654cdeb8c114be7f95d1f40b88134719ef938dc9d22e2.bin",
+      "bytes": 1101450,
+      "localFile": "assets/articles/60244a865a3edb5fd906.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 29578,
+      "localSha256": "6a5834b9a605dc62ad8fbbb773e288ac0479543145370a67688043d714684d45",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_62b976e957d34475b7f77891126a9570~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_62b976e957d34475b7f77891126a9570~mv2.png",
+      "alt": "Eye-level view of a student’s desk with maths textbooks and notes",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_62b976e957d34475b7f77891126a9570~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_62b976e957d34475b7f77891126a9570~mv2.png"
+      ],
+      "sha256": "983651bf5bb65d0d2b127aa33057b45be0cf87e74e91f3f817cfa6c68b34f4da",
+      "originalFile": "983651bf5bb65d0d2b127aa33057b45be0cf87e74e91f3f817cfa6c68b34f4da.bin",
+      "bytes": 1072707,
+      "localFile": "assets/articles/983651bf5bb65d0d2b12.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 28906,
+      "localSha256": "62b5f82927dddfa8801b055f9fe7b3af0737b41db3588548c0e32284b51ad69f",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_1b7bb13958eb4ca79fda5ec27d70fca6~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_1b7bb13958eb4ca79fda5ec27d70fca6~mv2.png",
+      "alt": "Close-up view of a laptop screen showing an online maths tutoring session",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_1b7bb13958eb4ca79fda5ec27d70fca6~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_1b7bb13958eb4ca79fda5ec27d70fca6~mv2.png"
+      ],
+      "sha256": "967ad72faabb3e0b9bb073eb3924eecc96a261dac4a8c52b69af17b796c9cd3b",
+      "originalFile": "967ad72faabb3e0b9bb073eb3924eecc96a261dac4a8c52b69af17b796c9cd3b.bin",
+      "bytes": 1107731,
+      "localFile": "assets/articles/967ad72faabb3e0b9bb0.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 28010,
+      "localSha256": "c275403d8b65144306bfc7dc08ccefd004b350f0ae18754f3b7f5af933bc0a28",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_7ec84e7bfc864c62b0e7dd625139dc0e~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_7ec84e7bfc864c62b0e7dd625139dc0e~mv2.png",
+      "alt": "Eye-level view of a student studying with a laptop at a desk",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_7ec84e7bfc864c62b0e7dd625139dc0e~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_7ec84e7bfc864c62b0e7dd625139dc0e~mv2.png"
+      ],
+      "sha256": "39f8d8ba94ce3019ee9b114968d78290412914149e2c3ed696aee64e4b7d1314",
+      "originalFile": "39f8d8ba94ce3019ee9b114968d78290412914149e2c3ed696aee64e4b7d1314.bin",
+      "bytes": 995670,
+      "localFile": "assets/articles/39f8d8ba94ce3019ee9b.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 28062,
+      "localSha256": "ded9f19110bebdbae8c1a1e4080c7fd778153d8eb02b7cdb68909546e87f464b",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_b585ab47b5d24617b8f1b2e2095ebc27~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_b585ab47b5d24617b8f1b2e2095ebc27~mv2.png",
+      "alt": "Close-up view of GCSE exam papers and study notes on a desk",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_b585ab47b5d24617b8f1b2e2095ebc27~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_b585ab47b5d24617b8f1b2e2095ebc27~mv2.png"
+      ],
+      "sha256": "b7e8539c778aeb449b78edb23e6ea9b6f2b7c90044406fb46863bc8c167e2fc6",
+      "originalFile": "b7e8539c778aeb449b78edb23e6ea9b6f2b7c90044406fb46863bc8c167e2fc6.bin",
+      "bytes": 1000804,
+      "localFile": "assets/articles/b7e8539c778aeb449b78.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 24874,
+      "localSha256": "8ed2297d02bb14f124135aa00d86fe5f71ceb28919913d284717029e89e2f12d",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_b95f376c84504cfab800974d0e7dfc09~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_b95f376c84504cfab800974d0e7dfc09~mv2.png",
+      "alt": "Eye-level view of a person studying with a laptop",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_b95f376c84504cfab800974d0e7dfc09~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_b95f376c84504cfab800974d0e7dfc09~mv2.png"
+      ],
+      "sha256": "fbe94bb44396986c9e94f592c0dcd530b495ca641afbd529f2baaeb10ecad704",
+      "originalFile": "fbe94bb44396986c9e94f592c0dcd530b495ca641afbd529f2baaeb10ecad704.bin",
+      "bytes": 1188686,
+      "localFile": "assets/articles/fbe94bb44396986c9e94.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 33128,
+      "localSha256": "6594d6597288afcfb94039f4364950f8bedf47353497c142646bd197a96080f4",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_f74ab1ca3fc949ae82fd479794a1e9c1~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_f74ab1ca3fc949ae82fd479794a1e9c1~mv2.png",
+      "alt": "Wide angle view of a cozy study space with books and a laptop",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_f74ab1ca3fc949ae82fd479794a1e9c1~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_f74ab1ca3fc949ae82fd479794a1e9c1~mv2.png"
+      ],
+      "sha256": "9bc10ec31f0318acdfbf9cf2ca085123f6e43e75f31bc5d12ab7849c2852f70d",
+      "originalFile": "9bc10ec31f0318acdfbf9cf2ca085123f6e43e75f31bc5d12ab7849c2852f70d.bin",
+      "bytes": 1244091,
+      "localFile": "assets/articles/9bc10ec31f0318acdfbf.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 36666,
+      "localSha256": "409099d1438db35edc9ed3b55c6ab16648d4ca026840d9e5d61955b200d77ad6",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_2ad82145099746e1ab1f4bd9f7a51423~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_2ad82145099746e1ab1f4bd9f7a51423~mv2.png",
+      "alt": "High angle view of a home office setup for online learning",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_2ad82145099746e1ab1f4bd9f7a51423~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_2ad82145099746e1ab1f4bd9f7a51423~mv2.png"
+      ],
+      "sha256": "b2d98f546b61ff4c72404a9be63835a5d08a966fee12fbe734deabaeb5018caf",
+      "originalFile": "b2d98f546b61ff4c72404a9be63835a5d08a966fee12fbe734deabaeb5018caf.bin",
+      "bytes": 1183870,
+      "localFile": "assets/articles/b2d98f546b61ff4c7240.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 36050,
+      "localSha256": "7a380f88e00c5b75f6b91a92701a913dfa00480d7ccbb4502a8525a64fe2fb10",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_bc84d912999147fb9f87b0ad9ad5d72b~mv2.png/v1/fill/w_756,h_379,al_c,lg_1,q_85/f5cc94_bc84d912999147fb9f87b0ad9ad5d72b~mv2.png",
+      "alt": "Child studying",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_bc84d912999147fb9f87b0ad9ad5d72b~mv2.png/v1/fill/w_54,h_27,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_bc84d912999147fb9f87b0ad9ad5d72b~mv2.png"
+      ],
+      "sha256": "9288b7429a02e04b38cea2b9eda3c91b1bb82965d9e760153465812c48db2545",
+      "originalFile": "9288b7429a02e04b38cea2b9eda3c91b1bb82965d9e760153465812c48db2545.bin",
+      "bytes": 121648,
+      "localFile": "assets/articles/9288b7429a02e04b38ce.webp",
+      "width": 756,
+      "height": 379,
+      "localBytes": 12784,
+      "localSha256": "a35c75ae14d69583e4df0dfb9246f71d48473c7defe0f96962a42e9e6c5ea6be",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_7ad13d54cbb94e3e9f895937e2808938~mv2.png",
+      "alt": "Child revising",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_7ad13d54cbb94e3e9f895937e2808938~mv2.png"
+      ],
+      "sha256": "311d749e4063a5f3592b9c86ae1f0fe15b84795fd12b5618ab6676b9210daddc",
+      "originalFile": "311d749e4063a5f3592b9c86ae1f0fe15b84795fd12b5618ab6676b9210daddc.bin",
+      "bytes": 1709334,
+      "localFile": "assets/articles/311d749e4063a5f3592b.webp",
+      "width": 1024,
+      "height": 1024,
+      "localBytes": 84390,
+      "localSha256": "ea3c436ad6b3e2e3e972fe632f629be439133d74133e5ec04356b32fae0a188b",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_ff31266c38a746db864fc8a1695e523c~mv2.png",
+      "alt": "Parent assisting child",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_ff31266c38a746db864fc8a1695e523c~mv2.png"
+      ],
+      "sha256": "f56d5011969fc0f32022fbfdf564392b8cde1a0eeedb8bcf4c10f4892660ca44",
+      "originalFile": "f56d5011969fc0f32022fbfdf564392b8cde1a0eeedb8bcf4c10f4892660ca44.bin",
+      "bytes": 1727129,
+      "localFile": "assets/articles/f56d5011969fc0f32022.webp",
+      "width": 1024,
+      "height": 1024,
+      "localBytes": 87792,
+      "localSha256": "72ee47d08724c94e7428e926935001f7d5b599bbb86fb00664ce6a0ff0f2ed62",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_e3082fca6f6d46288a7b3661b00ebdd2~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_e3082fca6f6d46288a7b3661b00ebdd2~mv2.png",
+      "alt": "Eye-level view of a student studying with a laptop at a desk",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_e3082fca6f6d46288a7b3661b00ebdd2~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_e3082fca6f6d46288a7b3661b00ebdd2~mv2.png"
+      ],
+      "sha256": "077cd781008d211159aafa4b370bfe1ca832735285dbda01f8a9475b2ede6e14",
+      "originalFile": "077cd781008d211159aafa4b370bfe1ca832735285dbda01f8a9475b2ede6e14.bin",
+      "bytes": 1150206,
+      "localFile": "assets/articles/077cd781008d211159aa.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 31748,
+      "localSha256": "c890e2290b103c804a8370222d88bf7e1432d2847f205c115b5ec045edfb7fa7",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f5cc94_385d096e4cac4d1ea4e756938a7b1137~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/f5cc94_385d096e4cac4d1ea4e756938a7b1137~mv2.png",
+      "alt": "Close-up view of a digital tablet displaying GCSE revision materials",
+      "sourceUrls": [
+        "https://static.wixstatic.com/media/f5cc94_385d096e4cac4d1ea4e756938a7b1137~mv2.png/v1/fill/w_49,h_28,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/f5cc94_385d096e4cac4d1ea4e756938a7b1137~mv2.png"
+      ],
+      "sha256": "9ff934c5b698ecbd064dc3ade6273748967ab2b080f87280afaf74dd475b3da5",
+      "originalFile": "9ff934c5b698ecbd064dc3ade6273748967ab2b080f87280afaf74dd475b3da5.bin",
+      "bytes": 1083432,
+      "localFile": "assets/articles/9ff934c5b698ecbd064d.webp",
+      "width": 1024,
+      "height": 576,
+      "localBytes": 25848,
+      "localSha256": "0608efbca77fa0b3a85bfd01830b42fbc913f992f6bbb7bfa8ddc47221410e7c",
+      "transform": "WebP quality85; maximum1024px preserving aspect; original bytes retained in review archive"
+    }
+  ]
+}

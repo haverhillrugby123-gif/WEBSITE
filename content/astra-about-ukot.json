@@ -1,0 +1,91 @@
+{
+  "title": "Tuition should be specific enough to change what happens next.",
+  "description": "UK Online Tuition provides personalised online support for GCSE, 11+ and Primary pupils. The focus is not on selling a fixed package. It is on diagnosing the student’s current needs, teaching clearly and using their work to decide the next useful step.",
+  "body": [
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "A small set of principles guides the work."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Start with evidence"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Current work and questioning are more useful than assumptions about what a student “should” already know."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Make thinking visible"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Good modelling explains the decisions behind an answer so pupils can transfer the method to a new task."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Do not confuse activity with progress"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Completing more pages is not the goal. The useful question is what the pupil can now understand or do more securely."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Build independence"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Support should reduce as competence grows. Strong tuition ultimately makes the student less dependent on prompting."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Professional judgement should shape the next lesson."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Plans matter, but they should respond to what the student actually demonstrates. A misconception discovered today may be more important than the topic originally pencilled in for next week."
+      ]
+    }
+  ],
+  "provenance": {
+    "url": "https://www.ukonlinetuition.co.uk/blank-1",
+    "source": "Public ASTRA runtime About UK Online Tuition variant; distinct from native hidden company text and /about-5 founder variant",
+    "sourceEmbedId": "d9324f07-5aea-44fe-96e4-68ffd38cf98d",
+    "sourceEmbedSha256": "5b1df4f9f9bd09f7fcbc547810f2504a10898a762d6e29bd76d55193c45dc27b",
+    "sourceInventory": "content/sources/astra-overlay-inventory.json",
+    "editorialChanges": []
+  }
+}

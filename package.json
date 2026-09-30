@@ -4,9 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node scripts/generate-articles.mjs && vite",
     "check": "node scripts/check-site.mjs",
     "build": "node scripts/build-site.mjs",
+    "build:form-review": "node scripts/build-netlify-review.mjs --candidate",
+    "test:adapter": "node tests/netlify-adapter.test.mjs",
+    "test:migration": "node tests/migration.test.mjs",
+    "check:external": "node scripts/audit-external-links.mjs",
     "test:browser": "playwright test",
     "test:browser:repeat": "playwright test --repeat-each=10",
     "smoke:deployed": "node scripts/smoke-deployed.mjs"

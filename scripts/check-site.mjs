@@ -5,12 +5,15 @@ import './validation.test.mjs';
 import { checkCanonical, checkSitemap } from './canonical-validation.mjs';
 import './canonical-validation.test.mjs';
 import { execFileSync } from 'node:child_process';
+import { migrationPages } from './generate-articles.mjs';
 
-export const pages = ['index.html','how-it-works/index.html','gcse/index.html','11-plus/index.html','primary/index.html','about/index.html','resources/index.html','faq/index.html','contact/index.html','work-with-us/index.html','404.html'];
+export const pages = ['index.html','how-it-works/index.html','gcse/index.html','11-plus/index.html','primary/index.html','about/index.html','resources/index.html','faq/index.html','contact/index.html','work-with-us/index.html','404.html',...migrationPages];
 
 const scripts = ['assets/main.js','assets/live-design.js'];
 let refs = 0;
 let images = 0;
+const paper1 = JSON.parse(await readFile('content/articles/aqa-gcse-english-language-paper-1.json','utf8'));
+if (!paper1.provenance.editorialChanges.some(change => JSON.stringify(change).includes('https://www.aqa.org.uk/english-language-changes'))) throw new Error('Paper 1 must retain evidenced current-format editorial review before it returns to the library');
 
 for (const page of pages) {
   const html = (await readFile(page, 'utf8')).replace(/<!--[\s\S]*?-->/g, '');
@@ -26,9 +29,8 @@ for (const page of pages) {
 
   if (/motion-(?:showcase|carousel|ribbon)|showcase-primary\.svg/.test(html)) fail('decorative showcase must not return');
   checkReferences(html, fail);
-  checkPrivacy(html, [...scripts, ...scripts.map(script => '/WEBSITE/' + script)], fail);
+  checkPrivacy(html, [...scripts, ...scripts.flatMap(script => ['/WEBSITE/'+script,'../../'+script,'../../../'+script])], fail);
   checkCanonical(page, html, fail);
-  if (html.includes('href="https://www.ukonlinetuition.co.uk/post/aqa-gcse-english-language-paper-1"')) fail('withdrawn resource must remain unlinked until its current-format guidance is reviewed');
   if (!/<meta name="robots" content="noindex,nofollow"/.test(html)) fail('robots meta protection missing');
 
   for (const match of html.matchAll(/<img\b[^>]*>/g)) {

@@ -13,7 +13,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     permissions:
       contents: read
       pages: read
@@ -28,10 +28,18 @@ jobs:
         run: npm run check
       - name: Build website
         run: npm run build
+      - name: Audit dependencies
+        run: npm audit --audit-level=high
       - name: Install browser engines
         run: npx playwright install --with-deps chromium firefox webkit
       - name: Repeat browser release checks without retries
         run: npm run test:browser:repeat
+      - name: Test gated form candidate with synthetic local requests
+        run: npm run test:adapter
+      - name: Verify all migrated article and archive routes
+        run: npm run test:migration
+      - name: Build inert root-host form review candidate
+        run: npm run build:form-review
       - name: Preserve failure evidence
         if: failure()
         uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6

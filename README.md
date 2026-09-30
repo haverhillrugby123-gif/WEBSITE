@@ -1,12 +1,22 @@
 # UK Online Tuition website
 
-Updated on 24/09/2026.
+Updated on 30/09/2026.
+
+Current objective: finish the coded site for review and approval. GitHub remains the source/CI system; no automatic merge/import to Wix exists. The current release checklist is `agency/CODED_RELEASE_READINESS_2026-09-30.md`; hosting, data handling and delivery-test options are in `agency/HOSTING_AND_ENQUIRY_REVIEW_2026-09-30.md`. Historical Wix handover files remain for provenance, not the active development plan.
+
+The ordinary preview is email-app/copy only. `npm run build:form-review` creates a separate, inert Netlify Forms candidate; a matching explicitly approved HTTPS hostname is required to enable its Send control. `npm run test:adapter` uses synthetic intercepted requests and proves no live receipt. No provider/account has been configured. See the hosting review before activation; GitHub Pages is not recommended for the tuition business production site.
+
+The latest bounded enquiry and accessibility fixes are described in `agency/READINESS_2026-09-27.md`. Outstanding business facts and real-device checks remain explicit; preparation does not authorise publication.
+
+The current Wix handover and publish-readiness checklist are in `agency/WIX_HANDOVER_2026-09-30.md`. The repository is a review/reference frontend with no verified deployment binding to the existing Harmony site. The GCSE page now offers a clear English enquiry route; it still prepares an unsent email.
 
 This repository contains the GitHub Pages preview of the UK Online Tuition website. The separate Wix production site remains unchanged.
 
-The current design puts tuition stages, practical information and enquiries first. Decorative carousels, oversized illustrations, simulated progress graphics and duplicate teaching controls have been removed. The full review is in `agency/WEBSITE_REVIEW_32_AGENTS_2026-09-24.md`, with progress in `agency/IMPLEMENTATION_STATUS_2026-09-24.md`. Earlier redesign/publication reviews are retained as historical evidence.
+The current design combines practical tuition information with layered backgrounds, floating notebook artwork, subject illustrations and interactive illustrative lesson examples. See `agency/VISUAL_FINISH_2026-09-27.md` for the visual update and artwork provenance. Earlier design reviews are retained as historical evidence.
 
 The original book and gold-spark identity is applied throughout. Its vector provenance and responsive placement are documented in `agency/ORIGINAL_BRAND_2026-09-24.md`.
+
+Every page now has a tailored visual treatment, including subject examples, process boards, local illustrations and layered backgrounds. The page-by-page record is in `agency/ALL_PAGES_VISUAL_2026-09-27.md`.
 
 ## Local checks
 

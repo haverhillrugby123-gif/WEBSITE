@@ -1,0 +1,1129 @@
+{
+  "reviewedAt": "2026-09-30",
+  "scope": "Reconciled accessible public sitemap, native configured redirects, historical Library handoff, original local manifest and ASTRA paths; not a Search Console historical export",
+  "routes": 97,
+  "sourceSitemapUrls": 64,
+  "rows": [
+    {
+      "path": "/",
+      "sources": [
+        "Earlier local migration manifest"
+      ],
+      "localFile": "index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/11",
+      "sources": [
+        "Historical redirect target"
+      ],
+      "localFile": "11/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/about-4",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect source",
+        "Public ASTRA ASTRA About Founder Redesign",
+        "Public ASTRA ASTRA Blog Article Chrome",
+        "Public ASTRA ASTRA Canonical Navigation Owner",
+        "Public ASTRA ASTRA Contact Redesign",
+        "Public ASTRA ASTRA FAQ Redesign",
+        "Public ASTRA ASTRA Homepage Redesign",
+        "Public ASTRA ASTRA Resource Library Redesign",
+        "Public ASTRA ASTRA Service Pages Redesign"
+      ],
+      "localFile": "about-4/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/about-5",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect source",
+        "Public ASTRA ASTRA About Founder Redesign",
+        "Public ASTRA ASTRA Canonical Navigation Owner",
+        "Public ASTRA ASTRA Editorial Authority",
+        "Public ASTRA ASTRA Homepage Redesign"
+      ],
+      "localFile": "about-5/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/about-founder",
+      "sources": [
+        "Historical redirect target"
+      ],
+      "localFile": "about-founder/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/blank-1",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect source",
+        "Public ASTRA ASTRA About Founder Redesign",
+        "Public ASTRA ASTRA Canonical Navigation Owner",
+        "Public ASTRA ASTRA Contact Redesign",
+        "Public ASTRA ASTRA FAQ Redesign",
+        "Public ASTRA ASTRA Resource Library Redesign",
+        "Public ASTRA ASTRA Service Pages Redesign"
+      ],
+      "localFile": "blank-1/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/blank-2",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect source",
+        "Public ASTRA ASTRA About Founder Redesign",
+        "Public ASTRA ASTRA Blog Article Chrome",
+        "Public ASTRA ASTRA Canonical Navigation Owner",
+        "Public ASTRA ASTRA Contact Redesign",
+        "Public ASTRA ASTRA FAQ Redesign",
+        "Public ASTRA ASTRA Homepage Redesign",
+        "Public ASTRA ASTRA How Online Tuition Works",
+        "Public ASTRA ASTRA Resource Library Redesign",
+        "Public ASTRA ASTRA Service Pages Redesign",
+        "Public ASTRA ASTRA Work With Us Redesign"
+      ],
+      "localFile": "blank-2/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/blog",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Public ASTRA ASTRA About Founder Redesign",
+        "Public ASTRA ASTRA Blog Article Chrome",
+        "Public ASTRA ASTRA Canonical Navigation Owner",
+        "Public ASTRA ASTRA Competitor Gap Expansion",
+        "Public ASTRA ASTRA Contact Redesign",
+        "Public ASTRA ASTRA FAQ Redesign",
+        "Public ASTRA ASTRA Homepage Redesign",
+        "Public ASTRA ASTRA Resource Library Redesign",
+        "Public ASTRA ASTRA Service Pages Redesign"
+      ],
+      "localFile": "blog/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/blog/categories/11-plus-entrance-exams",
+      "sources": [
+        "Current public sitemap"
+      ],
+      "localFile": "blog/categories/11-plus-entrance-exams/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/blog/categories/gcse-english",
+      "sources": [
+        "Current public sitemap"
+      ],
+      "localFile": "blog/categories/gcse-english/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/blog/categories/gcse-maths",
+      "sources": [
+        "Current public sitemap"
+      ],
+      "localFile": "blog/categories/gcse-maths/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/blog/categories/primary-english-maths",
+      "sources": [
+        "Current public sitemap"
+      ],
+      "localFile": "blog/categories/primary-english-maths/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/blog/categories/revision-study-skills",
+      "sources": [
+        "Current public sitemap"
+      ],
+      "localFile": "blog/categories/revision-study-skills/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/contact",
+      "sources": [
+        "Historical redirect target"
+      ],
+      "localFile": "contact/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/copy-of-11-entrance-exams",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect source",
+        "Public ASTRA ASTRA Canonical Navigation Owner",
+        "Public ASTRA ASTRA Competitor Gap Expansion",
+        "Public ASTRA ASTRA Homepage Redesign",
+        "Public ASTRA ASTRA Service Pages Redesign"
+      ],
+      "localFile": "copy-of-11-entrance-exams/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/copy-of-public-exams",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect source",
+        "Public ASTRA ASTRA Canonical Navigation Owner",
+        "Public ASTRA ASTRA Competitor Gap Expansion",
+        "Public ASTRA ASTRA Homepage Redesign",
+        "Public ASTRA ASTRA Service Pages Redesign"
+      ],
+      "localFile": "copy-of-public-exams/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/faq",
+      "sources": [
+        "Historical redirect target"
+      ],
+      "localFile": "faq/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/gcse",
+      "sources": [
+        "Historical redirect target"
+      ],
+      "localFile": "gcse/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/general-8",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect source",
+        "Public ASTRA ASTRA Canonical Navigation Owner",
+        "Public ASTRA ASTRA Competitor Gap Expansion",
+        "Public ASTRA ASTRA Work With Us Redesign"
+      ],
+      "localFile": "general-8/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/general-9",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect source",
+        "Public ASTRA ASTRA Canonical Navigation Owner",
+        "Public ASTRA ASTRA How Online Tuition Works"
+      ],
+      "localFile": "general-9/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/group/uk-online-tuition-group/discussion",
+      "sources": [
+        "Current public sitemap"
+      ],
+      "localFile": null,
+      "status": "Owner continuation/retirement decision required",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/how-it-works",
+      "sources": [
+        "Historical redirect target"
+      ],
+      "localFile": "how-it-works/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/members",
+      "sources": [
+        "Current public sitemap"
+      ],
+      "localFile": null,
+      "status": "Owner continuation/retirement decision required",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/11-plus-english-comprehension-inference-vocabulary",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Competitor Gap Expansion",
+        "Public ASTRA ASTRA Homepage Redesign",
+        "Public ASTRA ASTRA Resource Library Redesign",
+        "Public ASTRA ASTRA Service Pages Redesign"
+      ],
+      "localFile": "post/11-plus-english-comprehension-inference-vocabulary/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/11-plus-exam-formats-target-school",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/11-plus-exam-formats-target-school/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/11-plus-grammar-independent-school-preparation",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA Competitor Gap Expansion",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/11-plus-grammar-independent-school-preparation/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/11-plus-online-tuition-parent-guide",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Competitor Gap Expansion",
+        "Public ASTRA ASTRA Resource Library Redesign",
+        "Public ASTRA ASTRA Service Pages Redesign"
+      ],
+      "localFile": "post/11-plus-online-tuition-parent-guide/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/11-plus-summer-preparation-year-5",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign",
+        "Public ASTRA ASTRA Service Pages Redesign"
+      ],
+      "localFile": "post/11-plus-summer-preparation-year-5/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/11-vocabulary-how-to-build-words-that-stick",
+      "sources": [
+        "Migrated article body"
+      ],
+      "localFile": "post/11-vocabulary-how-to-build-words-that-stick/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/active-effective-online-tuition",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/active-effective-online-tuition/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/an-inspector-calls-gcse-revision-guide",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/an-inspector-calls-gcse-revision-guide/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-english-language-paper-1-question-2-language-analysis",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA AQA Exam Cluster Navigation",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/aqa-english-language-paper-1-question-2-language-analysis/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-english-language-paper-1-question-3-structure-2026",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA AQA Exam Cluster Navigation",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/aqa-english-language-paper-1-question-3-structure-2026/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-english-language-paper-1-question-4-evaluation-2026",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA AQA Exam Cluster Navigation",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/aqa-english-language-paper-1-question-4-evaluation-2026/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-english-language-paper-1-question-5-creative-writing-2026",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA AQA Exam Cluster Navigation",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/aqa-english-language-paper-1-question-5-creative-writing-2026/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-english-language-paper-2-question-2-summary-inference-2026",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA AQA Exam Cluster Navigation",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/aqa-english-language-paper-2-question-2-summary-inference-2026/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-english-language-paper-2-question-3-language-analysis",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA AQA Exam Cluster Navigation",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/aqa-english-language-paper-2-question-3-language-analysis/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-english-language-paper-2-question-4-comparison-2026",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA AQA Exam Cluster Navigation",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/aqa-english-language-paper-2-question-4-comparison-2026/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-english-language-paper-2-question-5-viewpoint-writing-2026",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA AQA Exam Cluster Navigation",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/aqa-english-language-paper-2-question-5-viewpoint-writing-2026/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-gcse-english-language-common-mistakes",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/aqa-gcse-english-language-common-mistakes/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-gcse-english-language-paper-1",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA AQA Exam Cluster Navigation",
+        "Public ASTRA ASTRA Homepage Redesign",
+        "Public ASTRA ASTRA Resource Library Redesign",
+        "Public ASTRA ASTRA Service Pages Redesign"
+      ],
+      "localFile": "post/aqa-gcse-english-language-paper-1/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-gcse-english-language-paper-1-q2-q3-q4-q5-guide",
+      "sources": [
+        "Current public sitemap",
+        "Migrated article body"
+      ],
+      "localFile": "post/aqa-gcse-english-language-paper-1-q2-q3-q4-q5-guide/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-gcse-english-language-paper-2",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA AQA Exam Cluster Navigation",
+        "Public ASTRA ASTRA Homepage Redesign",
+        "Public ASTRA ASTRA Resource Library Redesign",
+        "Public ASTRA ASTRA Service Pages Redesign"
+      ],
+      "localFile": "post/aqa-gcse-english-language-paper-2/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-gcse-english-language-revision-drills",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/aqa-gcse-english-language-revision-drills/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-gcse-english-language-study-plan",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/aqa-gcse-english-language-study-plan/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-gcse-english-literature-revision-guide",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/aqa-gcse-english-literature-revision-guide/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-gcse-english-tuition-online",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/aqa-gcse-english-tuition-online/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/aqa-power-conflict-poetry-comparison-guide",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/aqa-power-conflict-poetry-comparison-guide/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/comprehension-how-to-read-for-meaning",
+      "sources": [
+        "Migrated article body"
+      ],
+      "localFile": "post/comprehension-how-to-read-for-meaning/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/comprehensive-guide-to-aqa-gcse-english-language-paper-1-question-breakdown-and-mark-scheme-insights",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/aqa-gcse-english-language-paper-1"
+    },
+    {
+      "path": "/post/discover-the-advantages-of-online-tutoring-services",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/online-tutoring-benefits-limitations"
+    },
+    {
+      "path": "/post/embrace-effective-summer-revision-how-to-keep-your-child-s-studies-on-track-during-the-holidays",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/summer-revision-study-plan"
+    },
+    {
+      "path": "/post/essential-grade-9-gcse-math-topics-and-top-revision-resources-to-excel",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/higher-tier-gcse-maths-revision"
+    },
+    {
+      "path": "/post/essential-strategies-for-year-5-students-preparing-for-11-revision",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/11-plus-english-comprehension-inference-vocabulary"
+    },
+    {
+      "path": "/post/find-the-perfect-gcse-maths-tutor-benefits-unlocking-success-with-expert-guidance",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/how-to-choose-gcse-maths-tutor"
+    },
+    {
+      "path": "/post/free-11-plus-english-reasoning-diagnostic",
+      "sources": [
+        "Current public sitemap",
+        "Migrated article body"
+      ],
+      "localFile": "post/free-11-plus-english-reasoning-diagnostic/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/free-gcse-11-plus-revision-resources",
+      "sources": [
+        "Current public sitemap",
+        "Migrated article body"
+      ],
+      "localFile": "post/free-gcse-11-plus-revision-resources/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/free-gcse-english-language-diagnostic",
+      "sources": [
+        "Current public sitemap",
+        "Migrated article body"
+      ],
+      "localFile": "post/free-gcse-english-language-diagnostic/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/free-gcse-maths-diagnostic",
+      "sources": [
+        "Current public sitemap",
+        "Migrated article body"
+      ],
+      "localFile": "post/free-gcse-maths-diagnostic/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/gcse-english-language-aqa-revision-tips",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/aqa-gcse-english-language-revision-drills"
+    },
+    {
+      "path": "/post/gcse-english-revision-a-practical-weekly-plan",
+      "sources": [
+        "Migrated article body"
+      ],
+      "localFile": "post/gcse-english-revision-a-practical-weekly-plan/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/gcse-maths-revision-guide",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/gcse-maths-revision-guide/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/gcse-revision-christmas-study-plan",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/gcse-revision-christmas-study-plan/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/gcse-revision-strategy",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign",
+        "Public ASTRA ASTRA Service Pages Redesign"
+      ],
+      "localFile": "post/gcse-revision-strategy/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/helping-a-reluctant-writer-get-started",
+      "sources": [
+        "Migrated article body"
+      ],
+      "localFile": "post/helping-a-reluctant-writer-get-started/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/higher-tier-gcse-maths-revision",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign",
+        "Public ASTRA ASTRA Service Pages Redesign"
+      ],
+      "localFile": "post/higher-tier-gcse-maths-revision/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/higher-tier-gcse-maths-tuition-online",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/higher-tier-gcse-maths-tuition-online/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/how-to-analyse-quotations-in-gcse-english",
+      "sources": [
+        "Migrated article body"
+      ],
+      "localFile": "post/how-to-analyse-quotations-in-gcse-english/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/how-to-choose-gcse-maths-tutor",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/how-to-choose-gcse-maths-tutor/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/how-to-memorise-gcse-english-quotes",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/how-to-memorise-gcse-english-quotes/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/how-to-prepare-for-11-school-entrance-exams-during-the-summer-holidays",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/11-plus-summer-preparation-year-5"
+    },
+    {
+      "path": "/post/jekyll-hyde-gcse-revision-themes-quotes-context",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/jekyll-hyde-gcse-revision-themes-quotes-context/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/macbeth-gcse-revision-themes-quotes-context",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/macbeth-gcse-revision-themes-quotes-context/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/mastering-gcse-english-aqa-tips-for-success",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/aqa-gcse-english-language-common-mistakes"
+    },
+    {
+      "path": "/post/mastering-gcse-exam-revision-effective-strategies-for-success",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/gcse-revision-strategy"
+    },
+    {
+      "path": "/post/mastering-gcse-math-exams-a-comprehensive-guide-to-excellence",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/gcse-maths-revision-guide"
+    },
+    {
+      "path": "/post/mastering-the-art-of-memorizing-quotes-for-your-gcse-english-exams",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/how-to-memorise-gcse-english-quotes"
+    },
+    {
+      "path": "/post/maths-revision-turn-mistakes-into-progress",
+      "sources": [
+        "Migrated article body"
+      ],
+      "localFile": "post/maths-revision-turn-mistakes-into-progress/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/navigating-the-yuletide-wave-gcse-success-with-uk-online-tuition-during-christmas-holidays",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/gcse-revision-christmas-study-plan"
+    },
+    {
+      "path": "/post/online-11-plus-english-tuition",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/online-11-plus-english-tuition/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/online-gcse-english-tuition",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA Canonical Navigation Owner",
+        "Public ASTRA ASTRA Competitor Gap Expansion",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/online-gcse-english-tuition/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/online-gcse-maths-tuition",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA Competitor Gap Expansion",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/online-gcse-maths-tuition/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/online-gcse-tuition-benefits-limitations",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/online-gcse-tuition-benefits-limitations/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/online-primary-english-maths-tuition",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/online-primary-english-maths-tuition/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/online-tutoring-benefits-limitations",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/online-tutoring-benefits-limitations/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/prepare-for-success-with-online-11-plus-tuition-benefits",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/11-plus-online-tuition-parent-guide"
+    },
+    {
+      "path": "/post/summer-revision-study-plan",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign",
+        "Public ASTRA ASTRA Service Pages Redesign"
+      ],
+      "localFile": "post/summer-revision-study-plan/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/the-benefits-of-online-gcse-tuition-why-it-s-the-right-choice",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/online-gcse-tuition-benefits-limitations"
+    },
+    {
+      "path": "/post/the-benefits-of-online-gcse-tuition-why-it-s-the-right-choice-1",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/what-good-online-gcse-tuition-includes"
+    },
+    {
+      "path": "/post/top-strategies-for-aqa-english-revision-tips-and-gcse-english-language-success",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/aqa-gcse-english-language-study-plan"
+    },
+    {
+      "path": "/post/transforming-education-with-engaging-teaching-techniques",
+      "sources": [
+        "Historical redirect source"
+      ],
+      "localFile": null,
+      "status": "Retain existing one-hop redirect at approved cutover",
+      "proposedRedirect": "/post/active-effective-online-tuition"
+    },
+    {
+      "path": "/post/what-good-online-gcse-tuition-includes",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect target",
+        "Migrated article body",
+        "Public ASTRA ASTRA Resource Library Redesign"
+      ],
+      "localFile": "post/what-good-online-gcse-tuition-includes/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/post/year-11-gcse-exam-readiness-check",
+      "sources": [
+        "Current public sitemap",
+        "Migrated article body"
+      ],
+      "localFile": "post/year-11-gcse-exam-readiness-check/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/primary",
+      "sources": [
+        "Historical redirect target"
+      ],
+      "localFile": "primary/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/search",
+      "sources": [
+        "Current public sitemap",
+        "Public ASTRA ASTRA Canonical Navigation Owner",
+        "Public ASTRA ASTRA Parent Support Diagnostic"
+      ],
+      "localFile": "search/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/services-4",
+      "sources": [
+        "Current public sitemap",
+        "Earlier local migration manifest",
+        "Historical redirect source",
+        "Public ASTRA ASTRA Canonical Navigation Owner",
+        "Public ASTRA ASTRA Competitor Gap Expansion",
+        "Public ASTRA ASTRA Homepage Redesign",
+        "Public ASTRA ASTRA Service Pages Redesign"
+      ],
+      "localFile": "services-4/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    },
+    {
+      "path": "/work-with-us",
+      "sources": [
+        "Historical redirect target"
+      ],
+      "localFile": "work-with-us/index.html",
+      "status": "Equivalent local page exists",
+      "proposedRedirect": null
+    }
+  ],
+  "redirectsActivated": false,
+  "unknownHistoricalIndexedUrls": true
+}

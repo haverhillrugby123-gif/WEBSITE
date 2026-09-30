@@ -1,0 +1,9 @@
+{
+  "articles": 52,
+  "exactDuplicateBodies": [],
+  "uniqueSlugs": 52,
+  "uniqueTitles": 52,
+  "sixReferenceOriginals": 6,
+  "additionalImageOrLinkNodes": 0,
+  "note": "The six native originals contain paragraph/heading/text nodes only; no source images or embedded links were omitted. Topic overlap remains intentional, not an exact duplicate."
+}

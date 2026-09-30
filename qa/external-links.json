@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-09-30T17:45:49.150Z",
+  "limitation": "Read-only availability observations; a successful HTTP response does not verify educational content accuracy.",
+  "results": [
+    {
+      "url": "https://corbettmaths.com/",
+      "status": 200,
+      "finalURL": "https://corbettmaths.com/",
+      "ok": true
+    },
+    {
+      "url": "https://www.aqa.org.uk/subjects/english/gcse/english-8700/specification",
+      "status": 200,
+      "finalURL": "https://www.aqa.org.uk/subjects/english/gcse/english-8700/specification",
+      "ok": true
+    },
+    {
+      "url": "https://www.aqa.org.uk/subjects/english/gcse/english-8700/specification/specification-at-a-glance",
+      "status": 200,
+      "finalURL": "https://www.aqa.org.uk/subjects/english/gcse/english-8700/specification/specification-at-a-glance",
+      "ok": true
+    },
+    {
+      "url": "https://www.bbc.co.uk/bitesize/subjects/z38pycw",
+      "status": 200,
+      "finalURL": "https://www.bbc.co.uk/bitesize/subjects/z38pycw",
+      "ok": true
+    },
+    {
+      "url": "https://www.drfrostmaths.com/",
+      "status": 200,
+      "finalURL": "https://www.drfrost.org/",
+      "ok": true
+    },
+    {
+      "url": "https://www.mathsgenie.co.uk/",
+      "status": 200,
+      "finalURL": "https://mathsgenie.co.uk/",
+      "ok": true
+    },
+    {
+      "url": "https://www.physicsandmathstutor.com/",
+      "status": 200,
+      "finalURL": "https://www.physicsandmathstutor.com/",
+      "ok": true
+    }
+  ]
+}

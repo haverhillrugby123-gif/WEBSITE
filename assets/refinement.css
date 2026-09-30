@@ -71,6 +71,7 @@ body{color:#10213b;font-family:"Segoe UI",Arial,sans-serif}
 #ukot-contact .formgrid{grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:48px;align-items:start}
 #ukot-contact .formcard{grid-column:1;grid-row:1;padding:28px;border-radius:14px}
 #ukot-contact .contact-direct{grid-column:2;grid-row:1;position:static;padding:20px 0}
+#ukot-contact p a{ text-decoration:underline; text-underline-offset:3px; }
 #ukot-contact .contact-direct h2{font-size:26px!important;line-height:1.2}
 #ukot-contact .contact-direct h3{font-size:19px;margin-top:24px}
 #ukot-contact .contact-direct .direct{font-size:16px!important;overflow-wrap:anywhere}

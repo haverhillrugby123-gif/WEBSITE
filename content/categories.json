@@ -1,0 +1,57 @@
+[
+  {
+    "id": "924a9d4a-4f4f-4560-b18f-129290a8a6dd",
+    "slug": "primary-english-maths",
+    "title": "Primary English & Maths",
+    "label": "Primary English & Maths",
+    "description": "Primary English and Maths tuition, learning foundations and transition guidance.",
+    "url": {
+      "base": "https://www.ukonlinetuition.co.uk",
+      "path": "/blog/categories/primary-english-maths"
+    }
+  },
+  {
+    "id": "032e7d84-db15-46ee-929d-e5e41e599678",
+    "slug": "revision-study-skills",
+    "title": "Revision & Study Skills",
+    "label": "Revision & Study Skills",
+    "description": "Practical revision methods, planning, memory, exam practice and independent study guidance.",
+    "url": {
+      "base": "https://www.ukonlinetuition.co.uk",
+      "path": "/blog/categories/revision-study-skills"
+    }
+  },
+  {
+    "id": "15474127-178a-42f3-a343-23f10ec5b72b",
+    "slug": "11-plus-entrance-exams",
+    "title": "11+ & Entrance Exams",
+    "label": "11+ & Entrance Exams",
+    "description": "11+ preparation, selective-school entrance exams, English, maths and reasoning resources.",
+    "url": {
+      "base": "https://www.ukonlinetuition.co.uk",
+      "path": "/blog/categories/11-plus-entrance-exams"
+    }
+  },
+  {
+    "id": "3f840397-1fc6-473d-aa05-7389e770c925",
+    "slug": "gcse-maths",
+    "title": "GCSE Maths",
+    "label": "GCSE Maths",
+    "description": "GCSE Maths revision, topic guidance and exam preparation resources.",
+    "url": {
+      "base": "https://www.ukonlinetuition.co.uk",
+      "path": "/blog/categories/gcse-maths"
+    }
+  },
+  {
+    "id": "fe5f98cd-ba5e-40ec-8748-ee3ee02f526b",
+    "slug": "gcse-english",
+    "title": "GCSE English",
+    "label": "GCSE English",
+    "description": "GCSE English Language and Literature revision, exam technique and study resources.",
+    "url": {
+      "base": "https://www.ukonlinetuition.co.uk",
+      "path": "/blog/categories/gcse-english"
+    }
+  }
+]

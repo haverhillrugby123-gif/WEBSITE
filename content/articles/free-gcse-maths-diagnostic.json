@@ -1,0 +1,503 @@
+{
+  "slug": "free-gcse-maths-diagnostic",
+  "title": "Free GCSE Maths 15-Minute Diagnostic: 12 Quick Questions",
+  "categories": [
+    "3f840397-1fc6-473d-aa05-7389e770c925",
+    "032e7d84-db15-46ee-929d-e5e41e599678"
+  ],
+  "firstPublishedDate": "2026-09-12T11:33:30.284Z",
+  "lastPublishedDate": "2026-09-12T11:33:30.284Z",
+  "description": "",
+  "body": [
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "A free 15-minute GCSE Maths check-up covering number, algebra, ratio, percentages, geometry and probability."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": []
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Instructions"
+      ]
+    },
+    {
+      "tag": "ul",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "No calculator unless you genuinely need one."
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Give yourself 15 minutes."
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Show working where possible."
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Mark only after all 12 questions."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": []
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Questions"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "1. Calculate 7.2 × 0.4."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "2. Write 0.375 as a fraction in simplest form."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "3. Increase £80 by 15%."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "4. Simplify 3a + 5b − a + 2b."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "5. Solve 4x + 7 = 31."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "6. Expand 3(x + 4)."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "7. Flour and sugar are in the ratio 5:2. If 350 g of flour is used, how much sugar is needed?"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "8. A jacket is reduced from £60 to £45. What percentage reduction is this?"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "9. The angles in a triangle are 48°, 67° and x°. Find x."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "10. A rectangle is 8 cm by 5 cm. Find its area and perimeter."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "11. A bag contains 3 red, 5 blue and 2 green counters. A counter is chosen at random. What is the probability of choosing green?"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "12. Sequence: 5, 9, 13, 17, … Write an expression for the nth term."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": []
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Answers"
+      ]
+    },
+    {
+      "tag": "ul",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "1. 2.88"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "2. 3/8"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "3. £92"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "4. 2a + 7b"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "5. x = 6"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "6. 3x + 12"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "7. 140 g"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "8. 25%"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "9. 65°"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "10. Area = 40 cm²; perimeter = 26 cm"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "11. 1/5"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "12. 4n + 1"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": []
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Score guide"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Award one point per question, for a maximum of 12. For question 10, award the point only when both area and perimeter are correct, including units. Accept equivalent fractions or decimals for question 11. These informal score bands describe this small sample of questions, not the full GCSE syllabus or an exam grade."
+      ]
+    },
+    {
+      "tag": "ul",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "10–12 secure on these sampled questions: move towards multi-step exam questions and timed practice."
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "7–9 a useful starting point on these sampled questions: identify the topics behind your errors and practise those first."
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "4–6 several gaps: focus on core methods before full papers."
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "li",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "0–3 rebuild fundamentals carefully with short targeted practice."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": []
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "This is a broad skills diagnostic, not a grade predictor."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": []
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "a",
+          "attrs": {
+            "href": "https://www.ukonlinetuition.co.uk/"
+          },
+          "children": [
+            "Explore UK Online Tuition"
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "url": "https://www.ukonlinetuition.co.uk/post/free-gcse-maths-diagnostic",
+    "snapshotSha256": "7fb15c3baee378f869e2a5c7491676fb1f544ea9fe185dde23be40e34d8e71f0",
+    "snapshotCapturedAt": "2026-09-30T15:13:02.911Z",
+    "nativePostId": "dcc24d5a-8a26-4f31-a998-36d2c1256ce3",
+    "metadataRetrievedAt": "2026-09-30T15:32:23.680Z",
+    "source": "Read-only published Wix rich content",
+    "editorialChanges": [
+      {
+        "before": "11. A bag contains 3 red, 5 blue and 2 green counters. What is the probability of choosing green?",
+        "after": "11. A bag contains 3 red, 5 blue and 2 green counters. A counter is chosen at random. What is the probability of choosing green?",
+        "rationale": "Make the equal-likelihood assumption explicit.",
+        "reviewDate": "2026-09-30"
+      },
+      {
+        "before": "10–12 secure: move towards multi-step exam questions and timed practice.",
+        "after": "10–12 secure on these sampled questions: move towards multi-step exam questions and timed practice.",
+        "rationale": "Limit the interpretation to the questions actually sampled.",
+        "reviewDate": "2026-09-30"
+      },
+      {
+        "before": "7–9 reasonable foundation: identify the topics behind your errors and practise those first.",
+        "after": "7–9 a useful starting point on these sampled questions: identify the topics behind your errors and practise those first.",
+        "rationale": "Avoid implying a validated measure of overall GCSE attainment.",
+        "reviewDate": "2026-09-30"
+      },
+      {
+        "before": null,
+        "after": "Award one point per question, for a maximum of 12. For question 10, award the point only when both area and perimeter are correct, including units. Accept equivalent fractions or decimals for question 11. These informal score bands describe this small sample of questions, not the full GCSE syllabus or an exam grade.",
+        "rationale": "Add transparent marking and bounded score interpretation without changing existing prediction caveats.",
+        "reviewDate": "2026-09-30"
+      }
+    ]
+  }
+}

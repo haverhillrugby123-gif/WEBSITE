@@ -1,0 +1,84 @@
+{
+  "slug": "comprehension-how-to-read-for-meaning",
+  "title": "Comprehension: How to Read for Meaning",
+  "categories": [
+    "924a9d4a-4f4f-4560-b18f-129290a8a6dd",
+    "15474127-178a-42f3-a343-23f10ec5b72b"
+  ],
+  "firstPublishedDate": "2026-09-13T07:22:31.053Z",
+  "lastPublishedDate": "2026-09-14T20:22:53.893Z",
+  "description": "Good comprehension is active. Strong readers constantly make small decisions about meaning, evidence and implication as they move through a text.",
+  "body": [
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Good comprehension is active. Strong readers constantly make small decisions about meaning, evidence and implication as they move through a text."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Read the question precisely"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Before answering, identify exactly what the question wants: a fact, an explanation, an inference, a word meaning or evidence. Many avoidable mistakes come from answering a slightly different question."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Find evidence before explaining"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "For inference questions, locate the detail that supports the idea first. Then explain what that detail suggests. This keeps the answer rooted in the text rather than relying on guesswork."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Use context for unfamiliar words"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Look at the surrounding sentence, contrast words, examples and the general tone. A reader often does not need a dictionary definition; they need a meaning that fits the passage."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "The goal is accurate thinking: understand what is stated, notice what is implied, and prove your interpretation with evidence from the text."
+      ]
+    }
+  ],
+  "provenance": {
+    "url": "https://danielpharris4.wixsite.com/uk-online-tuition-1/post/comprehension-how-to-read-for-meaning",
+    "nativePostId": "bd72db1f-42da-463e-bc58-9203571f0f60",
+    "sourceSiteId": "9acfbd18-b294-48b8-add2-4e0c912bead9",
+    "source": "Read-only native published Harmony reference RichContent; additional original, not production migration",
+    "metadataRetrievedAt": "2026-09-30",
+    "nativeSourceFile": "content/sources/harmony-six-published-posts.json",
+    "nativeSourceSha256": "4aba8f92458f64abc611e2b5aa12c05050440c8bc420f997078e1a8b20ec0fa5",
+    "sourceCategoryIds": [
+      "ba6246fc-b7b0-41d1-9e6c-a69de9815dd4",
+      "3826e554-009a-4ec6-8e8f-ad82bed6a2ee"
+    ],
+    "categoryMapping": "Matched by exact category slug to production category identity",
+    "editorialChanges": []
+  }
+}

@@ -5,6 +5,8 @@ checkCanonical('gcse/index.html', '<link rel="canonical" href="https://www.ukonl
 assert.throws(() => checkCanonical('gcse/index.html', '<link rel="canonical" href="https://www.ukonlinetuition.co.uk/gcse/">', fail), /mapping/);
 assert.throws(() => checkCanonical('404.html', '<link rel="canonical" href="https://www.ukonlinetuition.co.uk/404/">', fail), /invent/);
 checkCanonical('404.html', '', fail);
-checkSitemap(Object.values(canonicalMap).map(e => `<loc>${e.url}</loc>`).join(''), fail);
+const canonicalUrls = [...new Set(Object.values(canonicalMap).map(e => e.url))];
+checkSitemap(canonicalUrls.map(url => `<loc>${url}</loc>`).join(''), fail);
+assert.throws(() => checkSitemap(canonicalUrls.map(url => `<loc>${url}</loc>`).join('') + `<loc>${canonicalUrls[0]}</loc>`, fail), /sitemap/);
 assert.throws(() => checkSitemap('<loc>https://www.ukonlinetuition.co.uk/gcse/</loc>', fail), /sitemap/);
 console.log('PASS: canonical and sitemap regression fixtures');

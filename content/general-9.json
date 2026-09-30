@@ -1,0 +1,992 @@
+{
+  "path": "/general-9",
+  "title": "Testimonials",
+  "body": [
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h1",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "Testimonials"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            "Our ",
+            {
+              "tag": "br",
+              "attrs": {},
+              "children": []
+            },
+            "\nTestimonials"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    "Welcome to our Testimonials page, a treasure trove of authentic narratives that bear witness to real successes achieved by real students and parents at UK Online Tuition. These stories echo the journeys of those who've discovered the path to academic excellence, each testimonial adorned with a perfect 5/5 rating. Dive into the genuine experiences and triumphs shared by our community."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            "What Our Students Say"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Aiden T., GCSE Student"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"Struggling with Math was a daily battle for me until I found my tutor at UK Online Tuition. They patiently guided me through every concept, turning a challenging subject into one I now genuinely enjoy! "
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Emily L., Secondary School Student"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"Understanding subjects and developing effective study habits were challenges I faced until Dan came into my life. It's not just about grades; it's about becoming a confident learner. "
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Lucas P., A-Level Student"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"A-Level exams were daunting, but with the support of my tutor, I not only aced them but gained a deeper understanding of the subjects. Millie made learning fulfilling!"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Mia R., IGCSE Student"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"The transition to online learning was smooth with UK Online Tuition. Interactive sessions and constant feedback made a significant difference in my academic performance."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Daniel S., GCSE Student "
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"Science concepts used to be a mystery until Dan made them crystal clear. His personalized approach made learning engaging and effective."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Sofia M., SAT Student"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"GCSE preparation became less stressful with UK Online Tuition. Their outstanding strategies improved my scores and boosted my confidence."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Oliver H., GCSE Student"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"Physics was my Achilles' heel, but UK Online Tuition changed that. Innovative teaching methods and encouragement transformed my understanding."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Emma W., GCSE Student"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"Navigating through tricky topics in History was easier with UK Online Tuition. Detailed explanations and study resources were invaluable in my exam preparation."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Emma W., GCSE Student"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"Navigating through tricky topics in History was easier with UK Online Tuition. Detailed explanations and study resources were invaluable in my exam preparation."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            "What Our Parents Say"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Mrs. Parker, Parent of a Secondary School Student"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"Enrolling my child with UK Online Tuition was a game-changer. The progress they've made in both understanding and grades is phenomenal."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Mr. Robertson, Parent of a GCSE Student"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"Choosing Dan was the best decision for my child's academic growth. The personalized approach and dedicated tutors have truly made a significant impact."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Mrs. Anderson, Parent of a Primary School Student"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"Our journey with UK Online Tuition has been exceptional. The tutors provide not only academic support but also foster a love for learning. Our child's confidence has soared."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Mr. and Mrs. Mitchell, Parents of a SAT Student"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"Navigating the challenges of SAT preparation was made smoother with Jack. Their strategies and continuous feedback ensured our child was well-prepared and confident. "
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Mr. and Mrs. Turner, Parents of Two Students "
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"I can't express enough how grateful we are for the positive change Millie has brought to our child's academic journey. The progress in grades and confidence is beyond our expectations."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Mrs. Patel, Parent of a Secondary School Student"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"The commitment of UK Online Tuition to providing continuous support is unmatched. Their progress reports keep us informed, and our child is now thriving academically. "
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Mr. and Mrs. Harris, Parents of a GCSE Student "
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"Our son's GCSE preparation became a focused and personalized journey with UK Online Tuition. The tutor's expertise and individualized approach have made a significant impact on his performance and confidence."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Mr. and Mrs. Carter, Parents of a Primary School Student"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"The flexibility and engagement of online learning with UK Online Tuition made a significant difference for our daughter. The sessions are not just educational; they're enjoyable."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            "Mr. and Mrs. Carter, Parents of a Primary School Student"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "\"The flexibility and engagement of online learning with UK Online Tuition made a significant difference for our daughter. The sessions are not just educational; they're enjoyable."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    "UK Online Tuition"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attrs": {},
+                          "children": [
+                            "Testimonials"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attrs": {},
+                          "children": [
+                            "FAQ"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attrs": {},
+                          "children": [
+                            "Contact"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attrs": {},
+                          "children": [
+                            "Blog"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attrs": {},
+                          "children": [
+                            "GCSE Tuition"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attrs": {},
+                          "children": [
+                            "11+ Entrance Exams"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "a",
+                      "attrs": {},
+                      "children": [
+                        "Primary Tuition"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attrs": {},
+                          "children": [
+                            "Work With Us"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "sourceUrl": "https://www.ukonlinetuition.co.uk/general-9",
+    "snapshotSha256": "a1e163b29e68c8d4bc10e4c5de0dd926b5ac0535e9b7c09b652d491b91de16a5",
+    "capturedOn": "2026-09-30",
+    "ownerConfirmation": "Dan confirmed named reviews and tutor identities all genuine; no additional qualification or availability claims added."
+  }
+}

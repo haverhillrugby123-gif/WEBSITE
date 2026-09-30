@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs';
-export const canonicalMap = JSON.parse(readFileSync(new URL('./canonical-map.json', import.meta.url), 'utf8'));
+import { migrationCanonicalMap } from './generate-articles.mjs';
+export const canonicalMap = {...JSON.parse(readFileSync(new URL('./canonical-map.json', import.meta.url), 'utf8')),...migrationCanonicalMap};
 export function checkCanonical(page, html, fail) {
   const matches = [...html.matchAll(/<link\b[^>]*rel="canonical"[^>]*href="([^"]+)"[^>]*>/g)];
   if (page === '404.html') {
@@ -14,6 +15,6 @@ export function checkCanonical(page, html, fail) {
 }
 export function checkSitemap(xml, fail) {
   const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]).sort();
-  const expected = Object.values(canonicalMap).map(row => row.url).sort();
+  const expected = [...new Set(Object.values(canonicalMap).map(row => row.url))].sort();
   if (JSON.stringify(urls) !== JSON.stringify(expected)) fail('sitemap must contain exactly the verified production mappings');
 }

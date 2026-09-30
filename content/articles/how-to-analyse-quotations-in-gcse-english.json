@@ -1,0 +1,82 @@
+{
+  "slug": "how-to-analyse-quotations-in-gcse-english",
+  "title": "How to Analyse Quotations in GCSE English",
+  "categories": [
+    "fe5f98cd-ba5e-40ec-8748-ee3ee02f526b"
+  ],
+  "firstPublishedDate": "2026-09-13T07:22:31.054Z",
+  "lastPublishedDate": "2026-09-14T20:22:53.790Z",
+  "description": "Strong quotation analysis goes beyond spotting a technique. The important question is: why has the writer chosen this particular word or image, and what does that choice make the reader think, feel or understand?",
+  "body": [
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Strong quotation analysis goes beyond spotting a technique. The important question is: why has the writer chosen this particular word or image, and what does that choice make the reader think, feel or understand?"
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Start with the exact word"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Zoom in on one or two words rather than discussing an entire quotation vaguely. Consider denotation, connotations, tone and any alternative meanings. Ask what associations the word carries and whether those associations change in context."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Then connect it to the wider idea"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Once you have analysed the word itself, link it back to the character, theme, relationship or atmosphere. This prevents analysis becoming a list of disconnected techniques."
+      ]
+    },
+    {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+        "Push towards interpretation"
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "Higher-level responses often consider more than one plausible reading. Phrases such as 'this could suggest', 'alternatively' and 'the word may also imply' are useful when they introduce a genuinely different interpretation rather than simply adding another sentence."
+      ]
+    },
+    {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+        "A useful structure is: identify the precise word, explore its connotations, explain the effect, connect it to the wider text, then consider whether another interpretation is possible."
+      ]
+    }
+  ],
+  "provenance": {
+    "url": "https://danielpharris4.wixsite.com/uk-online-tuition-1/post/how-to-analyse-quotations-in-gcse-english",
+    "nativePostId": "b7414cb7-1e4b-46bf-9fce-5ab1419776df",
+    "sourceSiteId": "9acfbd18-b294-48b8-add2-4e0c912bead9",
+    "source": "Read-only native published Harmony reference RichContent; additional original, not production migration",
+    "metadataRetrievedAt": "2026-09-30",
+    "nativeSourceFile": "content/sources/harmony-six-published-posts.json",
+    "nativeSourceSha256": "4aba8f92458f64abc611e2b5aa12c05050440c8bc420f997078e1a8b20ec0fa5",
+    "sourceCategoryIds": [
+      "0c793d21-4034-437b-8906-990a176295b6"
+    ],
+    "categoryMapping": "Matched by exact category slug to production category identity",
+    "editorialChanges": []
+  }
+}

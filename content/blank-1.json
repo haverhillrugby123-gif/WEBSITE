@@ -1,0 +1,525 @@
+{
+  "path": "/blank-1",
+  "title": "About UK Online Tuition",
+  "body": [
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h1",
+          "attrs": {},
+          "children": [
+            "About Us"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            "Our Story"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            "In 2018, UK Online Tuition was founded by a visionary educator with a singular focus on providing exceptional one-on-one tutoring services in Suffolk. From the outset, our commitment to placing the student at the heart of the learning experience set us apart. As the positive feedback from satisfied parents reverberated, our reputation flourished, prompting a growing demand for our services.​​​​​​​​"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                "The founder, driven by an unwavering dedication to educational excellence, expanded the scope of UK Online Tuition by meticulously selecting and training additional tutors who shared the same passion for delivering top-notch education. Our journey has been marked by a relentless pursuit of maintaining the highest standards, ensuring that each tutor in our team adheres to the principles of personalized attention and academic commitment."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            "While the trajectory of our growth has been substantial, our core values have remained steadfast. At the core of our ethos is the unwavering commitment to prioritizing the needs of the student and customizing our teaching approach to cater to the unique academic requirements of each child. This dedication has cultivated a loyal customer base, with parents returning year after year to witness the profound academic strides their children achieve with the support of our proficient team."
+          ]
+        },
+        "\n\n",
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            "Presently, UK Online Tuition stands as a comprehensive online tuition platform, a testament to our humble beginnings and unwavering commitment to educational excellence. Despite our expansion and success, our mission remains unaltered - to provide personalized and engaging academic support to students of all ages and backgrounds."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            "We take pride in our roots and are resolute in our pledge to uphold the founding principles of UK Online Tuition. Whether your child is navigating primary school subjects, preparing for secondary school challenges, or gearing up for SAT examinations, we stand ready to guide them on their journey toward realizing their full academic potential. At UK Online Tuition, the student is, and always will be, at the centre of everything we do."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h2",
+          "attrs": {},
+          "children": [
+            "Who We Are"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    "Charlie McMann",
+                    {
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    "\nHead of Primary Tuition"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    "Jordan Parker",
+                    {
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    "\nHead of Secondary Tuition"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    "Taylor Quill",
+                    {
+                      "tag": "br",
+                      "attrs": {},
+                      "children": []
+                    },
+                    "\nHead of 11+ tuition"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    "UK Online Tuition"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attrs": {},
+                          "children": [
+                            "Testimonials"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attrs": {},
+                          "children": [
+                            "FAQ"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attrs": {},
+                          "children": [
+                            "Contact"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attrs": {},
+                          "children": [
+                            "Blog"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attrs": {},
+                          "children": [
+                            "GCSE Tuition"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attrs": {},
+                          "children": [
+                            "11+ Entrance Exams"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "a",
+                      "attrs": {},
+                      "children": [
+                        "Primary Tuition"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "attrs": {},
+      "children": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            {
+              "tag": "span",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "span",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attrs": {},
+                          "children": [
+                            "Work With Us"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "sourceUrl": "https://www.ukonlinetuition.co.uk/blank-1",
+    "snapshotSha256": "47e69386f600aa2c6529308723f430c61f72307620849f9d3b983e2585a80ed4",
+    "capturedOn": "2026-09-30",
+    "ownerConfirmation": "Dan confirmed named reviews and tutor identities all genuine; no additional qualification or availability claims added."
+  }
+}
