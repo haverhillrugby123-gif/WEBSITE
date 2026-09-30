@@ -11,7 +11,9 @@ if (form) {
   const enquiryFields = document.querySelector('#enquiry-fields');
   const get = name => String(form.elements.namedItem(name)?.value || '').trim();
   const say = message => { status.textContent = message; };
+  let draftVersion = 0;
   const clearDraft = () => {
+    draftVersion++;
     draft.hidden = true;
     preview.value = '';
     emailLink.removeAttribute('href');
@@ -33,6 +35,7 @@ if (form) {
       say('Please complete the required fields and enter a valid email address.');
       return;
     }
+    draftVersion++;
     const subject = `Tuition enquiry — ${get('yeargroup')} — ${get('subject')}`;
     const body = [
       'Hello UK Online Tuition,', '', 'I would like to enquire about tuition.', '',
@@ -68,10 +71,16 @@ if (form) {
   });
 
   copyButton.addEventListener('click', async () => {
+    // A delayed clipboard result must not overwrite a newer editing state.
+    const versionAtCopy = draftVersion;
+    const messageAtCopy = preview.value;
+    const isCurrentDraft = () => versionAtCopy === draftVersion && !draft.hidden;
     try {
-      await navigator.clipboard.writeText(preview.value);
+      await navigator.clipboard.writeText(messageAtCopy);
+      if (!isCurrentDraft()) return;
       say('Enquiry copied. Paste it into an email to ukonlinetuition1@gmail.com, review it and send.');
     } catch {
+      if (!isCurrentDraft()) return;
       preview.focus();
       preview.select();
       say('Select and copy the message below, then paste it into your usual email service.');

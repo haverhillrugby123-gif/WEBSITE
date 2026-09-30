@@ -93,6 +93,53 @@ test('clipboard denial exposes selected manual-copy fallback', async ({ page }) 
   expect(await page.getByLabel('Prepared message').evaluate(el => el.selectionEnd - el.selectionStart)).toBeGreaterThan(0);
 });
 
+test('delayed clipboard results cannot replace the status or focus of an edited or newer draft', async ({ page }) => {
+  await page.addInitScript(() => Object.defineProperty(navigator, 'clipboard', {
+    value: {
+      writeText: message => new Promise((resolve, reject) => {
+        window.pendingTestCopy = { message, resolve, reject };
+      }),
+    },
+  }));
+  for (const outcome of ['resolve', 'reject']) {
+    for (const nextStep of ['edit', 'regenerate']) {
+      await page.goto('contact/index.html');
+      await prepare(page);
+      const copiedMessage = await page.getByLabel('Prepared message').inputValue();
+      await page.getByRole('button', { name: 'Copy enquiry', exact: true }).click();
+      expect(await page.evaluate(() => window.pendingTestCopy.message)).toBe(copiedMessage);
+
+      if (nextStep === 'edit') {
+        await page.getByRole('button', { name: 'Edit enquiry', exact: true }).click();
+        await expect(page.getByLabel('Tuition route')).toBeFocused();
+      } else {
+        await page.getByLabel('Main difficulty, goal or support needed').fill('Practise a new topic.');
+        await page.getByRole('button', { name: 'Prepare enquiry email' }).click();
+        await expect(page.getByRole('heading', { name: 'Review your enquiry' })).toBeFocused();
+        await expect(page.getByLabel('Prepared message')).toHaveValue(/Practise a new topic\./);
+      }
+      const expectedStatus = await page.getByRole('status').textContent();
+      const expectedFocus = await page.evaluate(() => document.activeElement.id);
+      await page.evaluate(async result => {
+        if (result === 'resolve') window.pendingTestCopy.resolve();
+        else window.pendingTestCopy.reject(new Error('Test clipboard denial'));
+        // Let the awaiting copy handler settle before checking its effects.
+        await Promise.resolve();
+      }, outcome);
+      await expect(page.getByRole('status')).toHaveText(expectedStatus);
+      expect(await page.evaluate(() => document.activeElement.id)).toBe(expectedFocus);
+      if (nextStep === 'edit') {
+        await expect(page.locator('#enquiry-draft')).toBeHidden();
+        await expect(page.getByLabel('Prepared message')).toHaveValue('');
+        await expect(page.locator('#open-enquiry-email')).not.toHaveAttribute('href');
+      } else {
+        await expect(page.locator('#enquiry-draft')).toBeVisible();
+        await expect(page.getByLabel('Prepared message')).toHaveValue(/Practise a new topic\./);
+      }
+    }
+  }
+});
+
 test('enquiry reading order matches layout and editing returns to retained details', async ({ page }) => {
   for (const width of [390, 1348]) {
     await page.setViewportSize({ width, height: 900 });
