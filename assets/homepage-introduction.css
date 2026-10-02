@@ -1,0 +1,11 @@
+/* Homepage introduction: native controls, no scripted playback. */
+#ukot-home .ukot-intro-video{background:#fcfbf8;border-bottom:1px solid #dce2ed}
+#ukot-home .ukot-intro-video-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:40px;align-items:center}
+#ukot-home .ukot-intro-video figure{min-width:0;margin:0}
+#ukot-home .ukot-intro-video video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#10213b;border:1px solid #d3dbe8;border-radius:12px}
+#ukot-home .ukot-intro-video figcaption{margin-top:12px;color:#536077;font-size:14px;line-height:1.6}
+#ukot-home .ukot-intro-video-transcript{margin-top:20px;border-top:1px solid #d3dbe8;padding-top:8px}
+#ukot-home .ukot-intro-video-transcript summary{cursor:pointer;min-height:44px;padding:12px 0;color:#1743bc;font-weight:700;line-height:1.5}
+#ukot-home .ukot-intro-video-transcript p{line-height:1.7}
+#ukot-home .ukot-intro-video :is(video,summary,a):focus-visible{outline:3px solid #2556e8;outline-offset:4px}
+@media(max-width:700px){#ukot-home .ukot-intro-video-grid{grid-template-columns:1fr;gap:24px}}
