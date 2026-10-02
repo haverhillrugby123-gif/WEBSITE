@@ -58,3 +58,55 @@ test.describe('homepage introduction without JavaScript', () => {
     await expect(page.getByLabel('UK Online Tuition introduction', { exact: true })).toHaveAttribute('controls', '');
   });
 });
+
+test('male video decodes, plays on request and loads its seven native caption cues', async ({ page }) => {
+  await page.goto('./');
+  const video = page.getByLabel('UK Online Tuition introduction', { exact: true });
+  await video.scrollIntoViewIfNeeded();
+  await expect.poll(() => video.evaluate(v => v.readyState)).toBeGreaterThanOrEqual(1);
+  expect(await video.evaluate(v => ({ paused: v.paused, muted: v.muted, autoplay: v.autoplay, duration: v.duration, width: v.videoWidth, height: v.videoHeight }))).toEqual({ paused: true, muted: true, autoplay: false, duration: 18.5, width: 1920, height: 1080 });
+  await expect.poll(() => video.evaluate(v => v.textTracks[0]?.cues?.length || 0)).toBe(7);
+  expect(await video.evaluate(v => ({ language: v.textTracks[0].language, mode: v.textTracks[0].mode, first: v.textTracks[0].cues[0].text, lastEnd: v.textTracks[0].cues[6].endTime }))).toEqual({ language: 'en', mode: 'showing', first: 'Welcome to UK Online Tuition.', lastEnd: 16.4 });
+  await video.evaluate(v => v.play());
+  await expect.poll(() => video.evaluate(v => v.currentTime)).toBeGreaterThan(0.1);
+  await expect.poll(() => video.evaluate(v => v.textTracks[0].activeCues?.length || 0)).toBeGreaterThan(0);
+  await video.evaluate(v => v.pause());
+  expect(await video.evaluate(v => ({ paused: v.paused, error: v.error?.message || null }))).toEqual({ paused: true, error: null });
+});
+
+test('Chromium native controls support play, pause, mute, unmute and keyboard activation', async ({ page, context, browserName }) => {
+  test.skip(browserName !== 'chromium', 'Native browser chrome is inspected through Chromium CDP; other engines retain decode/caption and keyboard-transcript checks.');
+  await page.goto('./');
+  const video = page.getByLabel('UK Online Tuition introduction', { exact: true });
+  await video.scrollIntoViewIfNeeded();
+  await expect.poll(() => video.evaluate(v => v.readyState)).toBeGreaterThanOrEqual(1);
+  const client = await context.newCDPSession(page);
+  async function control(pattern) {
+    const { nodes } = await client.send('Accessibility.getFullAXTree');
+    return nodes.find(node => !node.ignored && node.role?.value === 'button' && pattern.test(node.name?.value || '') && node.backendDOMNodeId);
+  }
+  async function clickNative(pattern) {
+    await video.hover();
+    await expect.poll(async () => Boolean(await control(pattern))).toBe(true);
+    const node = await control(pattern);
+    const { model } = await client.send('DOM.getBoxModel', { backendNodeId: node.backendDOMNodeId });
+    const q = model.content;
+    await page.mouse.click((q[0] + q[2] + q[4] + q[6]) / 4, (q[1] + q[3] + q[5] + q[7]) / 4);
+  }
+  await clickNative(/^play(?:$|\s)/i);
+  await expect.poll(() => video.evaluate(v => v.paused)).toBe(false);
+  await expect.poll(() => video.evaluate(v => v.currentTime)).toBeGreaterThan(0.1);
+  await clickNative(/^(?:unmute|mute)(?:$|\s)/i);
+  await expect.poll(() => video.evaluate(v => v.muted)).toBe(false);
+  await clickNative(/^(?:unmute|mute)(?:$|\s)/i);
+  await expect.poll(() => video.evaluate(v => v.muted)).toBe(true);
+  await clickNative(/^pause(?:$|\s)/i);
+  await expect.poll(() => video.evaluate(v => v.paused)).toBe(true);
+  await video.focus();
+  await expect(video).toBeFocused();
+  await page.keyboard.press('Space');
+  await expect.poll(() => video.evaluate(v => v.paused)).toBe(false);
+  await page.keyboard.press('Space');
+  await expect.poll(() => video.evaluate(v => v.paused)).toBe(true);
+  await client.detach();
+});
