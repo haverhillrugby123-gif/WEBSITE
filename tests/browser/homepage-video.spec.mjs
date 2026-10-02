@@ -3,7 +3,9 @@ import { test, expect } from '@playwright/test';
 test.beforeEach(async ({ page }) => {
   await page.route('**/*', route => {
     const request = route.request();
-    if (!request.url().startsWith('http://127.0.0.1:4173/') || !['GET', 'HEAD'].includes(request.method())) return route.abort();
+    const local = request.url().startsWith('http://127.0.0.1:4173/');
+    const nativeControlBlob = request.url().startsWith('blob:http://127.0.0.1:4173/');
+    if ((!local && !nativeControlBlob) || !['GET', 'HEAD'].includes(request.method())) return route.abort();
     return route.continue();
   });
 });
@@ -28,6 +30,8 @@ test('homepage video is paused, muted, captioned and independent of the original
   for (const filename of ['homepage-introduction.mp4', 'homepage-introduction.en.vtt', 'homepage-introduction-poster.png', 'homepage-introduction.css']) {
     const response = await page.request.get(`http://127.0.0.1:4173/WEBSITE/assets/${filename}`);
     expect(response.ok(), `${filename} is served beneath the project path`).toBe(true);
+    if (filename.endsWith('.vtt')) expect(response.headers()['content-type']).toMatch(/^text\/vtt(?:;|$)/);
+    if (filename.endsWith('.mp4')) expect(response.headers()['content-type']).toMatch(/^video\/mp4(?:;|$)/);
   }
 });
 
@@ -65,6 +69,7 @@ test('male video decodes, plays on request and loads its seven native caption cu
   await video.scrollIntoViewIfNeeded();
   await expect.poll(() => video.evaluate(v => v.readyState)).toBeGreaterThanOrEqual(1);
   expect(await video.evaluate(v => ({ paused: v.paused, muted: v.muted, autoplay: v.autoplay, duration: v.duration, width: v.videoWidth, height: v.videoHeight }))).toEqual({ paused: true, muted: true, autoplay: false, duration: 18.5, width: 1920, height: 1080 });
+  console.log('Initial native caption state', await video.evaluate(v => ({ mode: v.textTracks[0]?.mode, cues: v.textTracks[0]?.cues?.length || 0, trackReadyState: v.querySelector('track').readyState, mediaError: v.error?.message || null })));
   await expect.poll(() => video.evaluate(v => v.textTracks[0]?.cues?.length || 0)).toBe(7);
   expect(await video.evaluate(v => ({ language: v.textTracks[0].language, mode: v.textTracks[0].mode, first: v.textTracks[0].cues[0].text, lastEnd: v.textTracks[0].cues[6].endTime }))).toEqual({ language: 'en', mode: 'showing', first: 'Welcome to UK Online Tuition.', lastEnd: 16.4 });
   await video.evaluate(v => v.play());
