@@ -13,3 +13,8 @@
 #ukot-contact .contact-path{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:24px 0 0}
 #ukot-contact .contact-path li{font-size:13px;padding:7px 12px;border:1px solid #cad7ed;border-radius:25px;background:#fff;color:#10213b}
 @media(max-width:700px){#ukot-contact .contact-intro{padding:34px 0}#ukot-contact .contact-hero-grid{grid-template-columns:1fr;gap:14px}#ukot-contact .contact-art{max-width:420px;margin:auto;padding-bottom:8px}#ukot-contact .contact-note{transform:none;margin:-12px 12px 0;max-width:none}#ukot-contact .contact-direct{padding:22px 18px}#ukot-contact .contact-example{padding:18px}#ukot-contact .formsec{padding-top:24px}}
+
+#ukot-contact .primary-enquiry{padding:36px 0}
+#ukot-contact .primary-enquiry .formcard{max-width:850px;margin:0 auto}
+#ukot-contact .email-alternative>summary{max-width:1180px;width:calc(100% - 40px);box-sizing:border-box;margin:0 auto 24px;padding:18px 22px;border:1px solid #cad7ed;border-radius:12px;background:#f1f4fa;color:#10213b;font-weight:700;cursor:pointer}
+#ukot-contact .email-alternative>summary:focus-visible{outline:3px solid #2556e8;outline-offset:3px}

@@ -1,4 +1,5 @@
 import { test as base, expect } from '@playwright/test';
+import { mainEnquiryURL } from '../../scripts/build-profile.mjs';
 const test = base.extend({
   page: async ({ page }, use, testInfo) => {
     const consoleLog = [], network = [], pageErrors = [];
@@ -21,6 +22,7 @@ const test = base.extend({
   },
 });
 async function prepare(page) {
+  if ((await page.locator('#email-alternative').getAttribute('open')) === null) await page.locator('#email-alternative > summary').click();
   await page.getByLabel('Parent/contact name').fill('Browser Test');
   await page.getByLabel('Email address').fill('browser@example.invalid');
   await page.getByLabel('Pupil year group/stage').selectOption('Year 10');
@@ -30,6 +32,42 @@ async function prepare(page) {
   await expect(page.getByRole('heading', { name: 'Review your enquiry' })).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Review your enquiry' })).toBeFocused();
 }
+test('secure form is primary and optional email remains collapsed without forwarding page data', async ({ page, context }) => {
+  const outgoing = [];
+  // Intercept the new tab before any external network request. This checks the
+  // link handoff only, never the real form, its submission or inbox delivery.
+  await context.route(mainEnquiryURL, async route => {
+    const request = route.request();
+    outgoing.push({ url: request.url(), method: request.method(), referrer: request.headers().referer });
+    await route.fulfill({ status: 200, contentType: 'text/html', body: '<title>Intercepted enquiry link</title><p>No real form request was made.</p>' });
+  });
+  for (const width of [390, 1280]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto('contact/?service=gcse&email=synthetic%40example.invalid');
+    const primary = page.getByRole('link', { name: 'Open secure enquiry form', exact: true });
+    await expect(primary).toBeVisible();
+    await expect(primary).toHaveAttribute('href', mainEnquiryURL);
+    await expect(primary).toHaveAttribute('target', '_blank');
+    await expect(primary).toHaveAttribute('rel', 'noopener noreferrer');
+    await expect(primary).toHaveAttribute('referrerpolicy', 'no-referrer');
+    await expect(page.locator('#email-alternative')).not.toHaveAttribute('open', '');
+    await expect(page.getByRole('button', { name: 'Prepare enquiry email' })).toBeHidden();
+    expect(await primary.getAttribute('href')).not.toContain('synthetic');
+    expect(await primary.evaluate(el => Boolean(el.compareDocumentPosition(document.querySelector('#email-alternative')) & Node.DOCUMENT_POSITION_FOLLOWING))).toBe(true);
+    await primary.focus();
+    await expect(primary).toBeFocused();
+    const popupPromise = page.waitForEvent('popup');
+    await page.keyboard.press('Enter');
+    const popup = await popupPromise;
+    await expect(popup).toHaveURL(mainEnquiryURL);
+    await expect(popup).toHaveTitle('Intercepted enquiry link');
+    expect(outgoing.at(-1)).toEqual({ url: mainEnquiryURL, method: 'GET', referrer: undefined });
+    expect(await popup.evaluate(() => window.opener)).toBe(null);
+    await popup.close();
+  }
+  expect(outgoing).toHaveLength(2);
+});
+
 test('inner-page teaching examples reveal and close from the keyboard', async ({ page }) => {
   for (const route of ['about/', 'how-it-works/', 'work-with-us/']) {
     await page.goto(route);
@@ -72,6 +110,7 @@ test('keyboard reaches the skip link and operates mobile navigation', async ({ p
 });
 test('invalid enquiry, unsent draft, route context and edit invalidation', async ({ page }) => {
   await page.goto('contact/index.html?service=gcse');
+  await page.locator('#email-alternative > summary').click();
   await page.getByRole('button', { name: 'Prepare enquiry email' }).click();
   await expect(page.getByRole('status')).toContainText('required fields');
   await expect(page.getByRole('heading', { name: 'Review your enquiry' })).toBeHidden();
@@ -97,6 +136,7 @@ test('enquiry reading order matches layout and editing returns to retained detai
   for (const width of [390, 1348]) {
     await page.setViewportSize({ width, height: 900 });
     await page.goto('contact/index.html?service=gcse');
+    await page.locator('#email-alternative > summary').click();
     const form = page.locator('#enquiry-form');
     const aside = page.locator('.contact-direct');
     expect(await form.evaluate(el => Boolean(el.compareDocumentPosition(document.querySelector('.contact-direct')) & Node.DOCUMENT_POSITION_FOLLOWING))).toBe(true);
@@ -179,6 +219,9 @@ for (const width of [390, 900]) for (const mode of ['no JavaScript', 'blocked sc
       await page.goto('contact/index.html');
       const nav = page.getByRole('navigation');
       await expect(nav.getByRole('link', { name: 'Enquire', exact: true })).toBeVisible();
+      await expect(page.getByRole('link', { name: 'Open secure enquiry form', exact: true })).toBeVisible();
+      await expect(page.getByRole('link', { name: 'Open secure enquiry form', exact: true })).toHaveAttribute('href', mainEnquiryURL);
+      await page.locator('#email-alternative > summary').click();
       await expect(page.getByRole('button', { name: 'Prepare enquiry email' })).toBeDisabled();
       await expect(page.locator('#enquiry-script-note')).toBeVisible();
       await expect(page.locator('#enquiry-script-note').getByRole('link')).toHaveAttribute('href', 'mailto:ukonlinetuition1@gmail.com');

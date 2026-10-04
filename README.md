@@ -38,7 +38,9 @@ Canonical URLs continue to point to `https://www.ukonlinetuition.co.uk/`. Every 
 
 ## Enquiries
 
-The enquiry form validates locally and prepares an email draft for the visitor to review. It offers an email-app handoff and a copyable message addressed to `ukonlinetuition1@gmail.com`. Preparing a draft does not send the enquiry; the visitor must send it through their email service. The website has no enquiry backend and does not persist the visitor's details. A direct email link remains available if JavaScript is unavailable.
+The primary enquiry link opens the existing UK Online Tuition form on Wix Forms in a new tab. It works without JavaScript and forwards no page query parameters or referrer. The Wix owner has verified that the public form opens; current submission recording and business-inbox delivery have not been verified. These checks do not submit the form.
+
+Visitors can explicitly open the secondary email alternative to prepare a local draft, review it and send it through their own email service. The builder does not send or save an enquiry. It retains a direct email fallback when JavaScript is unavailable. This static website adds no enquiry backend or visitor storage.
 
 
 ## Review follow-up

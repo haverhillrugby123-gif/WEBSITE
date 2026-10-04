@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
+import { mainEnquiryURL } from '../../scripts/build-profile.mjs';
 
 const expectedHash = '7351452f669580b4aa0ab49c4b24cf27434288d933620dcfa0fa56cbe5e56e40';
 const fileName = 'gcse-english-language-structure-guide.pdf';
@@ -95,15 +96,20 @@ test('keyboard download and enquiry link work without JavaScript', async ({ brow
     await expect(page.getByRole('link', { name: 'Ask about GCSE English tuition' })).toBeFocused();
     await page.keyboard.press('Enter');
     await expect(page).toHaveURL(new URL('contact/index.html?service=gcse', testInfo.project.use.baseURL).href);
+    await expect(page.getByRole('link', { name: 'Open secure enquiry form', exact: true })).toHaveAttribute('href', mainEnquiryURL);
+    await page.locator('#email-alternative > summary').click();
     await expect(page.locator('a.direct[href="mailto:ukonlinetuition1@gmail.com"]')).toBeVisible();
   } finally { await context.close(); }
 });
 
-test('English enquiry CTA retains the existing email-draft flow', async ({ page }) => {
+test('English enquiry CTA reaches the secure form and retains optional email context', async ({ page }) => {
   await page.goto('gcse/index.html#free-gcse-structure-guide');
   const link = page.getByRole('link', { name: 'Ask about GCSE English tuition' });
   await expect(link).toHaveAttribute('href', '../contact/index.html?service=gcse');
   await link.click();
+  await expect(page.getByRole('link', { name: 'Open secure enquiry form', exact: true })).toHaveAttribute('href', mainEnquiryURL);
+  await expect(page.getByRole('button', { name: 'Prepare enquiry email' })).toBeHidden();
+  await page.locator('#email-alternative > summary').click();
   await expect(page.locator('#enquiry-form [name="service"]')).toHaveValue('gcse');
   await expect(page.getByRole('button', { name: 'Prepare enquiry email' })).toBeVisible();
 });

@@ -42,6 +42,7 @@ for (const width of [390, 1280]) test(`main enquiry candidate is clear and ungat
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth)).toBe(true);
     if (route !== 'contact/') await expect(page.getByRole('link', { name: 'Download the free guide (PDF)' })).toHaveAttribute('href', '../assets/guides/gcse-english-language-structure-guide.pdf');
     else {
+      await page.locator('#email-alternative > summary').click();
       await expect(page.getByRole('button', { name: 'Prepare enquiry email' })).toBeVisible();
       await expect(page.locator('a[href="tel:+447885550047"]').first()).toBeVisible();
       await expect(page.getByRole('checkbox', { name: /weekly exam tips/ })).not.toBeChecked();
@@ -52,6 +53,7 @@ for (const width of [390, 1280]) test(`main enquiry candidate is clear and ungat
 
 test('optional newsletter request stays unticked, separate and unsent', async ({ page }) => {
   await page.goto('contact/?service=gcse');
+  await page.locator('#email-alternative > summary').click();
   const newsletter = page.getByRole('checkbox', { name: /weekly exam tips/ });
   await expect(newsletter).not.toBeChecked();
   await page.getByLabel('Parent/contact name').fill('Adult Browser Test');
