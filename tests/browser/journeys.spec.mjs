@@ -30,6 +30,19 @@ async function prepare(page) {
   await expect(page.getByRole('heading', { name: 'Review your enquiry' })).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Review your enquiry' })).toBeFocused();
 }
+test('inner-page teaching examples reveal and close from the keyboard', async ({ page }) => {
+  for (const route of ['about/', 'how-it-works/', 'work-with-us/']) {
+    await page.goto(route);
+    const summary = page.locator('.ep-paper summary');
+    await summary.focus();
+    await page.keyboard.press('Enter');
+    await expect(page.locator('.ep-paper details')).toHaveAttribute('open', '');
+    await expect(page.locator('.ep-paper details p')).toBeVisible();
+    await page.keyboard.press('Space');
+    await expect(page.locator('.ep-paper details')).not.toHaveAttribute('open', '');
+  }
+});
+
 test('mobile menu opens and Escape closes with focus returned', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('./');
@@ -79,6 +92,49 @@ test('clipboard denial exposes selected manual-copy fallback', async ({ page }) 
   await expect(page.getByLabel('Prepared message')).toBeFocused();
   expect(await page.getByLabel('Prepared message').evaluate(el => el.selectionEnd - el.selectionStart)).toBeGreaterThan(0);
 });
+
+test('enquiry reading order matches layout and editing returns to retained details', async ({ page }) => {
+  for (const width of [390, 1348]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto('contact/index.html?service=gcse');
+    const form = page.locator('#enquiry-form');
+    const aside = page.locator('.contact-direct');
+    expect(await form.evaluate(el => Boolean(el.compareDocumentPosition(document.querySelector('.contact-direct')) & Node.DOCUMENT_POSITION_FOLLOWING))).toBe(true);
+    const formBox = await form.boundingBox(), asideBox = await aside.boundingBox();
+    if (width < 901) expect(asideBox.y).toBeGreaterThanOrEqual(formBox.y + formBox.height);
+    else expect(asideBox.x).toBeGreaterThan(formBox.x);
+    await expect(page.locator('#enquiry-script-note')).toBeHidden();
+    await prepare(page);
+    await page.getByRole('button', { name: 'Edit enquiry', exact: true }).click();
+    await expect(page.getByLabel('Tuition route')).toBeFocused();
+    await expect(page.getByLabel('Parent/contact name')).toHaveValue('Browser Test');
+    await expect(page.getByLabel('Prepared message')).toHaveValue('');
+    await expect(page.locator('#open-enquiry-email')).not.toHaveAttribute('href');
+    await expect(page.locator('#enquiry-draft')).toBeHidden();
+    await page.getByLabel('Subject or entrance test').fill('English');
+    await page.getByRole('button', { name: 'Prepare enquiry email' }).click();
+    await expect(page.getByLabel('Prepared message')).toHaveValue(/Subject or entrance test: English/);
+  }
+});
+
+for (const width of [320, 390, 768, 1348]) test(`every page reflows at ${width}px`, async ({ page }) => {
+  const routes = ['./', 'how-it-works/', 'gcse/', '11-plus/', 'primary/', 'about/', 'resources/', 'faq/', 'contact/', 'work-with-us/', '404.html'];
+    await page.setViewportSize({ width, height: 900 });
+    for (const route of routes) {
+      await page.goto(route);
+      await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+      // Compare layout widths on the same rounding basis. WebKit at Windows
+      // display scaling can round innerWidth down and clientWidth up by 1px.
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth), `${route} at ${width}px`).toBe(true);
+      expect(await page.locator('nav img').evaluate(img => img.complete && img.naturalWidth > 0), `${route} logo`).toBe(true);
+      const menu = page.getByRole('button', { name: 'Menu', exact: true });
+      if (await menu.isVisible()) {
+        await menu.click();
+        await expect(page.getByRole('navigation').getByRole('link', { name: 'Enquire', exact: true })).toBeVisible();
+        expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth), `${route} open menu at ${width}px`).toBe(true);
+      }
+    }
+});
 test('resource ampersand and word searches agree; reset restores all', async ({ page }) => {
   await page.goto('resources/index.html');
   const search = page.getByRole('searchbox', { name: 'Search resources' });
@@ -93,6 +149,23 @@ test('resource ampersand and word searches agree; reset restores all', async ({ 
   await expect(page.getByRole('button', { name: 'All', exact: true })).toHaveAttribute('aria-pressed', 'true');
   await expect(page.locator('#ukot-resource-status')).toHaveText(`${await page.locator('.grid .card').count()} resources shown`);
 });
+
+test('illustrative learning examples reveal explanations from the keyboard', async ({ page }) => {
+  await page.goto('./');
+  const section = page.locator('.vf-examples');
+  await expect(section).toContainText('not actual pupil work or results');
+  for (const [label, answer] of [
+    ['Explore an interpretation', 'Maya may feel nervous.'],
+    ['See the explanation', '6 ÷ 2 = 3 and 8 ÷ 2 = 4'],
+    ['Reveal the next step', '12 × 2 = 24'],
+  ]) {
+    const summary = section.locator('summary').filter({ hasText: label });
+    await summary.focus();
+    await page.keyboard.press('Enter');
+    await expect(summary.locator('..').locator('p')).toBeVisible();
+    await expect(summary.locator('..')).toContainText(answer);
+  }
+});
 for (const width of [390, 900]) for (const mode of ['no JavaScript', 'blocked scripts']) {
   test.describe(`${mode}, ${width}px`, () => {
     test.use({ javaScriptEnabled: mode !== 'no JavaScript', viewport: { width, height: 900 } });
@@ -102,6 +175,8 @@ for (const width of [390, 900]) for (const mode of ['no JavaScript', 'blocked sc
       const nav = page.getByRole('navigation');
       await expect(nav.getByRole('link', { name: 'Enquire', exact: true })).toBeVisible();
       await expect(page.getByRole('button', { name: 'Prepare enquiry email' })).toBeDisabled();
+      await expect(page.locator('#enquiry-script-note')).toBeVisible();
+      await expect(page.locator('#enquiry-script-note').getByRole('link')).toHaveAttribute('href', 'mailto:ukonlinetuition1@gmail.com');
       const navBox = await nav.boundingBox(), headingBox = await page.getByRole('heading', { level: 1 }).boundingBox();
       expect(headingBox.y).toBeGreaterThanOrEqual(navBox.y + navBox.height);
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

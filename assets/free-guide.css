@@ -1,0 +1,92 @@
+/* Scoped to the proposed resources panel. No shared styles or scripts change. */
+:is(#ukot-lib, #ukot-service) #free-gcse-structure-guide {
+  padding: 0 0 3rem;
+  background: #fcfbf8;
+  scroll-margin-top: 7rem;
+}
+:is(#ukot-lib, #ukot-service) #free-gcse-structure-guide .ukot-free-guide-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 19rem);
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid #cbd3df;
+  border-radius: 1rem;
+  background: #f7f3ea;
+}
+:is(#ukot-lib, #ukot-service) #free-gcse-structure-guide .ukot-free-guide-kicker {
+  margin: 0 0 .75rem;
+  color: #2556e8;
+  font-size: .875rem;
+  font-weight: 750;
+}
+:is(#ukot-lib, #ukot-service) #free-gcse-structure-guide h2 {
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  line-height: 1.2;
+  letter-spacing: -.02em;
+}
+:is(#ukot-lib, #ukot-service) #free-gcse-structure-guide .ukot-free-guide-description {
+  margin: 1rem 0 0;
+  color: #4b5c70;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+:is(#ukot-lib, #ukot-service) #free-gcse-structure-guide .ukot-free-guide-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  padding: .875rem 1.25rem;
+  border: 2px solid #10213b;
+  border-radius: .5rem;
+  background: #10213b;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+:is(#ukot-lib, #ukot-service) #free-gcse-structure-guide .ukot-free-guide-download:hover {
+  background: #2556e8;
+  border-color: #2556e8;
+}
+:is(#ukot-lib, #ukot-service) #free-gcse-structure-guide .ukot-free-guide-download:focus-visible {
+  outline: 3px solid #2556e8;
+  outline-offset: 4px;
+}
+:is(#ukot-lib, #ukot-service) #free-gcse-structure-guide .ukot-free-guide-actions {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+:is(#ukot-lib, #ukot-service) #free-gcse-structure-guide .ukot-free-guide-enquire {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  padding: .5rem;
+  color: #10213b;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+  overflow-wrap: anywhere;
+}
+:is(#ukot-lib, #ukot-service) #free-gcse-structure-guide .ukot-free-guide-enquire:focus-visible {
+  outline: 3px solid #2556e8;
+  outline-offset: 4px;
+}
+@media (max-width: 900px) {
+  :is(#ukot-lib, #ukot-service) #free-gcse-structure-guide .ukot-free-guide-panel {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 560px) {
+  :is(#ukot-lib, #ukot-service) #free-gcse-structure-guide .ukot-free-guide-panel {
+    padding: 1.25rem;
+  }
+}

@@ -1,0 +1,21 @@
+/* Local visual compositions for reference pages; controls remain native. */
+.reference-hero .reference-layout{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.8fr);gap:48px;align-items:center}
+.reference-copy{min-width:0}.reference-art{position:relative;isolation:isolate;margin:0;padding:24px 10px;min-width:0}
+.reference-art:before{content:"";position:absolute;inset:8% 0;background:#dbe5fa;border:1px solid #c2cfea;border-radius:46% 54% 40% 60%;transform:rotate(-8deg);z-index:-1}
+.reference-art img{display:block;width:100%;height:auto;filter:drop-shadow(0 18px 18px #10213b14)}
+.reference-caption{position:relative;display:table;margin:-10px auto 0;padding:12px 18px;background:#10213b;color:#fff;border-radius:12px;box-shadow:0 10px 20px #10213b17;font:600 14px/1.5 "Segoe UI",sans-serif;transform:rotate(-2deg)}
+.reference-jump{display:inline-flex;align-items:center;min-height:46px;gap:16px;margin-top:20px;color:#1743bc;font-weight:700;text-decoration:underline;text-underline-offset:5px}
+#ukot-lib .library{background:linear-gradient(180deg,#f0f4fc,#fcfbf8 420px)}
+#ukot-lib .tools{padding:24px;border:1px solid #ced9ed;border-radius:18px;background:#fff;box-shadow:0 12px 24px #10213b08}
+#ukot-lib .grid .card{padding-left:16px;padding-right:16px;border-radius:10px;margin-bottom:5px;background:#ffffffaa}
+#ukot-lib .grid .card:hover{background:#edf3ff}
+#ukot-faq.reference-faq .section{background:linear-gradient(180deg,#eef3fb,#fcfbf8 450px)}
+#ukot-faq.reference-faq .questions details{margin-bottom:14px;border:1px solid #cbd7e9;border-radius:14px;background:#fff;box-shadow:0 7px 16px #10213b05}
+#ukot-faq.reference-faq .questions details[open]{border-left:4px solid #2556e8;background:#fff}
+#ukot-faq.reference-faq .questions summary{padding:20px 48px 20px 24px}
+#ukot-faq.reference-faq .questions .answer{padding:0 24px 24px}
+.reference-routes{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 0;padding:0;list-style:none}
+.reference-routes a{display:flex;align-items:center;min-height:48px;padding:12px 20px;box-sizing:border-box;border:1px solid #c3d1e9;border-radius:12px;background:#fff;color:#10213b;font-weight:700;text-decoration:none}
+.reference-routes a:hover{background:#e8efff}.reference-notfound .reference-art:before{background:#eee3cc;border-color:#dfcea8}
+@media(max-width:760px){.reference-hero .reference-layout{grid-template-columns:1fr;gap:16px}.reference-art{width:min(100%,330px);justify-self:center;padding:12px 0}.reference-caption{margin:-6px auto 0;transform:none}.reference-hero{padding-bottom:28px!important}#ukot-lib .tools{padding:16px}#ukot-faq.reference-faq .questions summary{padding:18px 48px 18px 18px}#ukot-faq.reference-faq .questions .answer{padding:0 18px 20px}.reference-routes a{padding:12px 16px}}
+@media(max-width:760px){.reference-art:before{transform:none}}
