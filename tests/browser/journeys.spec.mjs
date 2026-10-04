@@ -107,6 +107,11 @@ test('enquiry reading order matches layout and editing returns to retained detai
     await prepare(page);
     await page.getByRole('button', { name: 'Edit enquiry', exact: true }).click();
     await expect(page.getByLabel('Tuition route')).toBeFocused();
+    // The focused editing control must be visible below the fixed navigation.
+    const routeBox = await page.getByLabel('Tuition route').boundingBox();
+    const navBox = await page.getByRole('navigation').boundingBox();
+    expect(routeBox.y).toBeGreaterThanOrEqual(navBox.y + navBox.height);
+    expect(routeBox.y + routeBox.height).toBeLessThanOrEqual(900);
     await expect(page.getByLabel('Parent/contact name')).toHaveValue('Browser Test');
     await expect(page.getByLabel('Prepared message')).toHaveValue('');
     await expect(page.locator('#open-enquiry-email')).not.toHaveAttribute('href');

@@ -16,6 +16,12 @@ if (form) {
     preview.value = '';
     emailLink.removeAttribute('href');
   };
+  const focusEnquiry = element => {
+    // Revealing or hiding a draft changes the page height. Finish the focus
+    // scroll immediately so the next form action cannot move under a pointer.
+    element.focus({ preventScroll: true });
+    element.scrollIntoView({ behavior: 'instant', block: 'center' });
+  };
   const serviceLabels = new Map([['gcse', 'GCSE'], ['11-plus', '11+'], ['primary', 'Primary']]);
   const serviceField = form.elements.namedItem('service');
   const requestedService = new URLSearchParams(location.search).get('service');
@@ -48,7 +54,7 @@ if (form) {
     emailLink.href = `mailto:ukonlinetuition1@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     draft.hidden = false;
     say('Your enquiry is ready but has not been sent. Open your email app, or copy the message into your usual email service.');
-    document.querySelector('#enquiry-draft-title').focus();
+    focusEnquiry(document.querySelector('#enquiry-draft-title'));
   });
 
   form.addEventListener('input', event => {
@@ -64,7 +70,7 @@ if (form) {
   editButton.addEventListener('click', () => {
     clearDraft();
     say('You can now edit your details. Prepare the enquiry again when you are ready. Nothing has been sent.');
-    enquiryFields.querySelector('input, select, textarea').focus();
+    focusEnquiry(enquiryFields.querySelector('input, select, textarea'));
   });
 
   copyButton.addEventListener('click', async () => {
