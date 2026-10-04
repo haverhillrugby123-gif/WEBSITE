@@ -2,6 +2,8 @@
 
 Updated on 04/10/2026.
 
+Separate-host launch preparation is documented in [hosting/LAUNCH_PREPARATION.md](hosting/LAUNCH_PREPARATION.md). Its root build and main enquiry candidate use separate output folders; account, domain and public activation decisions remain gated.
+
 The separate GitHub preview now includes the prepared homepage introduction and a free eight-page GCSE English Language structure guide on the GCSE and Resources pages. The PDF is available directly without a signup. Resource cards continue to open articles on the live Wix website. See `agency/GITHUB_PREVIEW_RELEASE_2026-10-04.md` for integration and verification boundaries.
 
 The latest bounded enquiry and accessibility fixes are described in `agency/READINESS_2026-09-27.md`. Outstanding business facts and real-device checks remain explicit; preparation does not authorise publication.

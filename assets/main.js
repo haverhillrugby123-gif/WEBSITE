@@ -48,6 +48,8 @@ if (form) {
       `Year group/stage: ${get('yeargroup')}`, `Subject or entrance test: ${get('subject')}`, '',
       'Main difficulty, goal or support needed:', get('support'),
       ...(get('availability') ? ['', `Availability: ${get('availability')}`] : []),
+      ...(get('lead-offer') === 'consultation-and-guide' ? ['', 'Please contact me about a free initial consultation and the free GCSE English Language structure guide.'] : []),
+      ...(form.elements.namedItem('newsletter-request')?.checked ? ['', 'Optional newsletter request: I would like weekly exam tips and advice by email from UK Online Tuition. Please confirm signup separately before sending newsletters.'] : []),
       '', 'Thank you.'
     ].join('\n');
     preview.value = `To: ukonlinetuition1@gmail.com\nSubject: ${subject}\n\n${body}`;
