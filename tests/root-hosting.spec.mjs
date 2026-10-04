@@ -45,8 +45,7 @@ for (const width of [390, 1280]) test(`main enquiry candidate is clear and ungat
       await expect(page.getByRole('button', { name: 'Prepare enquiry email' })).toBeVisible();
       await expect(page.locator('a[href="tel:+447885550047"]').first()).toBeVisible();
       await expect(page.getByRole('checkbox', { name: /weekly exam tips/ })).not.toBeChecked();
-      await page.locator('#main-enquiry-title').scrollIntoViewIfNeeded();
-      if (testInfo.project.name === 'chromium') await page.screenshot({ path: testInfo.outputPath(`offer-${width}.png`) });
+      if (testInfo.project.name === 'chromium') await page.locator('section[aria-labelledby="main-enquiry-title"]').screenshot({ path: testInfo.outputPath(`offer-${width}.png`) });
     }
   }
 });

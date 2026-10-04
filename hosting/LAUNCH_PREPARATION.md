@@ -2,7 +2,10 @@
 
 This draft starts from main `9d4ac882e9cfaad193512df940070ac01851f083`.
 It prepares a separate host while the live Wix site remains at the apex and
-`www.ukonlinetuition.co.uk`. It does not select a hostname or create a host project.
+`www.ukonlinetuition.co.uk`. Dan approved using his existing Netlify Free account
+and `preview.ukonlinetuition.co.uk` on 4 October. No host project or DNS record
+has been created by this preparation; current limits, target and TLS still need
+verification. No new OAuth/token grant, paid service or unexpected terms are approved.
 
 ## Build outputs
 
@@ -41,8 +44,9 @@ hostname, self-canonicals/OG URLs, deliberate sitemap and Search Console plan.
 
 ## Host choice and permissions
 
-Cloudflare Pages Free is the preferred static-host candidate, subject to Dan's
-account and terms choice. Its [published limits](https://developers.cloudflare.com/pages/platform/limits/)
+Netlify Free is the approved first host, subject to action-time quota/permission
+checks. Cloudflare Pages Free remains an alternative requiring a separate account
+choice. Its [published limits](https://developers.cloudflare.com/pages/platform/limits/)
 are 500 builds/month, one concurrent build, 20,000 files and 25 MiB per asset.
 The [subscription agreement](https://www.cloudflare.com/terms/) still applies;
 no agreement has been accepted on Dan's behalf and no paid service is proposed.
@@ -61,7 +65,7 @@ There are two distinct first-deployment choices:
   It avoids a repository grant but is manual; a Direct Upload project cannot later
   switch to Git integration. Moving then requires a new Pages project.
 
-Netlify Free is the fallback candidate. Its [current pricing](https://www.netlify.com/pricing/)
+Netlify's [current pricing](https://www.netlify.com/pricing/)
 has 300 credits/month, with production deployments and traffic consuming credits.
 The applicable [self-serve agreement](https://www.netlify.com/pdf/self-serve-subscription-agreement.pdf/)
 and actual account limits need review. No account or billable option is configured.
@@ -75,7 +79,9 @@ URL must not be treated as an approved commercial launch destination.
 
 Read-only public DNS on 4 October 2026 shows Wix nameservers and Wix apex/www
 records. Account-level DNS access has not been established by these code checks.
-Dan must choose the exact new subdomain; example hostnames are not instructions.
+The approved new subdomain is `preview.ukonlinetuition.co.uk`; no guessed project
+target may be used. The exact Netlify target will come from the newly created,
+reviewed project, with a readback of any existing preview record before changes.
 
 [Cloudflare's custom-domain instructions](https://developers.cloudflare.com/pages/configuration/custom-domains/)
 allow a subdomain CNAME while keeping the existing DNS provider. After the actual
@@ -93,8 +99,8 @@ suite and adds the root suite plus the separate candidate checks, all with zero
 retries. Existing browser assertions resolve their expected URLs from each
 configured base path; their download, keyboard, 404 and form checks are retained.
 
-Before release: resolve account/terms and deployment permissions, exact hostname
-and scoped DNS permission; verify provider headers/404/deep links and approved
+Before release: check current account limits and any unexpected terms/permissions;
+verify the approved subdomain's actual target, provider headers/404/deep links and approved
 asset hashes on the real host; verify the main form's recording and inbox receipt
 before activating that CTA; obtain any separate indexing or measurement approval.
 Do not infer lead success from a link click, email draft or aggregate form count.

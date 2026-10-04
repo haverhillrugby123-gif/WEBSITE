@@ -17,5 +17,5 @@ for (const file of pages) {
 await cp('assets',path.join(output,'assets'),{recursive:true});
 for(const file of ['robots.txt','sitemap.xml'])await copyFile(file,path.join(output,file));
 if (profile.root) await copyFile('hosting/root-headers.txt', path.join(output, '_headers'));
-await writeFile(path.join(output,'revision.json'), JSON.stringify({ revision: process.env.GITHUB_SHA || 'local', builtAt: new Date().toISOString(), basePath: profile.basePath, enquiryPreview: profile.enquiryPreview }) + '\n');
+await writeFile(path.join(output,'revision.json'), JSON.stringify({ revision: process.env.GITHUB_SHA || process.env.COMMIT_REF || process.env.SOURCE_REVISION || 'local', builtAt: new Date().toISOString(), basePath: profile.basePath, enquiryPreview: profile.enquiryPreview }) + '\n');
 console.log(`Draft build saved to ${output}. No deployment performed.`);
