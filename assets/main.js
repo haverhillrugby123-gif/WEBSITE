@@ -7,8 +7,21 @@ if (form) {
   const preview = document.querySelector('#enquiry-preview');
   const emailLink = document.querySelector('#open-enquiry-email');
   const copyButton = document.querySelector('#copy-enquiry');
+  const editButton = document.querySelector('#edit-enquiry');
+  const enquiryFields = document.querySelector('#enquiry-fields');
   const get = name => String(form.elements.namedItem(name)?.value || '').trim();
   const say = message => { status.textContent = message; };
+  const clearDraft = () => {
+    draft.hidden = true;
+    preview.value = '';
+    emailLink.removeAttribute('href');
+  };
+  const focusEnquiry = element => {
+    // Revealing or hiding a draft changes the page height. Finish the focus
+    // scroll immediately so the next form action cannot move under a pointer.
+    element.focus({ preventScroll: true });
+    element.scrollIntoView({ behavior: 'instant', block: 'center' });
+  };
   const serviceLabels = new Map([['gcse', 'GCSE'], ['11-plus', '11+'], ['primary', 'Primary']]);
   const serviceField = form.elements.namedItem('service');
   const requestedService = new URLSearchParams(location.search).get('service');
@@ -41,7 +54,7 @@ if (form) {
     emailLink.href = `mailto:ukonlinetuition1@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     draft.hidden = false;
     say('Your enquiry is ready but has not been sent. Open your email app, or copy the message into your usual email service.');
-    document.querySelector('#enquiry-draft-title').focus();
+    focusEnquiry(document.querySelector('#enquiry-draft-title'));
   });
 
   form.addEventListener('input', event => {
@@ -49,11 +62,15 @@ if (form) {
     event.target.setCustomValidity('');
     event.target.removeAttribute('aria-invalid');
     if (!draft.hidden) {
-      draft.hidden = true;
-      preview.value = '';
-      emailLink.removeAttribute('href');
+      clearDraft();
       say('Your details changed. Prepare the enquiry again to update your message.');
     }
+  });
+
+  editButton.addEventListener('click', () => {
+    clearDraft();
+    say('You can now edit your details. Prepare the enquiry again when you are ready. Nothing has been sent.');
+    focusEnquiry(enquiryFields.querySelector('input, select, textarea'));
   });
 
   copyButton.addEventListener('click', async () => {
@@ -67,6 +84,7 @@ if (form) {
     }
   });
   emailLink.addEventListener('click', () => say('Your email app may open. Review and send the message there. If nothing opens, use Copy enquiry.'));
-  document.querySelector('#enquiry-fields').disabled = false;
+  enquiryFields.disabled = false;
+  document.querySelector('#enquiry-script-note').hidden = true;
 }
 

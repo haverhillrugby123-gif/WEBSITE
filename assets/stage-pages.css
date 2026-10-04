@@ -1,0 +1,32 @@
+/* Stage-specific, static learning compositions: no motion dependency. */
+#ukot-service .stage-page .hero{background:radial-gradient(ellipse at 95% 15%,#dce6fc,transparent 55%),repeating-linear-gradient(90deg,transparent 0 39px,#10213b03 40px),#fcfbf8;padding-block:64px}
+#ukot-service .stage-11-plus .hero{background:radial-gradient(ellipse at 90% 35%,#f0e4c9,transparent 53%),#fcfbf8}
+#ukot-service .stage-primary .hero{background:radial-gradient(ellipse at 90% 35%,#dceee9,transparent 53%),#fcfbf8}
+#ukot-service .stage-art{position:relative;isolation:isolate;margin:0;padding:28px 12px 32px;min-width:0}
+#ukot-service .stage-art:before{content:"";position:absolute;inset:10% 4%;border:1px solid #a8bce2;border-radius:46% 54% 52% 48%;transform:rotate(-12deg);z-index:-1}
+#ukot-service .stage-art img{display:block;width:100%;height:auto;filter:drop-shadow(0 18px 16px #10213b13);transform:rotate(-3deg)}
+#ukot-service .stage-art-label,#ukot-service .stage-art figcaption{position:relative;display:table;max-width:100%;padding:12px 18px;border:1px solid #cbd7ec;background:#fff;color:#10213b;border-radius:10px;font-size:14px;font-weight:700;line-height:1.5;box-shadow:0 12px 24px #10213b14}
+#ukot-service .stage-art-label{margin-left:auto;transform:rotate(3deg)}
+#ukot-service .stage-art figcaption{margin-top:-22px;transform:rotate(-2deg);background:#10213b;color:#fff;border-color:#10213b}
+#ukot-service .stage-spark{position:absolute;right:10%;bottom:12%;font-size:48px;color:#a8781d}
+#ukot-service .stage-workshop{background:linear-gradient(125deg,#eaf0fc,#f7f3ea);border-block:1px solid #d7e0ef;padding-block:64px}
+#ukot-service .stage-workshop-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:48px;align-items:start}
+#ukot-service .stage-workshop-grid>*{min-width:0}
+#ukot-service .stage-example h2{max-width:620px}
+#ukot-service .stage-paper{padding:26px 30px;margin-top:24px;background:repeating-linear-gradient(#fff 0 31px,#edf1f9 32px,#fff 33px);border:1px solid #d1dbee;border-left:4px solid #2556e8;border-radius:0 14px 14px 0;box-shadow:0 12px 28px #10213b0b}
+#ukot-service .stage-paper h3{font-size:24px;margin:0 0 18px}
+#ukot-service .stage-paper ol{padding-left:21px;margin:0;line-height:1.8;color:#263b59}
+#ukot-service .stage-paper li+li{margin-top:12px}
+#ukot-service .stage-explanation{padding-left:17px;border-left:2px solid #a9bce6;font-size:15px;line-height:1.65}
+#ukot-service .stage-workshop .service-checklist{position:sticky;top:110px;background:#fff}
+#ukot-service .stage-counters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-bottom:24px}
+#ukot-service .stage-counters span{display:flex;justify-content:center;align-items:center;min-height:50px;padding:8px 2px;color:#2556e8;border:1px solid #aac0f2;border-radius:8px;background:#eaf0ff;font-size:16px;white-space:nowrap}
+#ukot-service .stage-counters span:last-child{color:#667487;background:#f2f3f4;border-color:#c6cdd7}
+#ukot-service .stage-page .cards .card{position:relative;padding-top:30px;border-top:0}
+#ukot-service .stage-page .cards .card:before{content:"";display:block;width:34px;height:6px;background:#2556e8;border-radius:6px;margin-bottom:22px}
+#ukot-service .stage-page .cards .card:nth-child(2):before{background:#a8781d;width:48px}
+#ukot-service .stage-page .cards .card:nth-child(3):before{background:#287668;width:62px}
+@media(max-width:900px){#ukot-service .stage-workshop-grid{gap:28px}#ukot-service .stage-paper{padding:22px}#ukot-service .stage-counters{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){#ukot-service .stage-page .hero{padding-block:38px}#ukot-service .stage-art{max-width:390px;width:100%;margin-inline:auto;padding-top:10px}#ukot-service .stage-workshop{padding-block:38px}#ukot-service .stage-workshop-grid{grid-template-columns:minmax(0,1fr)}#ukot-service .stage-workshop .service-checklist{position:static}#ukot-service .stage-paper{padding:22px 18px}#ukot-service .stage-art-label,#ukot-service .stage-art figcaption{font-size:13px}#ukot-service .stage-counters{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:360px){#ukot-service .stage-counters{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(prefers-reduced-motion:reduce){#ukot-service .stage-art *,#ukot-service .stage-art:before{animation:none;transition:none}}

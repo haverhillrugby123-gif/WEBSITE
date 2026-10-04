@@ -1,0 +1,77 @@
+/* Editorial visual layer: static depth, local graphics and restrained colour. */
+:is(.u-hero,#ukot-service .hero,#ukot-about .hero,#ukot-faq .hero,#ukot-lib .hero,#ukot-work .hero,#ukot-contact .contact-intro){background:radial-gradient(ellipse at 95% 8%,#dce5ff 0,transparent 47%),linear-gradient(125deg,#fcfbf8 35%,#f7f3ea);border-bottom:1px solid #dce2ed}
+.u-hero{padding:76px 0 68px}
+#ukot-home .u-hero-grid{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:48px}
+#ukot-home.site-renew h1{font-size:clamp(42px,4.8vw,68px)}
+.u-button{box-shadow:0 8px 18px #10213b16;transition:background .18s,transform .18s}
+.u-button:hover{transform:translateY(-2px)}
+/* Hero illustration is deliberately kept inside its own grid cell. */
+.vf-hero-art{position:relative;isolation:isolate;min-width:0;margin:0;padding:28px 20px 46px}
+.vf-hero-art:before{content:"";position:absolute;inset:8% 3% 9%;z-index:-1;border:1px solid #a9badc;border-radius:49% 51% 43% 57%;transform:rotate(-9deg);background:#e4eafa}
+.vf-hero-image{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;border:7px solid #fcfbf8;border-radius:120px 120px 28px 28px;box-shadow:0 24px 50px #10213b24;transform:rotate(2deg)}
+.vf-note{position:relative;z-index:1;display:block;width:max-content;max-width:90%;padding:15px 19px;border:1px solid #d3dbe8;background:#fff;color:#10213b;border-radius:12px;box-shadow:0 12px 32px #10213b1f;font:650 14px/1.5 "Segoe UI",sans-serif}
+.vf-hero-art>.vf-note{position:absolute;left:0;bottom:12px;transform:rotate(-3deg)}
+.vf-hero-art>.vf-note-top{left:auto;right:0;bottom:auto;top:6px;transform:rotate(3deg);background:#10213b;color:#fff;border-color:#10213b}
+.vf-note b,.vf-note strong{display:block;font-size:16px}.vf-note span{display:block;font-size:13px;font-weight:400}
+/* Stage illustrations add a distinct graphic identity without unsupported claims. */
+.u-service{position:relative;border:1px solid #d4deec;border-radius:18px;padding-top:24px;background:#fff;box-shadow:0 8px 22px #10213b07;transition:transform .18s,box-shadow .18s}
+.u-service:hover{transform:translateY(-4px);box-shadow:0 16px 30px #10213b12;background:#fff}
+.u-three-steps{gap:20px}.u-three-steps>li,.u-three-steps>article{background:#fff;border:1px solid #deded8;border-radius:16px;padding:24px}
+#ukot-home .u-three-steps :is(li,article)>span{width:42px;height:42px;display:grid;place-items:center;border:1px solid #c9d7f5;border-radius:50%;background:#eef3ff}
+.u-tint{background:radial-gradient(circle at 4% 8%,#e9dfc9,transparent 32%),#f7f3ea}
+.u-founder{position:relative;padding-left:26px;border-left:3px solid #2556e8}
+.u-start,#ukot-service .service-checklist{box-shadow:0 16px 36px #10213b0c}
+#ukot-service .service-checklist{background:linear-gradient(135deg,#fff,#f1f5ff);border-top-color:#2556e8;border-radius:18px}
+#ukot-service .card{border-top:3px solid #c4d2f4;box-shadow:0 8px 20px #10213b07;background:linear-gradient(135deg,#fff,#fafbff)}
+#ukot-service .service-number{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:#e7edfc}
+/* Worked examples remain real HTML, including keyboard-accessible answers. */
+.vf-examples{background:linear-gradient(180deg,#eef2fa,#fcfbf8)}
+.vf-example-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:start}
+.vf-example{min-width:0;padding:25px;border:1px solid #d3ddec;border-radius:18px;background:#fff;box-shadow:0 12px 28px #10213b08}
+.vf-example-label{display:block;font:750 12px/1.5 "Segoe UI",sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#2556e8;margin-bottom:16px}
+.vf-example>img{width:100%;height:110px;object-fit:contain;margin-bottom:20px}
+.vf-example-work{padding:20px 16px;margin:20px 0;background:repeating-linear-gradient(#f7f9fd 0 27px,#e5eaf4 28px,#f7f9fd 29px);border-left:3px solid #b4c5f1;border-radius:0 8px 8px 0;color:#10213b;line-height:1.8;font-family:Georgia,serif}
+.vf-example-work p{margin:0!important;color:#10213b!important}
+.vf-example-answer{margin-top:18px;border-top:1px solid #dce3ee;padding-top:8px}
+.vf-example-answer summary{padding:12px 0;cursor:pointer;font-weight:700;color:#1743bc;line-height:1.5;min-height:44px}
+.vf-example-answer[open] summary{margin-bottom:8px}.vf-example-answer p{margin:8px 0}
+.u-cta{position:relative;background:radial-gradient(ellipse at 95% 15%,#284976,transparent 54%),#10213b;padding:58px 0;border-top:4px solid #2556e8}
+:is(#ukot-home,#ukot-about,#ukot-how).site-renew .u-cta h2,:is(#ukot-home,#ukot-about,#ukot-how).site-renew .u-cta p{color:#fff}
+.u-cta .u-button{background:#fff;color:#10213b!important;border-color:#fff;box-shadow:0 10px 24px #0002}.u-cta .u-button:hover{background:#e9efff}
+.u-cta a:focus-visible{outline-color:#fff}
+#ukot-service .cta{background:radial-gradient(ellipse at 92% 4%,#284976,transparent 60%),#10213b;border-top:4px solid #2556e8}
+#ukot-contact .formcard{box-shadow:0 15px 38px #10213b0b;border-color:#ced8e9}
+@media(min-width:1100px){.u-question-grid>div:first-child{position:sticky;top:112px}}
+@media(max-width:900px){.vf-example-grid{gap:14px}.vf-example{padding:20px}.vf-note{font-size:13px;padding:12px}.vf-note b,.vf-note strong{font-size:14px}#ukot-home .u-hero-grid{gap:28px}.u-three-steps>li,.u-three-steps>article{padding:20px}}
+@media(max-width:700px){.u-hero{padding:38px 0}#ukot-home .u-hero-grid{grid-template-columns:1fr;gap:28px}#ukot-home.site-renew h1{font-size:clamp(39px,8vw,54px)}.vf-hero-art{width:min(100%,440px);justify-self:center;padding:18px 16px 0}.vf-hero-art>.vf-note,.vf-hero-art>.vf-note-top{position:relative;inset:auto;transform:none;max-width:100%;width:auto;margin:12px 0}.vf-hero-image{transform:none;border-radius:90px 90px 22px 22px}.vf-example-grid{grid-template-columns:1fr;gap:18px}.vf-example{padding:24px}.u-service{padding-top:24px}.u-cta{padding:36px 0}.u-founder{padding-left:18px}.u-three-steps{gap:16px}}
+@media(prefers-reduced-motion:reduce){.u-button,.u-service{transition:none}.u-button:hover,.u-service:hover{transform:none}}
+
+/* Decorative images have explicit intrinsic dimensions in the markup. */
+.vf-subject-image{display:block;box-sizing:content-box;width:calc(100% + 48px);height:120px;object-fit:contain;margin:-24px -24px 22px;padding:8px 0;background:#eaf0ff;border-radius:17px 17px 0 0;border-bottom:1px solid #dce4f2}
+.u-service:nth-child(2) .vf-subject-image{background:#f4eee0}.u-service:nth-child(3) .vf-subject-image{background:#e8f0ec}
+#ukot-home .vf-consultation{background:radial-gradient(ellipse at 95% 0,#25416c,transparent 65%),#10213b;border-bottom:0}
+#ukot-home.site-renew .vf-consultation :is(h2,h3,p){color:#fff}
+#ukot-home.site-renew .vf-consultation .u-kicker{color:#b4c8ff}
+.vf-consultation .u-three-steps>li{background:#ffffff09;border-color:#ffffff30}
+#ukot-home .vf-consultation .u-three-steps p{color:#dbe3ef}
+.vf-consultation .u-text-link{color:#fff}
+.vf-enquiry-prompts{margin-top:28px;padding:22px 24px;border:1px solid #ffffff30;border-radius:14px;background:#ffffff08;color:#fff;line-height:1.7}
+.vf-enquiry-prompts ol,.vf-enquiry-prompts ul{padding-left:22px;margin:12px 0}
+.vf-enquiry-prompts a{color:#fff;text-decoration:underline!important;text-underline-offset:4px}
+.vf-consultation a:focus-visible{outline-color:#fff}
+
+.u-service{padding:24px}
+#ukot-home .vf-example .vf-example-label{font-size:12px!important;line-height:1.5!important;color:#1743bc;letter-spacing:.06em;margin:0 0 16px}
+.vf-example-work mark{background:#d8e3ff;color:#10213b;padding:2px 3px;border-radius:3px}
+.vf-fraction-bar{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:3px;margin:4px 0 16px}
+.vf-fraction-bar i{display:block;height:27px;background:#2556e8;border:1px solid #1743bc;border-radius:2px}
+.vf-fraction-bar .vf-unfilled{background:#fff;border-color:#8a9cbb}
+#ukot-home .vf-example-work .vf-equation{font:700 27px/1.5 Georgia,serif!important;margin-bottom:8px!important}
+.vf-sequence{display:flex;align-items:center;justify-content:space-between;gap:5px;flex-wrap:wrap}
+.vf-sequence span{font:700 22px/1.4 Georgia,serif;padding:5px;color:#10213b}.vf-sequence b{font-size:16px;color:#2556e8}
+.vf-enquiry-prompts{display:flex;flex-wrap:wrap;gap:14px 24px;align-items:center}
+.vf-enquiry-prompts>strong{flex-basis:100%;font-family:Georgia,serif;font-size:21px}
+.vf-enquiry-prompts>span{font-size:14px;padding-left:14px;border-left:2px solid #a8bfff}
+.vf-note-spark{color:#2556e8;font-size:20px!important;margin-bottom:4px}
+
+@media(max-width:700px){.vf-hero-art:before{transform:none}}

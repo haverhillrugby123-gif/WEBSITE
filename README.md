@@ -1,12 +1,18 @@
 # UK Online Tuition website
 
-Updated on 24/09/2026.
+Updated on 04/10/2026.
+
+The separate GitHub preview now includes the prepared homepage introduction and a free eight-page GCSE English Language structure guide on the GCSE and Resources pages. The PDF is available directly without a signup. Resource cards continue to open articles on the live Wix website. See `agency/GITHUB_PREVIEW_RELEASE_2026-10-04.md` for integration and verification boundaries.
+
+The latest bounded enquiry and accessibility fixes are described in `agency/READINESS_2026-09-27.md`. Outstanding business facts and real-device checks remain explicit; preparation does not authorise publication.
 
 This repository contains the GitHub Pages preview of the UK Online Tuition website. The separate Wix production site remains unchanged.
 
-The current design puts tuition stages, practical information and enquiries first. Decorative carousels, oversized illustrations, simulated progress graphics and duplicate teaching controls have been removed. The full review is in `agency/WEBSITE_REVIEW_32_AGENTS_2026-09-24.md`, with progress in `agency/IMPLEMENTATION_STATUS_2026-09-24.md`. Earlier redesign/publication reviews are retained as historical evidence.
+The current design combines practical tuition information with layered backgrounds, floating notebook artwork, subject illustrations and interactive illustrative lesson examples. See `agency/VISUAL_FINISH_2026-09-27.md` for the visual update and artwork provenance. Earlier design reviews are retained as historical evidence.
 
 The original book and gold-spark identity is applied throughout. Its vector provenance and responsive placement are documented in `agency/ORIGINAL_BRAND_2026-09-24.md`.
+
+Every page now has a tailored visual treatment, including subject examples, process boards, local illustrations and layered backgrounds. The page-by-page record is in `agency/ALL_PAGES_VISUAL_2026-09-27.md`.
 
 ## Local checks
 
