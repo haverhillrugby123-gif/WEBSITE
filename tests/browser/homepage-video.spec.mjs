@@ -28,7 +28,7 @@ test('homepage video is paused, muted, captioned and independent of the original
   await expect(page.locator('.u-hero h1')).toHaveText('Online tuition.A clearer way forward.');
   await expect(page.locator('.u-hero a.u-button')).toHaveAttribute('href', 'contact/index.html');
   for (const filename of ['homepage-introduction.mp4', 'homepage-introduction.en.vtt', 'homepage-introduction-poster.png', 'homepage-introduction.css']) {
-    const response = await page.request.get(`http://127.0.0.1:4173/WEBSITE/assets/${filename}`);
+    const response = await page.request.get(`assets/${filename}`);
     expect(response.ok(), `${filename} is served beneath the project path`).toBe(true);
     if (filename.endsWith('.vtt')) expect(response.headers()['content-type']).toMatch(/^text\/vtt(?:;|$)/);
     if (filename.endsWith('.mp4')) expect(response.headers()['content-type']).toMatch(/^video\/mp4(?:;|$)/);

@@ -1,5 +1,7 @@
 node_modules/
 dist/
+dist-root/
+dist-enquiry-preview/
 playwright-report/
 test-results/
 deployment-performance.json

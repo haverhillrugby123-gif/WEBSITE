@@ -60,7 +60,7 @@ test('canonical PDF is served with correct MIME type and downloaded unchanged', 
   await page.getByRole('link', { name: linkName }).click();
   const download = await promise;
   expect(download.suggestedFilename()).toBe(fileName);
-  expect(new URL(download.url()).pathname).toBe(`/WEBSITE/assets/guides/${fileName}`);
+  expect(download.url()).toBe(new URL(`assets/guides/${fileName}`, testInfo.project.use.baseURL).href);
   const saved = testInfo.outputPath('canonical-guide.pdf');
   await download.saveAs(saved);
   expect(createHash('sha256').update(await readFile(saved)).digest('hex')).toBe(expectedHash);
@@ -71,7 +71,7 @@ test('keyboard download and enquiry link work without JavaScript', async ({ brow
   try {
     const page = await context.newPage();
     await page.route('**/*', route => route.request().url().startsWith('http://127.0.0.1:4173/') ? route.continue() : route.abort());
-    await page.goto('http://127.0.0.1:4173/WEBSITE/resources/index.html');
+    await page.goto(new URL('resources/index.html', testInfo.project.use.baseURL).href);
     await page.keyboard.press('Tab');
     await expect(page.getByRole('link', { name: 'Skip to content' })).toBeFocused();
     await page.keyboard.press('Enter');
@@ -94,7 +94,7 @@ test('keyboard download and enquiry link work without JavaScript', async ({ brow
     await page.keyboard.press('Tab');
     await expect(page.getByRole('link', { name: 'Ask about GCSE English tuition' })).toBeFocused();
     await page.keyboard.press('Enter');
-    await expect(page).toHaveURL(/\/WEBSITE\/contact\/index\.html\?service=gcse$/);
+    await expect(page).toHaveURL(new URL('contact/index.html?service=gcse', testInfo.project.use.baseURL).href);
     await expect(page.locator('a.direct[href="mailto:ukonlinetuition1@gmail.com"]')).toBeVisible();
   } finally { await context.close(); }
 });

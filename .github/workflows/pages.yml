@@ -32,6 +32,14 @@ jobs:
         run: npx playwright install --with-deps chromium firefox webkit
       - name: Repeat browser release checks without retries
         run: npm run test:browser:repeat
+      - name: Build root-hosting preparation and separate enquiry candidate
+        run: |
+          npm run build:root
+          npm run build:enquiry-preview
+      - name: Check root routes and enquiry candidate without external submissions
+        run: |
+          npm run test:root
+          npm run test:enquiry-preview
       - name: Preserve failure evidence
         if: failure()
         uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6

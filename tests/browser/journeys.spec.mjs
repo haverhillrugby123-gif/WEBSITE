@@ -192,14 +192,14 @@ for (const width of [390, 900]) for (const mode of ['no JavaScript', 'blocked sc
     });
   });
 }
-test('nested 404 loads assets and recovers to home without overflow', async ({ page }) => {
+test('nested 404 loads assets and recovers to home without overflow', async ({ page }, testInfo) => {
   await page.setViewportSize({ width: 390, height: 844 });
   const response = await page.goto('missing/deep/page'); expect(response.status()).toBe(404);
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Let’s get you back on track.');
   expect(await page.locator('nav img').evaluate(img => img.complete && img.naturalWidth > 0)).toBe(true);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.getByRole('link', { name: 'Back to Home' }).click();
-  await expect(page).toHaveURL(/\/WEBSITE\/index.html$/);
+  await expect(page).toHaveURL(new URL('index.html', testInfo.project.use.baseURL).href);
 });
 test('320px reflow remains usable with reduced motion and forced colours', async ({ page }) => {
   await page.setViewportSize({ width: 320, height: 900 });
