@@ -8,7 +8,7 @@ Maintain and improve the GitHub Pages version of UK Online Tuition in this repos
 - Keep canonical URLs pointing at `https://www.ukonlinetuition.co.uk/`.
 - Keep `noindex,nofollow` on preview pages and retain the existing `robots.txt` unless Dan explicitly approves an indexing/domain cutover. A project-path robots.txt is not a host-root crawl exclusion; do not describe it as one.
 - Do not add tracking, analytics, cookies, form backends, credentials or third-party scripts without explicit approval.
-- Enquiries may use the client-side email handoff only; the site must not store visitor details.
+- Preserve the approved existing Wix Forms link as the primary enquiry route and the optional client-side email draft as a fallback. The GitHub frontend must not store visitor details or add a new form backend.
 - Preserve navy `#10213B`, blue `#2556E8`, cream `#F7F3EA`, paper `#FCFBF8`.
 
 ## Working method
