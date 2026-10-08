@@ -9,6 +9,47 @@ test.beforeEach(async ({ page }) => {
   });
 });
 
+test('prepared root responses enforce the policy on pages and missing routes', async ({ request }) => {
+  for (const route of ['index.html', 'contact/', 'faq/', 'missing/nested/page/']) {
+    const response = await request.get(route);
+    expect(response.status()).toBe(route.startsWith('missing/') ? 404 : 200);
+    const policy = response.headers()['content-security-policy'];
+    for (const directive of ["script-src 'self'", "connect-src 'none'", "form-action 'none'", "frame-ancestors 'none'"]) {
+      expect(policy).toContain(directive);
+    }
+    expect(response.headers()['x-frame-options']).toBe('DENY');
+    expect(response.headers()['x-robots-tag']).toBe('noindex, nofollow');
+  }
+});
+
+test('policy blocks injected executable script and scripted external connections', async ({ page }) => {
+  await page.goto('contact/');
+  await page.evaluate(() => {
+    window.auditPolicyViolations = [];
+    document.addEventListener('securitypolicyviolation', event => window.auditPolicyViolations.push(event.effectiveDirective));
+    const injected = document.createElement('script');
+    injected.textContent = 'window.auditInjectedScriptRan = true';
+    document.head.append(injected);
+    fetch('https://audit.invalid/blocked-connection').catch(() => {});
+  });
+  await expect.poll(() => page.evaluate(() => window.auditPolicyViolations.some(d => d.startsWith('script-src')))).toBe(true);
+  await expect.poll(() => page.evaluate(() => window.auditPolicyViolations.includes('connect-src'))).toBe(true);
+  expect(await page.evaluate(() => window.auditInjectedScriptRan)).toBeUndefined();
+});
+
+test('ordinary candidate pages load without policy violations', async ({ page }) => {
+  await page.addInitScript(() => {
+    window.auditPolicyViolations = [];
+    document.addEventListener('securitypolicyviolation', event => window.auditPolicyViolations.push(event.effectiveDirective));
+  });
+  for (const route of ['index.html', 'how-it-works/', 'gcse/', '11-plus/', 'primary/', 'about/', 'resources/', 'faq/', 'contact/', 'work-with-us/']) {
+    await page.goto(route);
+    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('nav img')).toBeVisible();
+    expect(await page.evaluate(() => window.auditPolicyViolations)).toEqual([]);
+  }
+});
+
 test('a nested missing route serves a useful 404 with root assets and navigation', async ({ page }) => {
   const response = await page.goto('missing/nested/page/');
   expect(response.status()).toBe(404);
