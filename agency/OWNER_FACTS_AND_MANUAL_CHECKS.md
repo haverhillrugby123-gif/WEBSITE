@@ -40,4 +40,4 @@ Playwright WebKit is engine evidence, not a claim that Safari or VoiceOver has b
 
 ## R12: hosted settings
 
-The connector returned no repository rulesets but could not read branch protection (403); secret protection settings are unavailable through this connector. An authorised maintainer should inspect these settings and record their actual state. Do not disable protections or widen app permissions simply to complete an audit.
+Rechecked 08/10/2026 at main `6103e140da9ad4fbf1d58582a38d101d79a0a601`: the branch response explicitly reported `protected:false`, required status checks with enforcement off, and no repository or inherited rulesets. This supersedes the earlier 403-based uncertainty for those controls. Secret protection and environment approval settings remain unverified. A main protection rule requiring a pull request and the existing build check remains a proposed account-setting change. Do not disable protections or widen app permissions simply to complete an audit.
