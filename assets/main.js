@@ -1,5 +1,19 @@
 document.querySelectorAll('[data-year]').forEach(el => { el.textContent = new Date().getFullYear(); });
 
+const serviceLabels = new Map([['gcse', 'GCSE'], ['11-plus', '11+'], ['primary', 'Primary']]);
+const requestedService = new URLSearchParams(location.search).get('service');
+const enquiryRouteNote = document.querySelector('#enquiry-route-note');
+if (enquiryRouteNote && serviceLabels.has(requestedService)) {
+  const routeGuidance = new Map([
+    ['gcse', 'In the Wix form’s Message box, include GCSE tuition, the year group, subject and exam board (if known), and what you would like help with. Use adult contact details.'],
+    ['11-plus', 'In the Wix form’s Message box, include 11+ tuition, the year group, target test or intended school (if known), and what you would like help with. Use adult contact details.'],
+    ['primary', 'In the Wix form’s Message box, include Primary tuition, the year group, subject and what you would like help with. Use adult contact details.']
+  ]);
+  enquiryRouteNote.textContent = routeGuidance.get(requestedService);
+  const enquiryTitle = document.querySelector('#secure-enquiry-title');
+  if (enquiryTitle) enquiryTitle.textContent = `Enquire about ${serviceLabels.get(requestedService)} tuition`;
+}
+
 const form = document.querySelector('#enquiry-form');
 if (form) {
   const status = document.querySelector('#form-status');
@@ -22,9 +36,7 @@ if (form) {
     element.focus({ preventScroll: true });
     element.scrollIntoView({ behavior: 'instant', block: 'center' });
   };
-  const serviceLabels = new Map([['gcse', 'GCSE'], ['11-plus', '11+'], ['primary', 'Primary']]);
   const serviceField = form.elements.namedItem('service');
-  const requestedService = new URLSearchParams(location.search).get('service');
   if (serviceField && serviceLabels.has(requestedService)) serviceField.value = requestedService;
 
   form.addEventListener('submit', event => {
