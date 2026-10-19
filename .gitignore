@@ -5,3 +5,8 @@ dist-enquiry-preview/
 playwright-report/
 test-results/
 deployment-performance.json
+
+# Prevent accidental commits of local environment credentials.
+.env
+.env.*
+!.env.example
